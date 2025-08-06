@@ -36,6 +36,12 @@ app.use('/favicon', express.static('public/favicon', {
   immutable: true
 }));
 
+// Other static files (including sitemap.xml)
+app.use(express.static('public', {
+  maxAge: '1d',
+  etag: true
+}));
+
 // EJS setup
 app.set('view engine', 'ejs');
 app.set('views', './views');

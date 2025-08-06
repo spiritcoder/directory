@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('partials/head') %>
+<body>
+  <%- include('partials/header') %>
+  
+  <!-- Hero Section -->
+  <section class="restaurant-hero">
+    <div class="hero-background">
+      <% if (restaurant.images && restaurant.images.length > 0) { %>
+        <img src="<%= restaurant.images[0] %>" alt="<%= restaurant.businessName %>" class="hero-image">
+      <% } %>
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <nav class="breadcrumb">
+        <a href="/">Home</a> > 
+        <a href="/state/<%= restaurant.address.state.toLowerCase().replace(/\s+/g, '-') %>"><%= restaurant.address.state %></a> > 
+        <span><%= restaurant.businessName %></span>
+      </nav>
+      <h1 class="hero-title"><%= restaurant.businessName %></h1>
+      <div class="hero-meta">
+        <span class="hero-rating">⭐ <%= restaurant.rating %>/5</span>
+        <span class="hero-reviews">(<%= restaurant.reviewCount %> reviews)</span>
+        <% if (restaurant.priceRange) { %>
+          <span class="hero-price">💰 <%= restaurant.priceRange %> per person</span>
+        <% } %>
+        <span class="hero-category"><%= restaurant.category %></span>
+      </div>
+      <p class="hero-address">
+        📍 <%= restaurant.address.street %>, <%= restaurant.address.city %>, <%= restaurant.address.state %>
+      </p>
+    </div>
+  </section>
+
+  <main class="container-wide">
+    <div class="restaurant-layout">
+      <article class="restaurant-main">
+
+      <!-- Restaurant Overview -->
+      <section class="restaurant-overview">
+        <div class="overview-grid">
+          <!-- Main Info Panel -->
+          <div class="main-info-panel">
+            <div class="panel-header">
+              <h2 class="panel-title">Restaurant Information</h2>
+              <div class="panel-rating-badge">
+                <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                <span class="rating-text"><%= restaurant.rating %>/5.0 • <%= restaurant.reviewCount %> reviews</span>
+              </div>
+            </div>
+            
+            <div class="info-list">
+              <div class="info-item">
+                <div class="info-label">📍 Address</div>
+                <div class="info-value">
+                  <%= restaurant.address.street %><br>
+                  <%= restaurant.address.city %>, <%= restaurant.address.state %> <%= restaurant.address.zipCode %>
+                </div>
+              </div>
+              
+              <% if (restaurant.phone) { %>
+              <div class="info-item">
+                <div class="info-label">📞 Phone</div>
+                <div class="info-value">
+                  <a href="tel:<%= restaurant.phone %>" class="contact-link"><%= restaurant.phone %></a>
+                </div>
+              </div>
+              <% } %>
+              
+              <% if (restaurant.website) { %>
+              <div class="info-item">
+                <div class="info-label">🌐 Website</div>
+                <div class="info-value">
+                  <a href="<%= restaurant.website %>" target="_blank" rel="noopener" class="contact-link">Visit Website →</a>
+                </div>
+              </div>
+              <% } %>
+              
+              <% if (restaurant.priceRange) { %>
+              <div class="info-item">
+                <div class="info-label">💰 Price Range</div>
+                <div class="info-value price-value"><%= restaurant.priceRange %> per person</div>
+              </div>
+              <% } %>
+              
+              <div class="info-item">
+                <div class="info-label">🍽️ Category</div>
+                <div class="info-value">
+                  <span class="category-badge"><%= restaurant.category %></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Hours Panel -->
+          <div class="hours-panel">
+            <h3 class="panel-title">⏰ Opening Hours</h3>
+            <% if (restaurant.hours && restaurant.hours.length > 0) { %>
+              <div class="hours-list">
+                <% restaurant.hours.forEach(hour => { %>
+                  <div class="hour-entry"><%= hour %></div>
+                <% }) %>
+              </div>
+            <% } else { %>
+              <p class="no-hours">Hours not available</p>
+            <% } %>
+          </div>
+        </div>
+      </section>
+
+      <!-- Photo Gallery -->
+      <% if (restaurant.images && restaurant.images.length > 0) { %>
+      <section class="gallery-section">
+        <div class="section-card">
+          <h3 class="section-title">📸 Photo Gallery</h3>
+          <div class="gallery-grid" data-images='<%- JSON.stringify(restaurant.images) %>'>
+            <% restaurant.images.forEach((image, index) => { %>
+              <div class="gallery-item">
+                <img src="<%= image %>" alt="<%= restaurant.businessName %> photo <%= index + 1 %>" onclick="openGallery(this, <%= index %>)" loading="lazy">
+                <div class="gallery-overlay">
+                  <span class="gallery-icon">🔍</span>
+                </div>
+              </div>
+            <% }) %>
+          </div>
+        </div>
+      </section>
+      <% } %>
+
+      <!-- About Section -->
+      <% if (restaurant.about || restaurant.description) { %>
+      <section class="about-section">
+        <div class="section-card">
+          <h3 class="section-title">ℹ️ About This Restaurant</h3>
+          
+          <% if (restaurant.about) { %>
+            <div class="about-text"><%- restaurant.about %></div>
+          <% } %>
+          
+          <% if (restaurant.description) { %>
+            <% 
+              function parseDescription(desc) {
+                const sections = {};
+                const parts = desc.split(';');
+                
+                parts.forEach(part => {
+                  const colonIndex = part.indexOf(':');
+                  if (colonIndex > 0) {
+                    const key = part.substring(0, colonIndex).trim();
+                    const value = part.substring(colonIndex + 1).trim();
+                    if (key && value) {
+                      sections[key] = value.split(',').map(item => item.trim()).filter(Boolean);
+                    }
+                  }
+                });
+                
+                return sections;
+              }
+              
+              const sections = parseDescription(restaurant.description);
+            %>
+            
+            <% if (Object.keys(sections).length > 0) { %>
+              <h4 class="amenities-title">Features & Amenities</h4>
+              <div class="amenities-grid">
+                <% Object.entries(sections).forEach(([title, items]) => { %>
+                  <div class="amenity-group">
+                    <h5 class="amenity-title"><%= title %></h5>
+                    <div class="amenity-tags">
+                      <% items.forEach(item => { %>
+                        <span class="amenity-tag"><%= item %></span>
+                      <% }) %>
+                    </div>
+                  </div>
+                <% }) %>
+              </div>
+            <% } %>
+          <% } %>
+        </div>
+      </section>
+      <% } %>
+
+      <!-- Gallery Modal -->
+      <div id="galleryModal" class="gallery-modal">
+        <span class="gallery-close" onclick="closeGallery()">&times;</span>
+        <img class="gallery-content" id="galleryImage">
+        <a class="gallery-prev" onclick="changeImage(-1)">&#10094;</a>
+        <a class="gallery-next" onclick="changeImage(1)">&#10095;</a>
+      </div>
+
+      <!-- Customer Reviews -->
+      <% if (topReviews && topReviews.length > 0) { %>
+      <section class="reviews-section">
+        <div class="section-card">
+          <h3 class="section-title">💬 Customer Reviews</h3>
+          <div class="reviews-container">
+            <% topReviews.forEach((review, index) => { %>
+              <div class="review-item">
+                <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                <p class="review-quote">"<%= review.length > 120 ? review.substring(0, 120) + '...' : review %>"</p>
+                <span class="review-author">— Customer #<%= index + 1 %></span>
+              </div>
+            <% }) %>
+          </div>
+        </div>
+      </section>
+      <% } %>
+      
+      <!-- Social Share -->
+      <section class="social-share">
+        <h4>📲 Share this restaurant:</h4>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=<%= encodeURIComponent(seo.canonical) %>" target="_blank" class="share-btn share-facebook">
+          📱 Facebook
+        </a>
+        <a href="https://twitter.com/intent/tweet?url=<%= encodeURIComponent(seo.canonical) %>&text=<%= encodeURIComponent('Check out ' + restaurant.businessName + ' - a great vegan restaurant!') %>" target="_blank" class="share-btn share-twitter">
+          🐦 Twitter
+        </a>
+        <a href="https://wa.me/?text=<%= encodeURIComponent('Check out ' + restaurant.businessName + ' - ' + seo.canonical) %>" target="_blank" class="share-btn share-whatsapp">
+          📱 WhatsApp
+        </a>
+      </section>
+      </article>
+      
+      <!-- Sidebar -->
+      <aside class="restaurant-sidebar">
+        <div class="sidebar-section">
+          <h3 class="sidebar-title">🏪 Nearby Restaurants</h3>
+          <% if (nearbyRestaurants && nearbyRestaurants.length > 0) { %>
+            <div class="nearby-list">
+              <% nearbyRestaurants.forEach(nearby => { %>
+                <a href="/restaurant/<%= nearby.slug %>" class="nearby-card">
+                  <div class="nearby-image">
+                    <% if (nearby.images && nearby.images.length > 0) { %>
+                      <img src="<%= nearby.images[0] %>" alt="<%= nearby.businessName %>" loading="lazy">
+                    <% } else { %>
+                      <div class="nearby-placeholder">🌱</div>
+                    <% } %>
+                  </div>
+                  <div class="nearby-info">
+                    <h4 class="nearby-name"><%= nearby.businessName %></h4>
+                    <p class="nearby-location">📍 <%= nearby.address.city %></p>
+                    <div class="nearby-rating">⭐ <%= nearby.rating %> (<%= nearby.reviewCount %>)</div>
+                  </div>
+                </a>
+              <% }) %>
+            </div>
+          <% } else { %>
+            <p class="no-nearby">No nearby restaurants found.</p>
+          <% } %>
+        </div>
+      </aside>
+    </div>
+  </main>
+  
+  <script src="/js/gallery.js"></script>
+  <%- include('partials/footer') %>
+</body>
+</html>

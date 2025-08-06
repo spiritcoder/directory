@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('partials/head') %>
+<body>
+  <%- include('partials/header') %>
+  
+  <!-- Hero Section -->
+  <section class="hero-main">
+    <div class="hero-bg">
+      <div class="hero-pattern-overlay"></div>
+    </div>
+    <div class="container">
+      <div class="hero-wrapper">
+        <header class="hero-header">
+          <h1 class="hero-h1" style="color: white;">🌱 Find Amazing Vegan Restaurants Across America</h1>
+          <p class="hero-description">Discover <%= stats.totalRestaurants %>+ plant-based restaurants in <%= stats.totalStates %> states. From casual dining to fine cuisine, find your perfect vegan meal with verified reviews and ratings.</p>
+        </header>
+        
+        <div class="hero-search-wrapper">
+          <form class="search-form-hero" method="GET" action="/search" role="search" aria-label="Search vegan restaurants">
+            <div class="search-input-group">
+              <input 
+                type="text" 
+                name="q" 
+                placeholder="Search by restaurant name, city, or cuisine type..." 
+                class="search-input-main"
+                aria-label="Search restaurants"
+                autocomplete="off"
+              >
+              <button type="submit" class="search-btn-main" aria-label="Search restaurants">
+                <span class="search-icon">🔍</span>
+                <span class="search-text">Find Restaurants</span>
+              </button>
+            </div>
+          </form>
+        </div>
+        
+        <div class="hero-metrics">
+          <div class="metric-card">
+            <strong class="metric-number"><%= stats.totalRestaurants %></strong>
+            <span class="metric-label">Verified Restaurants</span>
+          </div>
+          <div class="metric-card">
+            <strong class="metric-number"><%= stats.totalStates %></strong>
+            <span class="metric-label">States Covered</span>
+          </div>
+          <div class="metric-card">
+            <strong class="metric-number"><%= stats.totalCategories %></strong>
+            <span class="metric-label">Cuisine Types</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Restaurants -->
+  <% if (featuredRestaurants && featuredRestaurants.length > 0) { %>
+  <section class="featured-section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2>🎆 Top-Rated Restaurants</h2>
+        <p>Discover the highest-rated vegan restaurants loved by our community</p>
+      </div>
+      <div class="featured-grid">
+        <% featuredRestaurants.forEach(restaurant => { %>
+          <div class="featured-card-modern">
+            <div class="card-image">
+              <% if (restaurant.images && restaurant.images.length > 0) { %>
+                <img src="<%= restaurant.images[0] %>" alt="<%= restaurant.businessName %>" loading="lazy">
+              <% } else { %>
+                <div class="placeholder-image">🌱</div>
+              <% } %>
+              <div class="rating-badge">
+                <span>⭐ <%= restaurant.rating %></span>
+              </div>
+            </div>
+            <div class="card-content">
+              <h3><a href="/restaurant/<%= restaurant.slug %>"><%= restaurant.businessName %></a></h3>
+              <p class="location">📍 <%= restaurant.address.city %>, <%= restaurant.address.state %></p>
+              <div class="card-meta">
+                <span class="reviews"><%= restaurant.reviewCount %> reviews</span>
+                <% if (restaurant.priceRange) { %>
+                  <span class="price">💰 <%= restaurant.priceRange %></span>
+                <% } %>
+              </div>
+              <% if (restaurant.category) { %>
+                <span class="category-tag"><%= restaurant.category %></span>
+              <% } %>
+            </div>
+          </div>
+        <% }) %>
+      </div>
+    </div>
+  </section>
+  <% } %>
+
+  <!-- Popular Categories -->
+  <section class="categories-showcase-gradient">
+    <div class="container">
+      <div class="section-header">
+        <h2>🍽️ Explore by Category</h2>
+        <p>Find your perfect dining experience by cuisine type</p>
+      </div>
+      <div class="categories-grid">
+        <% topCategories.forEach((category, index) => { %>
+          <% 
+            const icons = ['🍿', '🍔', '🥗', '🍳', '🍷', '🍜'];
+            const colors = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#FFEAA7', '#DDA0DD'];
+          %>
+          <a href="/search?category=<%= encodeURIComponent(category.name) %>" class="category-card-glass" style="--category-color: <%= colors[index % colors.length] %>">
+            <div class="category-icon"><%= icons[index % icons.length] %></div>
+            <h3><%= category.name %></h3>
+            <p><%= category.count %> restaurants</p>
+            <div class="category-arrow">→</div>
+          </a>
+        <% }) %>
+      </div>
+    </div>
+  </section>
+
+  <!-- Top States -->
+  <section class="states-showcase-dark">
+    <div class="container">
+      <div class="section-header">
+        <h2>🇺🇸 Popular Destinations</h2>
+        <p>Explore vegan dining in these top states</p>
+      </div>
+      <div class="states-grid">
+        <% topStates.forEach(state => { %>
+          <a href="/state/<%= state.slug %>" class="state-card-neon">
+            <div class="state-info">
+              <h3><%= state.name %></h3>
+              <p><%= state.count %> restaurants</p>
+            </div>
+            <div class="state-arrow">→</div>
+          </a>
+        <% }) %>
+      </div>
+    </div>
+  </section>
+
+  <!-- Excellence Highlights -->
+  <% if (topRated && topRated.length > 0) { %>
+  <section class="excellence-section-premium">
+    <div class="container">
+      <div class="section-header">
+        <h2>🏆 Excellence Awards</h2>
+        <p>Restaurants that consistently deliver outstanding experiences</p>
+      </div>
+      <div class="excellence-grid">
+        <% topRated.forEach((restaurant, index) => { %>
+          <% const awards = ['🥇 Gold Standard', '🥈 Silver Excellence', '🥉 Bronze Elite']; %>
+          <div class="excellence-card-luxury">
+            <div class="award-badge">
+              <span class="award-icon"><%= awards[index].split(' ')[0] %></span>
+              <span class="award-text"><%= awards[index].split(' ').slice(1).join(' ') %></span>
+            </div>
+            <h3><a href="/restaurant/<%= restaurant.slug %>"><%= restaurant.businessName %></a></h3>
+            <p class="location"><%= restaurant.address.city %>, <%= restaurant.address.state %></p>
+            <div class="rating-display">
+              <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+              <span class="rating-text"><%= restaurant.rating %>/5.0 • <%= restaurant.reviewCount %> reviews</span>
+            </div>
+          </div>
+        <% }) %>
+      </div>
+    </div>
+  </section>
+  <% } %>
+
+  <!-- Testimonials -->
+  <section class="testimonials-section-modern">
+    <div class="container">
+      <h2>💬 What People Are Saying</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-modern">
+          <p>"This directory helped me find amazing vegan spots during my cross-country trip. Highly recommended!"</p>
+          <div class="testimonial-author">- Sarah K., Food Blogger</div>
+        </div>
+        <div class="testimonial-modern">
+          <p>"As a new vegan, this site has been invaluable for discovering local plant-based restaurants."</p>
+          <div class="testimonial-author">- Mike R., Austin</div>
+        </div>
+        <div class="testimonial-modern">
+          <p>"The reviews are honest and helpful. I've never been disappointed with a recommendation!"</p>
+          <div class="testimonial-author">- Emma L., New York</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <%- include('partials/footer') %>
+</body>
+</html>

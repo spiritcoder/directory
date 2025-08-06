@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('partials/head') %>
+<body>
+  <%- include('partials/header') %>
+  
+  <main class="container">
+    <section class="error-page">
+      <div class="error-content">
+        <div class="error-icon">🌱</div>
+        <h1>404 - Page Not Found</h1>
+        <p>Oops! The page you're looking for seems to have gone on a plant-based adventure.</p>
+        
+        <div class="error-actions">
+          <a href="/" class="btn btn-primary">🏠 Go Home</a>
+          <a href="/search" class="btn btn-secondary">🔍 Search Restaurants</a>
+        </div>
+        
+        <div class="suggestions">
+          <h3>Try these instead:</h3>
+          <ul>
+            <li><a href="/">Browse all restaurants</a></li>
+            <li><a href="/search">Search for restaurants</a></li>
+            <li><a href="/about">Learn about us</a></li>
+            <li><a href="/contact">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <%- include('partials/footer') %>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('partials/head') %>
+<body>
+  <%- include('partials/header') %>
+  
+  <!-- State Hero Section -->
+  <section class="state-hero-modern">
+    <div class="hero-background">
+      <div class="hero-pattern"></div>
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="container">
+        <nav class="breadcrumb-hero">
+          <a href="/">🏠 Home</a> 
+          <span class="breadcrumb-separator">/</span> 
+          <span><%= stateName %></span>
+        </nav>
+        
+        <div class="hero-text">
+          <h1 class="hero-title">🌱 Vegan Restaurants in <%= stateName %></h1>
+          <p class="hero-subtitle">Discover <%= stats.totalRestaurants %> amazing plant-based restaurants across <%= stats.totalCities %> cities</p>
+          
+          <div class="hero-stats">
+            <div class="stat-card">
+              <span class="stat-number"><%= stats.totalRestaurants %></span>
+              <span class="stat-label">Restaurants</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number"><%= stats.avgRating %></span>
+              <span class="stat-label">Avg Rating</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number"><%= stats.totalCities %></span>
+              <span class="stat-label">Cities</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <% if (totalCount > 0) { %>
+      <!-- Top Rated Highlight -->
+      <% if (topRated && topRated.length > 0) { %>
+      <section class="top-rated-section">
+        <div class="section-header">
+          <h2>🏆 Top Rated in <%= stateName %></h2>
+          <p>The highest-rated vegan restaurants in the state</p>
+        </div>
+        <div class="top-rated-grid">
+          <% topRated.forEach((restaurant, index) => { %>
+            <div class="top-rated-card">
+              <div class="rank-badge">#<%= index + 1 %></div>
+              <h3><a href="/restaurant/<%= restaurant.slug %>"><%= restaurant.businessName %></a></h3>
+              <div class="rating-display">
+                <span class="stars">⭐⭐⭐⭐⭐</span>
+                <span class="rating-text"><%= restaurant.rating %>/5.0 • <%= restaurant.reviewCount %> reviews</span>
+              </div>
+            </div>
+          <% }) %>
+        </div>
+      </section>
+      <% } %>
+
+      <!-- Category Filter -->
+      <section class="filter-section-inline">
+        <div class="filter-container">
+          <div class="filter-intro">
+            <span class="filter-label">🍽️ Browse by category:</span>
+            <span class="results-count">(<%= totalCount %> restaurants)</span>
+          </div>
+          <div class="filter-tags-inline">
+            <a href="/state/<%= stateSlug %>" class="filter-tag <%= !selectedCategory ? 'active' : '' %>">All</a>
+            <% categories.forEach(cat => { %>
+              <a href="/state/<%= stateSlug %>?category=<%= encodeURIComponent(cat) %>" class="filter-tag <%= selectedCategory === cat ? 'active' : '' %>"><%= cat %></a>
+            <% }) %>
+          </div>
+        </div>
+      </section>
+
+      <!-- Restaurants Grid -->
+      <section class="restaurants-showcase">
+        <div class="restaurants-grid-modern">
+          <% restaurants.forEach(restaurant => { %>
+            <article class="restaurant-card-state">
+              <div class="card-image">
+                <% if (restaurant.images && restaurant.images.length > 0) { %>
+                  <img src="<%= restaurant.images[0] %>" alt="<%= restaurant.businessName %>" loading="lazy">
+                <% } else { %>
+                  <div class="placeholder-image">🌱</div>
+                <% } %>
+                <div class="rating-overlay">
+                  <span>⭐ <%= restaurant.rating %></span>
+                </div>
+              </div>
+              
+              <div class="card-content">
+                <h3><a href="/restaurant/<%= restaurant.slug %>"><%= restaurant.businessName %></a></h3>
+                <p class="location">📍 <%= restaurant.address.city %></p>
+                
+                <div class="card-meta">
+                  <span class="reviews"><%= restaurant.reviewCount %> reviews</span>
+                  <% if (restaurant.priceRange) { %>
+                    <span class="price">💰 <%= restaurant.priceRange %></span>
+                  <% } %>
+                </div>
+                
+                <% if (restaurant.category) { %>
+                  <span class="category-badge"><%= restaurant.category %></span>
+                <% } %>
+              </div>
+            </article>
+          <% }) %>
+        </div>
+        
+        <!-- Pagination -->
+        <% if (totalPages > 1) { %>
+        <% 
+          function buildStatePageUrl(pageNum) {
+            let params = [];
+            if (selectedCategory) params.push(`category=${encodeURIComponent(selectedCategory)}`);
+            params.push(`page=${pageNum}`);
+            return `/state/${stateSlug}${params.length ? '?' + params.join('&') : ''}`;
+          }
+        %>
+        <nav class="pagination-state">
+          <% if (hasPrevPage) { %>
+            <a href="<%= buildStatePageUrl(prevPage) %>" class="page-btn prev-btn">← Previous</a>
+          <% } %>
+          
+          <div class="page-numbers">
+            <% for (let i = Math.max(1, currentPage - 2); i <= Math.min(totalPages, currentPage + 2); i++) { %>
+              <% if (i === currentPage) { %>
+                <span class="page-btn current"><%= i %></span>
+              <% } else { %>
+                <a href="<%= buildStatePageUrl(i) %>" class="page-btn"><%= i %></a>
+              <% } %>
+            <% } %>
+          </div>
+          
+          <% if (hasNextPage) { %>
+            <a href="<%= buildStatePageUrl(nextPage) %>" class="page-btn next-btn">Next →</a>
+          <% } %>
+        </nav>
+        <% } %>
+      </section>
+    <% } else { %>
+      <section class="no-restaurants">
+        <div class="empty-state">
+          <h2>🔍 No Restaurants Found</h2>
+          <p>We haven't found any vegan restaurants in <%= stateName %> yet. Help us grow by suggesting restaurants in your area!</p>
+          <a href="/submit" class="btn btn-primary">Suggest a Restaurant</a>
+        </div>
+      </section>
+    <% } %>
+  </main>
+
+  <%- include('partials/footer') %>
+</body>
+</html>

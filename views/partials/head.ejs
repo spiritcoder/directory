@@ -44,26 +44,29 @@
   {
     "@context": "https://schema.org",
     "@type": "Restaurant",
-    "name": "<%= restaurant.businessName %>",
-    "image": <%= restaurant.images && restaurant.images.length > 0 ? JSON.stringify(restaurant.images.map(img => seo.canonical.split('/').slice(0,3).join('') + img)) : '[]' %>,
+    "name": <%- JSON.stringify(restaurant.businessName) %>,
+    "image": <%- restaurant.images && restaurant.images.length > 0 ? JSON.stringify(restaurant.images.map(img => {
+      const imageUrl = typeof img === 'object' ? img.jpeg : img;
+      return seo.canonical.split('/').slice(0,3).join('/') + imageUrl;
+    })) : '[]' %>,
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "<%= restaurant.address.street %>",
-      "addressLocality": "<%= restaurant.address.city %>",
-      "addressRegion": "<%= restaurant.address.state %>",
-      "postalCode": "<%= restaurant.address.zipCode %>",
+      "streetAddress": <%- JSON.stringify(restaurant.address.street || '') %>,
+      "addressLocality": <%- JSON.stringify(restaurant.address.city || '') %>,
+      "addressRegion": <%- JSON.stringify(restaurant.address.state || '') %>,
+      "postalCode": <%- JSON.stringify(restaurant.address.zipCode || '') %>,
       "addressCountry": "US"
     },
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": "<%= restaurant.rating %>",
-      "reviewCount": "<%= restaurant.reviewCount %>"
+      "ratingValue": <%- JSON.stringify(restaurant.rating.toString()) %>,
+      "reviewCount": <%- JSON.stringify(restaurant.reviewCount.toString()) %>
     },
     "servesCuisine": "Vegan",
-    "priceRange": "<%= restaurant.priceRange || '$' %>",
-    <% if (restaurant.phone) { %>"telephone": "<%= restaurant.phone %>",<% } %>
-    <% if (restaurant.website) { %>"url": "<%= restaurant.website %>",<% } %>
-    "openingHours": <%= restaurant.hours ? JSON.stringify(restaurant.hours) : '[]' %>
+    "priceRange": <%- JSON.stringify(restaurant.priceRange || '$') %>,
+    <% if (restaurant.phone) { %>"telephone": <%- JSON.stringify(restaurant.phone) %>,<% } %>
+    <% if (restaurant.website) { %>"url": <%- JSON.stringify(restaurant.website) %>,<% } %>
+    "openingHours": <%- restaurant.hours ? JSON.stringify(restaurant.hours) : '[]' %>
   }
   </script>
   <% } %>

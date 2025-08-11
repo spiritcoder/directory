@@ -1,4 +1,9 @@
 User-agent: *
 Allow: /
+Disallow: /search?*
+Disallow: /*?page=*
+Disallow: /*?category=*
+
+Sitemap: https://veganrestaurantfinds.com/sitemap.xml
 
 Sitemap: https://veganrestaurantfind.com/sitemap.xml

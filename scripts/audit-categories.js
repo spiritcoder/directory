@@ -1,44 +1,66 @@
 const fs = require('fs');
 const path = require('path');
 
+function getDataFolders() {
+  const baseDir = path.join(__dirname, '..');
+  return fs.readdirSync(baseDir)
+    .filter(item => {
+      const fullPath = path.join(baseDir, item);
+      return fs.statSync(fullPath).isDirectory() && item.startsWith('data-');
+    });
+}
+
 function auditCategories() {
-  const dataDir = path.join(__dirname, '../data');
+  const dataFolders = getDataFolders();
   const categoryCount = {};
   const categoryExamples = {};
   let totalRestaurants = 0;
+  let totalFiles = 0;
 
-  // Read all JSON files in data directory
-  const files = fs.readdirSync(dataDir).filter(file => file.endsWith('.json'));
+  console.log(`\n📁 Found data folders: ${dataFolders.join(', ')}`);
   
-  console.log(`\n🔍 Auditing categories from ${files.length} JSON files...\n`);
-
-  files.forEach(file => {
-    const filePath = path.join(dataDir, file);
-    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-    
-    if (Array.isArray(data)) {
-      data.forEach(restaurant => {
-        totalRestaurants++;
-        const category = restaurant.category;
-        
-        if (category) {
-          // Count categories
-          categoryCount[category] = (categoryCount[category] || 0) + 1;
-          
-          // Store examples
-          if (!categoryExamples[category]) {
-            categoryExamples[category] = [];
-          }
-          if (categoryExamples[category].length < 3) {
-            categoryExamples[category].push(restaurant.businessName);
-          }
-        } else {
-          // Track restaurants without categories
-          categoryCount['[NO CATEGORY]'] = (categoryCount['[NO CATEGORY]'] || 0) + 1;
-        }
-      });
+  // Process each data folder
+  dataFolders.forEach(folder => {
+    const folderPath = path.join(__dirname, '..', folder);
+    if (!fs.existsSync(folderPath)) {
+      console.log(`⚠️  Folder ${folder} not found, skipping...`);
+      return;
     }
+    
+    const files = fs.readdirSync(folderPath).filter(file => file.endsWith('.json'));
+    totalFiles += files.length;
+    console.log(`📁 Processing ${folder}: ${files.length} files`);
+    
+    files.forEach(file => {
+      const filePath = path.join(folderPath, file);
+      const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      
+      if (Array.isArray(data)) {
+        data.forEach(restaurant => {
+          totalRestaurants++;
+          const category = restaurant.category;
+          
+          if (category) {
+            // Count categories
+            categoryCount[category] = (categoryCount[category] || 0) + 1;
+            
+            // Store examples
+            if (!categoryExamples[category]) {
+              categoryExamples[category] = [];
+            }
+            if (categoryExamples[category].length < 3) {
+              categoryExamples[category].push(restaurant.businessName);
+            }
+          } else {
+            // Track restaurants without categories
+            categoryCount['[NO CATEGORY]'] = (categoryCount['[NO CATEGORY]'] || 0) + 1;
+          }
+        });
+      }
+    });
   });
+  
+  console.log(`\n🔍 Auditing categories from ${totalFiles} JSON files across ${dataFolders.length} folders...\n`);
 
   // Sort categories by count (descending)
   const sortedCategories = Object.entries(categoryCount)

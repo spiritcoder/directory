@@ -127,13 +127,37 @@ async function processRestaurantImages(restaurant, restaurantIndex, stateName) {
 }
 
 function extractStateFromFilename(filename) {
-  const match = filename.match(/google_maps_vegan_restaurant_in_([a-z_]+)_\d{4}/i);
+  // Handle both singular and plural patterns
+  const match = filename.match(/google_maps_vegan_restaurants?_in_([a-z_]+)_\d{4}/i);
   if (match) {
     return match[1].split('_').map(word => 
       word.charAt(0).toUpperCase() + word.slice(1)
     ).join(' ');
   }
   return null;
+}
+
+function getCountryFromFolder(folderName) {
+  const countryMap = {
+    'data-us': 'United States',
+    'data-canada': 'Canada', 
+    'data-uk': 'United Kingdom'
+  };
+  return countryMap[folderName] || 'Unknown';
+}
+
+function getDataFolders() {
+  const baseDir = path.join(__dirname, '..');
+  return fs.readdirSync(baseDir)
+    .filter(item => {
+      const fullPath = path.join(baseDir, item);
+      return fs.statSync(fullPath).isDirectory() && item.startsWith('data-');
+    })
+    .map(folder => ({
+      folder,
+      country: getCountryFromFolder(folder),
+      path: path.join(baseDir, folder)
+    }));
 }
 
 function generateSlug(businessName, city) {
@@ -146,40 +170,46 @@ async function seedDatabase() {
   try {
     await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/vegan-restaurants');
     
-    // Clear existing data
-    await Restaurant.deleteMany({});
+    // Get all data folders
+    const dataFolders = getDataFolders();
+    console.log(`Found ${dataFolders.length} data folders:`);
+    dataFolders.forEach(({folder, country}) => {
+      console.log(`  ${folder} → ${country}`);
+    });
     
-    const dataDir = path.join(__dirname, '../data');
-    const files = fs.readdirSync(dataDir).filter(file => file.endsWith('.json'));
-    console.log(`Found ${files.length} JSON files`);
-    
-    // Extract and list all state names first
-    const stateNames = [];
-    for (const file of files) {
-      const stateName = extractStateFromFilename(file);
-      if (stateName) {
-        stateNames.push(stateName);
-      }
-    }
-    
-    console.log(`\n📍 Matched ${stateNames.length} states:`);
-    console.log(stateNames.sort().join(', '));
-    console.log('\n🚀 Starting processing...\n');
-    
-    let allRestaurants = [];
+    let allFiles = [];
     let processedStates = [];
     
-    for (const file of files) {
-      const stateName = extractStateFromFilename(file);
-      if (!stateName) {
-        console.log(`❌ Skipping file ${file} - could not extract state name`);
+    // Process each data folder
+    for (const {folder, country, path: folderPath} of dataFolders) {
+      if (!fs.existsSync(folderPath)) {
+        console.log(`⚠️  Folder ${folder} not found, skipping...`);
         continue;
       }
       
-      console.log(`✅ Processing file: ${file} -> State: ${stateName}`);
-      processedStates.push(stateName);
+      const files = fs.readdirSync(folderPath).filter(file => file.endsWith('.json'));
+      console.log(`\n📁 Processing ${folder} (${country}): ${files.length} files`);
       
-      const filePath = path.join(dataDir, file);
+      // Extract state names for this country
+      const stateNames = [];
+      for (const file of files) {
+        const stateName = extractStateFromFilename(file);
+        if (stateName) {
+          stateNames.push(stateName);
+          allFiles.push({ file, country, folderPath, stateName });
+        }
+      }
+      
+      console.log(`📍 States in ${country}: ${stateNames.sort().join(', ')}`);
+    }
+    
+    console.log('\n🚀 Starting processing...\n');
+    
+    for (const {file, country, folderPath, stateName} of allFiles) {
+      console.log(`✅ Processing: ${file} → ${stateName}, ${country}`);
+      processedStates.push(`${stateName} (${country})`);
+      
+      const filePath = path.join(folderPath, file);
       const rawData = fs.readFileSync(filePath, 'utf8');
       const restaurants = JSON.parse(rawData);
       
@@ -188,19 +218,18 @@ async function seedDatabase() {
         try {
           console.log(`Processing ${restaurant.businessName} (${index + 1}/${restaurants.length}) from ${stateName}`);
           
-          // Check for duplicate
-          const key = `${restaurant.businessName}-${restaurant.address?.city || ''}`.toLowerCase();
+          // Check for duplicate FIRST (before downloading images)
           const existingRestaurant = await Restaurant.findOne({
             businessName: new RegExp(`^${restaurant.businessName}$`, 'i'),
             'address.city': restaurant.address?.city
           });
           
           if (existingRestaurant) {
-            console.log(`Skipping duplicate: ${restaurant.businessName} in ${restaurant.address?.city}`);
+            console.log(`⏭️  Skipping duplicate: ${restaurant.businessName} in ${restaurant.address?.city}`);
             continue;
           }
           
-          // Download images
+          // Download images (only for new restaurants)
           const localImages = await processRestaurantImages(restaurant, index, stateName);
           
           // AI description will be generated separately
@@ -214,7 +243,7 @@ async function seedDatabase() {
               city: restaurant.address?.city || '',
               state: stateName,
               zipCode: restaurant.address?.zipCode || '',
-              country: restaurant.address?.country || 'United States'
+              country: country
             },
             phone: restaurant.phone || '',
             website: restaurant.website || '',
@@ -239,14 +268,22 @@ async function seedDatabase() {
         }
       }
       
-      console.log(`Completed processing ${stateName}`);
+      console.log(`Completed processing ${stateName}, ${country}`);
     }
     
     const totalRestaurants = await Restaurant.countDocuments();
+    const countryCounts = await Restaurant.aggregate([
+      { $group: { _id: '$address.country', count: { $sum: 1 } } },
+      { $sort: { count: -1 } }
+    ]);
+    
     console.log(`\n🎉 Database seeded successfully!`);
-    console.log(`📊 Total restaurants in database: ${totalRestaurants}`);
-    console.log(`📁 Found ${files.length} JSON files`);
-    console.log(`📍 Processed ${processedStates.length} states:`);
+    console.log(`📊 Total restaurants: ${totalRestaurants}`);
+    console.log(`🌍 Countries processed:`);
+    countryCounts.forEach(({_id, count}) => {
+      console.log(`  ${_id}: ${count} restaurants`);
+    });
+    console.log(`📍 Regions processed: ${processedStates.length}`);
     console.log(processedStates.sort().join(', '));
     process.exit(0);
   } catch (error) {

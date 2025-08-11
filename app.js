@@ -6,7 +6,34 @@ require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-console.log(PORT)
+
+// URL canonicalization middleware - MUST be first
+if (process.env.NODE_ENV === 'production') {
+  app.use((req, res, next) => {
+    const host = req.get('host');
+    const protocol = req.get('x-forwarded-proto') || req.protocol;
+    const canonicalHost = 'veganrestaurantfinds.com';
+    
+    // Force HTTPS in production
+    if (protocol !== 'https') {
+      return res.redirect(301, `https://${canonicalHost}${req.originalUrl}`);
+    }
+    
+    // Remove www and enforce canonical domain
+    if (host && (host.startsWith('www.') || host !== canonicalHost)) {
+      return res.redirect(301, `${protocol}://${canonicalHost}${req.originalUrl}`);
+    }
+    
+    // Remove trailing slashes except for root
+    if (req.path !== '/' && req.path.endsWith('/')) {
+      const query = req.url.slice(req.path.length);
+      return res.redirect(301, req.path.slice(0, -1) + query);
+    }
+    
+    next();
+  });
+}
+
 // Security middleware
 app.use(helmet());
 
@@ -58,6 +85,7 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/vegan-res
 
 // Routes
 app.use('/', require('./routes/index'));
+app.use('/', require('./routes/country'));
 app.use('/state', require('./routes/state'));
 app.use('/restaurant', require('./routes/restaurant'));
 app.use('/search', require('./routes/search'));

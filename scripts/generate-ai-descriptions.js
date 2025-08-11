@@ -1,7 +1,18 @@
 const mongoose = require('mongoose');
 const Restaurant = require('../models/Restaurant');
 const axios = require('axios');
+const fs = require('fs');
+const path = require('path');
 require('dotenv').config();
+
+function getDataFolders() {
+  const baseDir = path.join(__dirname, '..');
+  return fs.readdirSync(baseDir)
+    .filter(item => {
+      const fullPath = path.join(baseDir, item);
+      return fs.statSync(fullPath).isDirectory() && item.startsWith('data-');
+    });
+}
 
 async function generateDescription(restaurant) {
   try {
@@ -60,6 +71,9 @@ async function generateAIDescriptions() {
     }
 
     await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/vegan-restaurants');
+    
+    const dataFolders = getDataFolders();
+    console.log(`📁 Found data folders: ${dataFolders.join(', ')}`);
     
     // Find restaurants that need AI descriptions
     const restaurantsToUpdate = await Restaurant.find({

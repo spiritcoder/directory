@@ -683,6 +683,53 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.state-card.coming-soon {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.region-placeholder {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.region-placeholder h3 {
+  color: #999;
+}
+
+.region-placeholder p {
+  color: #666;
+  font-style: italic;
+}
+
+.coming-soon-badge {
+  font-size: 1.2rem;
+}
+
+.coming-soon-notice {
+  background: #e8f5e8;
+  border: 2px solid #4CAF50;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.coming-soon-notice p {
+  color: #2d5a27;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.avg-rating {
+  background: #e8f5e8;
+  color: #2d5a27;
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
 /* Restaurant Cards */
 .restaurants-list {
   display: grid;
@@ -1616,6 +1663,27 @@ footer {
   .nav-links {
     gap: 1rem;
   }
+  
+  .country-dropdown {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+  }
+  
+  .countries-section {
+    padding: 3rem 0;
+  }
+  
+  .countries-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .country-card {
+    padding: 1.5rem;
+  }
+  
+  .country-flag {
+    font-size: 2.5rem;
+  }
 }
 /* Reviews Section - Compact Design */
 .reviews-section {
@@ -1731,12 +1799,14 @@ footer {
 
 .search-hero .search-inputs {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr auto;
-  gap: 1rem;
+  grid-template-columns: 2fr 2fr 2fr 1.8fr auto;
+  gap: 0.5rem;
   background: white;
   padding: 0.5rem;
   border-radius: 50px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  max-width: 1400px;
+  width: 100%;
 }
 
 .search-hero .search-input,
@@ -1746,6 +1816,14 @@ footer {
   background: transparent;
   font-size: 1rem;
   color: #333;
+  min-width: 0;
+}
+
+.search-hero .search-select {
+  padding-right: 2.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .search-hero .search-input {
@@ -2067,6 +2145,7 @@ footer {
   .search-hero .search-inputs {
     grid-template-columns: 1fr;
     border-radius: 16px;
+    gap: 1rem;
   }
   
   .search-hero .search-input {
@@ -3168,7 +3247,7 @@ footer {
   margin-bottom: 3rem;
 }
 
-.hero-h1 {
+section h1.hero-h1 {
   font-size: 3.5rem;
   font-weight: 800;
   margin-bottom: 1.5rem;
@@ -3314,7 +3393,7 @@ footer {
     padding: 3rem 0;
   }
   
-  .hero-h1 {
+  section h1.hero-h1 {
     font-size: 2.5rem;
   }
   
@@ -4198,6 +4277,129 @@ img.lazy {
 
 img.lazy.loaded {
   opacity: 1;
+}
+
+/* Country Selector */
+.country-selector {
+  position: relative;
+}
+
+.country-dropdown {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.country-dropdown option {
+  background: #2d5a27;
+  color: white;
+}
+
+/* Countries Section */
+.countries-section {
+  background: #f8f9fa;
+  padding: 5rem 0;
+  margin-bottom: 0;
+}
+
+.countries-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.country-card {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.country-card:hover {
+  transform: translateY(-5px);
+}
+
+.country-header {
+  margin-bottom: 2rem;
+}
+
+.country-flag {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.country-card h3 {
+  color: #2d5a27;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.country-card p {
+  color: #666;
+  margin-bottom: 0;
+}
+
+.regions-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.region-link {
+  background: #e8f5e8;
+  color: #2d5a27;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.region-link:hover {
+  background: #4CAF50;
+  color: white;
+}
+
+.region-link.disabled {
+  background: #f0f0f0;
+  color: #999;
+  cursor: not-allowed;
+}
+
+.country-btn {
+  display: inline-block;
+  background: #2E7D32;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.country-btn:hover {
+  background: #1B5E20;
+}
+
+.country-btn.disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.country-btn.disabled:hover {
+  background: #ccc;
 }
 
 /* Mobile Enhancements */

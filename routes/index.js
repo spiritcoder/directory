@@ -77,8 +77,8 @@ router.get('/', async (req, res) => {
         usRestaurants
       },
       seo: {
-        title: 'Vegan Restaurant Directory - Find Plant-Based Dining Across America',
-        description: 'Discover the best vegan restaurants across all US states. Browse by location, read reviews, and find your next plant-based dining experience.',
+        title: 'Vegan Restaurant Directory - Find Plant-Based Dining Across America,the UK and Canada',
+        description: 'Discover the best vegan restaurants in US, UK and Canada. Browse by location, read reviews, and find your next plant-based dining experience.',
         canonical: `${req.protocol}://${req.get('host')}/`,
         ogImage: `${req.protocol}://${req.get('host')}/images/logo.png`
       }

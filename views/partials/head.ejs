@@ -60,11 +60,12 @@
       "postalCode": <%- JSON.stringify(restaurant.address.zipCode || '') %>,
       "addressCountry": "US"
     },
+    <% if (restaurant.rating && restaurant.reviewCount > 0) { %>
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": <%- JSON.stringify(restaurant.rating.toString()) %>,
       "reviewCount": <%- JSON.stringify(restaurant.reviewCount.toString()) %>
-    },
+    },  <% } %>
     "servesCuisine": "Vegan",
     "priceRange": <%- JSON.stringify(restaurant.priceRange || '$') %>,
     <% if (restaurant.phone) { %>"telephone": <%- JSON.stringify(restaurant.phone) %>,<% } %>

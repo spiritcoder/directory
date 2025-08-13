@@ -1,77 +1,104 @@
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <!-- SEO Meta Tags -->
   <title><%= seo.title %></title>
-  <meta name="description" content="<%= seo.description %>">
-  <link rel="canonical" href="<%= seo.canonical %>">
-  
+  <meta name="description" content="<%= seo.description %>" />
+  <link rel="canonical" href="<%= seo.canonical %>" />
+
   <!-- Open Graph -->
-  <meta property="og:title" content="<%= seo.title %>">
-  <meta property="og:description" content="<%= seo.description %>">
-  <meta property="og:url" content="<%= seo.canonical %>">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="<%= seo.ogImage %>">
-  
+  <meta property="og:title" content="<%= seo.title %>" />
+  <meta property="og:description" content="<%= seo.description %>" />
+  <meta property="og:url" content="<%= seo.canonical %>" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="<%= seo.ogImage %>" />
+
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="<%= seo.title %>">
-  <meta name="twitter:description" content="<%= seo.description %>">
-  <meta name="twitter:image" content="<%= seo.ogImage %>">
-  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="<%= seo.title %>" />
+  <meta name="twitter:description" content="<%= seo.description %>" />
+  <meta name="twitter:image" content="<%= seo.ogImage %>" />
+
   <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
-  <link rel="manifest" href="/images/favicon/site.webmanifest">
-  <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#2d5a27">
-  <link rel="shortcut icon" href="/images/favicon/favicon.ico">
-  <meta name="msapplication-TileColor" content="#2d5a27">
-  <meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
-  <meta name="theme-color" content="#2d5a27">
-  
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="/images/favicon/apple-touch-icon.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="/images/favicon/favicon-32x32.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="/images/favicon/favicon-16x16.png"
+  />
+  <link rel="manifest" href="/images/favicon/site.webmanifest" />
+  <link
+    rel="mask-icon"
+    href="/images/favicon/safari-pinned-tab.svg"
+    color="#2d5a27"
+  />
+  <link rel="shortcut icon" href="/images/favicon/favicon.ico" />
+  <meta name="msapplication-TileColor" content="#2d5a27" />
+  <meta
+    name="msapplication-config"
+    content="/images/favicon/browserconfig.xml"
+  />
+  <meta name="theme-color" content="#2d5a27" />
+
   <!-- Stylesheets -->
   <% if (process.env.NODE_ENV === 'production') { %>
-    <link rel="stylesheet" href="/css/style.min.css">
+  <link rel="stylesheet" href="/css/style.min.css" />
+  <link
+    rel="preload"
+    href="https://www.googletagmanager.com/gtag/js?id=G-MDYRVWD00G"
+    as="script"
+  />
+  <script src="/js/gtag-defer.js" defer></script>
   <% } else { %>
-    <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/style.css" />
   <% } %>
-  
+
   <!-- Country Selector Script -->
   <script src="/js/country-selector.js" defer></script>
-  
+
   <% if (typeof restaurant !== 'undefined') { %>
   <!-- Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Restaurant",
-    "name": <%- JSON.stringify(restaurant.businessName) %>,
-    "image": <%- restaurant.images && restaurant.images.length > 0 ? JSON.stringify(restaurant.images.map(img => {
-      const imageUrl = typeof img === 'object' ? img.jpeg : img;
-      return seo.canonical.split('/').slice(0,3).join('/') + imageUrl;
-    })) : '[]' %>,
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": <%- JSON.stringify(restaurant.address.street || '') %>,
-      "addressLocality": <%- JSON.stringify(restaurant.address.city || '') %>,
-      "addressRegion": <%- JSON.stringify(restaurant.address.state || '') %>,
-      "postalCode": <%- JSON.stringify(restaurant.address.zipCode || '') %>,
-      "addressCountry": "US"
-    },
-    <% if (restaurant.rating && restaurant.reviewCount > 0) { %>
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": <%- JSON.stringify(restaurant.rating.toString()) %>,
-      "reviewCount": <%- JSON.stringify(restaurant.reviewCount.toString()) %>
-    },  <% } %>
-    "servesCuisine": "Vegan",
-    "priceRange": <%- JSON.stringify(restaurant.priceRange || '$') %>,
-    <% if (restaurant.phone) { %>"telephone": <%- JSON.stringify(restaurant.phone) %>,<% } %>
-    <% if (restaurant.website) { %>"url": <%- JSON.stringify(restaurant.website) %>,<% } %>
-    "openingHours": <%- restaurant.hours ? JSON.stringify(restaurant.hours) : '[]' %>
-  }
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": <%- JSON.stringify(restaurant.businessName) %>,
+      "image": <%- restaurant.images && restaurant.images.length > 0 ? JSON.stringify(restaurant.images.map(img => {
+        const imageUrl = typeof img === 'object' ? img.jpeg : img;
+        return seo.canonical.split('/').slice(0,3).join('/') + imageUrl;
+      })) : '[]' %>,
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": <%- JSON.stringify(restaurant.address.street || '') %>,
+        "addressLocality": <%- JSON.stringify(restaurant.address.city || '') %>,
+        "addressRegion": <%- JSON.stringify(restaurant.address.state || '') %>,
+        "postalCode": <%- JSON.stringify(restaurant.address.zipCode || '') %>,
+        "addressCountry": "US"
+      },
+      <% if (restaurant.rating && restaurant.reviewCount > 0) { %>
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": <%- JSON.stringify(restaurant.rating.toString()) %>,
+        "reviewCount": <%- JSON.stringify(restaurant.reviewCount.toString()) %>
+      },  <% } %>
+      "servesCuisine": "Vegan",
+      "priceRange": <%- JSON.stringify(restaurant.priceRange || '$') %>,
+      <% if (restaurant.phone) { %>"telephone": <%- JSON.stringify(restaurant.phone) %>,<% } %>
+      <% if (restaurant.website) { %>"url": <%- JSON.stringify(restaurant.website) %>,<% } %>
+      "openingHours": <%- restaurant.hours ? JSON.stringify(restaurant.hours) : '[]' %>
+    }
   </script>
   <% } %>
 </head>

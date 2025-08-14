@@ -55,6 +55,11 @@
   <!-- Stylesheets -->
   <% if (process.env.NODE_ENV === 'production') { %>
   <link rel="stylesheet" href="/css/style.min.css" />
+    <link
+    rel="preload"
+    href="https://www.googletagmanager.com/gtag/js?id=G-MDYRVWD00G"
+    as="script"
+  />
   <script src="/js/gtag-defer.js" defer></script>
   <% } else { %>
   <link rel="stylesheet" href="/css/style.css" />

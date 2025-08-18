@@ -17,8 +17,14 @@
         <form class="search-form" method="GET" action="/search">
           <div class="search-inputs">
             <input type="text" name="q" placeholder="Restaurant name, city, or cuisine..." value="<%= searchQuery %>" class="search-input">
+            <select name="country" class="search-select">
+              <option value="">All Countries</option>
+              <option value="United States" <%= selectedCountry === 'United States' ? 'selected' : '' %>>🇺🇸 United States</option>
+              <option value="Canada" <%= selectedCountry === 'Canada' ? 'selected' : '' %>>🇨🇦 Canada</option>
+              <option value="United Kingdom" <%= selectedCountry === 'United Kingdom' ? 'selected' : '' %>>🇬🇧 United Kingdom</option>
+            </select>
             <select name="state" class="search-select">
-              <option value="">All States</option>
+              <option value="">All States/Regions</option>
               <% allStates.forEach(state => { %>
                 <option value="<%= state %>" <%= selectedState === state ? 'selected' : '' %>><%= state %></option>
               <% }) %>
@@ -47,6 +53,7 @@
             <% 
               let searchTerms = [];
               if (searchQuery) searchTerms.push(`"${searchQuery}"`);
+              if (selectedCountry) searchTerms.push(selectedCountry);
               if (selectedState) searchTerms.push(selectedState);
               if (selectedCategory) searchTerms.push(selectedCategory);
             %>
@@ -107,6 +114,7 @@
             function buildPageUrl(pageNum) {
               let params = [];
               if (searchQuery) params.push(`q=${encodeURIComponent(searchQuery)}`);
+              if (selectedCountry) params.push(`country=${encodeURIComponent(selectedCountry)}`);
               if (selectedState) params.push(`state=${encodeURIComponent(selectedState)}`);
               if (selectedCategory) params.push(`category=${encodeURIComponent(selectedCategory)}`);
               params.push(`page=${pageNum}`);

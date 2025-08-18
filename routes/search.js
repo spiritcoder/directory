@@ -5,7 +5,7 @@ const router = express.Router();
 // Search page
 router.get('/', async (req, res) => {
   try {
-    const { q, state, category, page = 1 } = req.query;
+    const { q, country, state, category, page = 1 } = req.query;
     const limit = 12;
     const skip = (page - 1) * limit;
     
@@ -28,6 +28,7 @@ router.get('/', async (req, res) => {
         { category: { $regex: q, $options: 'i' } }
       ];
     }
+    if (country) query['address.country'] = country;
     if (state) query['address.state'] = state;
     if (category) query.category = category;
 
@@ -40,7 +41,7 @@ router.get('/', async (req, res) => {
       .limit(limit);
     
     // If no search criteria, show default message
-    const isDefaultView = !q && !state && !category;
+    const isDefaultView = !q && !country && !state && !category;
 
     const totalPages = Math.ceil(totalCount / limit);
     const currentPage = parseInt(page);
@@ -48,6 +49,7 @@ router.get('/', async (req, res) => {
     res.render('search', {
       restaurants,
       searchQuery: q || '',
+      selectedCountry: country || '',
       selectedState: state || '',
       selectedCategory: category || '',
       allStates,
@@ -63,7 +65,7 @@ router.get('/', async (req, res) => {
       seo: {
         title: `Search Results${q ? ` for "${q}"` : ''} - Vegan Restaurant Directory`,
         description: `Find vegan restaurants${q ? ` matching "${q}"` : ''}. Browse plant-based dining options with reviews and ratings.`,
-        canonical: `${req.protocol}://${req.get('host')}/search${req.url.includes('?') ? req.url.substring(req.url.indexOf('?')) : ''}`,
+        canonical: `${req.protocol}://${req.get('host')}${req.originalUrl}`,
         ogImage: `${req.protocol}://${req.get('host')}/images/logo.png`
       }
     });

@@ -6,9 +6,50 @@ require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-console.log(PORT)
+
 // Security middleware
-app.use(helmet());
+app.use(
+  helmet.contentSecurityPolicy({
+    directives: {
+      defaultSrc: ["'self'", "https://www.google-analytics.com"],
+      scriptSrc: [
+        "'self'",
+        "'unsafe-inline'",
+        "'unsafe-eval'",
+        "https://www.googletagmanager.com",
+        "https://tagmanager.google.com",
+        "https://www.google-analytics.com"
+      ],
+      styleSrc: [
+        "'self'",
+        "'unsafe-inline'",
+        "https://fonts.googleapis.com"
+      ],
+      imgSrc: [
+        "'self'",
+        "data:",
+        "https:",
+        "https://www.google-analytics.com"
+      ],
+      fontSrc: [
+        "'self'",
+        "https://fonts.gstatic.com",
+        "data:"
+      ],
+      connectSrc: [
+        "'self'",
+        "https://www.google-analytics.com",
+        "https://*.google-analytics.com"
+      ],
+      baseUri: ["'self'"],
+      formAction: ["'self'"],
+      frameAncestors: ["'self'"],
+      objectSrc: ["'none'"],
+      upgradeInsecureRequests: []
+    }
+  })
+);
+
 
 // Compression middleware
 app.use(compression());
@@ -36,6 +77,12 @@ app.use('/favicon', express.static('public/favicon', {
   immutable: true
 }));
 
+// Other static files (including sitemap.xml)
+app.use(express.static('public', {
+  maxAge: '1d',
+  etag: true
+}));
+
 // EJS setup
 app.set('view engine', 'ejs');
 app.set('views', './views');
@@ -52,6 +99,7 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/vegan-res
 
 // Routes
 app.use('/', require('./routes/index'));
+app.use('/', require('./routes/country'));
 app.use('/state', require('./routes/state'));
 app.use('/restaurant', require('./routes/restaurant'));
 app.use('/search', require('./routes/search'));

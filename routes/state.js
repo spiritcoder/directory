@@ -43,7 +43,7 @@ router.get('/:state', async (req, res) => {
         seo: {
           title: `No Restaurants Found in ${stateName} - Vegan Restaurant Finds`,
           description: `No vegan restaurants found in ${stateName}. Check back later for updates.`,
-          canonical: `${req.protocol}://${req.get('host')}/state/${stateSlug}`
+          canonical: `${req.protocol}://${req.get('host')}${req.originalUrl}`
         }
       });
     }
@@ -75,7 +75,7 @@ router.get('/:state', async (req, res) => {
       seo: {
         title: `Vegan Restaurants in ${stateName} - Plant-Based Dining Guide`,
         description: `Find the best vegan restaurants in ${stateName}. Browse ${totalCount} plant-based dining options with reviews and ratings.`,
-        canonical: `${req.protocol}://${req.get('host')}/state/${stateSlug}`,
+        canonical: `${req.protocol}://${req.get('host')}${req.originalUrl}`,
         ogImage: `${req.protocol}://${req.get('host')}${restaurants[0]?.images[0]}` || `${req.protocol}://${req.get('host')}/images/logo.png`
       }
     });

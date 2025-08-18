@@ -179,50 +179,71 @@ const categoryMapping = {
   'Tea house': 'Other'
 };
 
+function getDataFolders() {
+  const baseDir = path.join(__dirname, '..');
+  return fs.readdirSync(baseDir)
+    .filter(item => {
+      const fullPath = path.join(baseDir, item);
+      return fs.statSync(fullPath).isDirectory() && item.startsWith('data-');
+    });
+}
+
 function harmonizeCategories() {
-  const dataDir = path.join(__dirname, '../data');
-  const files = fs.readdirSync(dataDir).filter(file => file.endsWith('.json'));
-  
+  const dataFolders = getDataFolders();
   let totalUpdated = 0;
   let categoryStats = {};
+  let totalFiles = 0;
   
-  console.log(`\n🔄 Harmonizing categories in ${files.length} JSON files...\n`);
+  console.log(`\n📁 Found data folders: ${dataFolders.join(', ')}`);
   
-  files.forEach(file => {
-    const filePath = path.join(dataDir, file);
-    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-    let fileUpdated = false;
-    
-    if (Array.isArray(data)) {
-      data.forEach(restaurant => {
-        const oldCategory = restaurant.category;
-        
-        if (oldCategory && categoryMapping[oldCategory]) {
-          restaurant.category = categoryMapping[oldCategory];
-          totalUpdated++;
-          fileUpdated = true;
-          
-          // Track new categories
-          const newCategory = restaurant.category;
-          categoryStats[newCategory] = (categoryStats[newCategory] || 0) + 1;
-          
-          console.log(`  ${restaurant.businessName}: "${oldCategory}" → "${newCategory}"`);
-        } else if (oldCategory) {
-          // Keep unmapped categories as-is
-          categoryStats[oldCategory] = (categoryStats[oldCategory] || 0) + 1;
-        }
-      });
+  dataFolders.forEach(folder => {
+    const folderPath = path.join(__dirname, '..', folder);
+    if (!fs.existsSync(folderPath)) {
+      console.log(`⚠️  Folder ${folder} not found, skipping...`);
+      return;
     }
     
-    // Write back if updated
-    if (fileUpdated) {
-      fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
-      console.log(`✅ Updated ${file}`);
-    }
+    const files = fs.readdirSync(folderPath).filter(file => file.endsWith('.json'));
+    totalFiles += files.length;
+    console.log(`\n🔄 Harmonizing ${folder}: ${files.length} files`);
+    
+    files.forEach(file => {
+      const filePath = path.join(folderPath, file);
+      const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      let fileUpdated = false;
+      
+      if (Array.isArray(data)) {
+        data.forEach(restaurant => {
+          const oldCategory = restaurant.category;
+          
+          if (oldCategory && categoryMapping[oldCategory]) {
+            restaurant.category = categoryMapping[oldCategory];
+            totalUpdated++;
+            fileUpdated = true;
+            
+            // Track new categories
+            const newCategory = restaurant.category;
+            categoryStats[newCategory] = (categoryStats[newCategory] || 0) + 1;
+            
+            console.log(`  ${restaurant.businessName}: "${oldCategory}" → "${newCategory}"`);
+          } else if (oldCategory) {
+            // Keep unmapped categories as-is
+            categoryStats[oldCategory] = (categoryStats[oldCategory] || 0) + 1;
+          }
+        });
+      }
+      
+      // Write back if updated
+      if (fileUpdated) {
+        fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+        console.log(`✅ Updated ${file}`);
+      }
+    });
   });
   
   console.log(`\n📊 HARMONIZATION COMPLETE`);
   console.log(`═══════════════════════════════════════`);
+  console.log(`Total files processed: ${totalFiles}`);
   console.log(`Total restaurants updated: ${totalUpdated}`);
   console.log(`\n📋 NEW CATEGORY DISTRIBUTION:`);
   console.log(`─────────────────────────────────────────`);
@@ -235,7 +256,7 @@ function harmonizeCategories() {
     console.log(`${(index + 1).toString().padStart(2)}. ${category.padEnd(25)} | ${count.toString().padStart(4)} restaurants`);
   });
   
-  console.log(`\n✅ Harmonization complete! Categories reduced from 153 to ${sortedStats.length}\n`);
+  console.log(`\n✅ Harmonization complete! Categories reduced to ${sortedStats.length}\n`);
 }
 
 harmonizeCategories();

@@ -2,5 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://veganrestaurantfinds.com/sitemap.xml
-
-Sitemap: https://veganrestaurantfind.com/sitemap.xml

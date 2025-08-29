@@ -1,14 +1,25 @@
 const mongoose = require('mongoose');
 
+// US States validation
+const US_STATES = [
+  'Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware',
+  'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky',
+  'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi',
+  'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico',
+  'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania',
+  'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont',
+  'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming'
+];
+
 const restaurantSchema = new mongoose.Schema({
   businessName: { type: String, required: true },
   slug: { type: String, required: true, unique: true },
   address: {
     street: String,
     city: String,
-    state: String,
+    state: { type: String, required: true, enum: US_STATES },
     zipCode: String,
-    country: String
+    country: { type: String, default: 'United States' }
   },
   phone: String,
   website: String,

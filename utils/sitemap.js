@@ -4,7 +4,7 @@ const Restaurant = require('../models/Restaurant');
 
 async function generateSitemap() {
   try {
-    const baseUrl = 'https://veganrestaurantfinds.com'; // Always use canonical URL
+    const baseUrl = 'https://usveganrestaurantfinds.com'; // Always use canonical URL
     const currentDate = new Date().toISOString().split('T')[0];
     
     let sitemap = `<?xml version="1.0" encoding="UTF-8"?>

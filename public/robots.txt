@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://veganrestaurantfinds.com/sitemap.xml
+Sitemap: https://usveganrestaurantfinds.com/sitemap.xml

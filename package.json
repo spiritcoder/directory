@@ -1,7 +1,7 @@
 {
-  "name": "vegan-restaurant-directory",
+  "name": "us-vegan-restaurant-directory",
   "version": "1.0.0",
-  "description": "A directory of vegan restaurants across US states",
+  "description": "A comprehensive directory of vegan restaurants across the United States",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",

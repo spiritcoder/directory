@@ -41,7 +41,7 @@ router.get('/:state', async (req, res) => {
     if (totalCount === 0) {
       return res.status(404).render('404', {
         seo: {
-          title: `No Restaurants Found in ${stateName} - Vegan Restaurant Finds`,
+          title: `No Restaurants Found in ${stateName} - US Vegan Restaurant Directory`,
           description: `No vegan restaurants found in ${stateName}. Check back later for updates.`,
           canonical: `${req.protocol}://${req.get('host')}${req.originalUrl}`
         }

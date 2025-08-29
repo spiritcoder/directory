@@ -12,8 +12,8 @@
     <div class="container">
       <div class="hero-wrapper">
         <header class="hero-header">
-          <h1 class="hero-h1" style="color: white;">🌱 Find Amazing Vegan Restaurants Across US, Canada & UK</h1>
-          <p class="hero-description">Discover <%= stats.totalRestaurants %>+ plant-based restaurants across 3 countries. From casual dining to fine cuisine, find your perfect vegan meal with verified reviews and ratings.</p>
+          <h1 class="hero-h1" style="color: white;">🌱 Find Amazing Vegan Restaurants Across America</h1>
+          <p class="hero-description">Discover <%= stats.totalRestaurants %>+ plant-based restaurants across all 50 US states. From casual dining to fine cuisine, find your perfect vegan meal with verified reviews and ratings.</p>
         </header>
         
         <div class="hero-search-wrapper">
@@ -41,12 +41,12 @@
             <span class="metric-label">Verified Restaurants</span>
           </div>
           <div class="metric-card">
-            <strong class="metric-number">3</strong>
-            <span class="metric-label">Countries</span>
+            <strong class="metric-number">50</strong>
+            <span class="metric-label">US States</span>
           </div>
           <div class="metric-card">
             <strong class="metric-number"><%= stats.totalStates %></strong>
-            <span class="metric-label">Regions</span>
+            <span class="metric-label">Active States</span>
           </div>
         </div>
       </div>
@@ -122,8 +122,8 @@
   <section class="states-showcase-dark">
     <div class="container">
       <div class="section-header">
-        <h2>🇺🇸 Popular Destinations</h2>
-        <p>Explore vegan dining in these top states</p>
+        <h2>🇺🇸 Popular US States</h2>
+        <p>Explore vegan dining in America's top destinations</p>
       </div>
       <div class="states-grid">
         <% topStates.forEach(state => { %>
@@ -189,57 +189,51 @@
     </div>
   </section>
 
-  <!-- Browse by Country -->
+  <!-- Browse by Region -->
   <section class="countries-section">
     <div class="container">
       <div class="section-header">
-        <h2>🌍 Browse by Country</h2>
-        <p>Explore vegan restaurants across North America and the United Kingdom</p>
+        <h2>🗺️ Browse by US Region</h2>
+        <p>Explore vegan restaurants across America's diverse regions</p>
       </div>
       <div class="countries-grid">
         <div class="country-card">
           <div class="country-header">
-            <span class="country-flag">🇺🇸</span>
-            <h3>United States</h3>
-            <p><%= stats.usRestaurants %> restaurants in 50 states</p>
+            <span class="country-flag">🌴</span>
+            <h3>West Coast</h3>
+            <p>California, Oregon, Washington</p>
           </div>
           <div class="regions-preview">
             <a href="/state/california" class="region-link">California</a>
+            <a href="/state/oregon" class="region-link">Oregon</a>
+            <a href="/state/washington" class="region-link">Washington</a>
+          </div>
+        </div>
+        
+        <div class="country-card">
+          <div class="country-header">
+            <span class="country-flag">🏙️</span>
+            <h3>Northeast</h3>
+            <p>New York, Massachusetts, Pennsylvania</p>
+          </div>
+          <div class="regions-preview">
             <a href="/state/new-york" class="region-link">New York</a>
-            <a href="/state/texas" class="region-link">Texas</a>
+            <a href="/state/massachusetts" class="region-link">Massachusetts</a>
+            <a href="/state/pennsylvania" class="region-link">Pennsylvania</a>
+          </div>
+        </div>
+        
+        <div class="country-card">
+          <div class="country-header">
+            <span class="country-flag">🌞</span>
+            <h3>Southeast</h3>
+            <p>Florida, Georgia, North Carolina</p>
+          </div>
+          <div class="regions-preview">
             <a href="/state/florida" class="region-link">Florida</a>
+            <a href="/state/georgia" class="region-link">Georgia</a>
+            <a href="/state/north-carolina" class="region-link">North Carolina</a>
           </div>
-          <a href="/us" class="country-btn">View All US States →</a>
-        </div>
-        
-        <div class="country-card">
-          <div class="country-header">
-            <span class="country-flag">🇨🇦</span>
-            <h3>Canada</h3>
-            <p>Explore vegan restaurants across 13 provinces & territories</p>
-          </div>
-          <div class="regions-preview">
-            <a href="/state/ontario" class="region-link">Ontario</a>
-            <a href="/state/british-columbia" class="region-link">British Columbia</a>
-            <a href="/state/quebec" class="region-link">Quebec</a>
-            <a href="/state/alberta" class="region-link">Alberta</a>
-          </div>
-          <a href="/canada" class="country-btn">View All Canadian Provinces →</a>
-        </div>
-        
-        <div class="country-card">
-          <div class="country-header">
-            <span class="country-flag">🇬🇧</span>
-            <h3>United Kingdom</h3>
-            <p>Discover vegan restaurants across 4 regions</p>
-          </div>
-          <div class="regions-preview">
-            <a href="/state/england" class="region-link">England</a>
-            <a href="/state/scotland" class="region-link">Scotland</a>
-            <a href="/state/wales" class="region-link">Wales</a>
-            <a href="/state/northern-ireland" class="region-link">Northern Ireland</a>
-          </div>
-          <a href="/uk" class="country-btn">View All UK Regions →</a>
         </div>
       </div>
     </div>

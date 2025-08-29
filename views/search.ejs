@@ -12,19 +12,13 @@
     <div class="hero-content">
       <div class="container">
         <h1 class="hero-title">🔍 Find Your Perfect Vegan Restaurant</h1>
-        <p class="hero-subtitle">Discover amazing plant-based dining experiences across the United States</p>
+        <p class="hero-subtitle">Discover amazing plant-based dining experiences across all 50 US states</p>
         
         <form class="search-form" method="GET" action="/search">
           <div class="search-inputs">
             <input type="text" name="q" placeholder="Restaurant name, city, or cuisine..." value="<%= searchQuery %>" class="search-input">
-            <select name="country" class="search-select">
-              <option value="">All Countries</option>
-              <option value="United States" <%= selectedCountry === 'United States' ? 'selected' : '' %>>🇺🇸 United States</option>
-              <option value="Canada" <%= selectedCountry === 'Canada' ? 'selected' : '' %>>🇨🇦 Canada</option>
-              <option value="United Kingdom" <%= selectedCountry === 'United Kingdom' ? 'selected' : '' %>>🇬🇧 United Kingdom</option>
-            </select>
             <select name="state" class="search-select">
-              <option value="">All States/Regions</option>
+              <option value="">All US States</option>
               <% allStates.forEach(state => { %>
                 <option value="<%= state %>" <%= selectedState === state ? 'selected' : '' %>><%= state %></option>
               <% }) %>
@@ -53,7 +47,6 @@
             <% 
               let searchTerms = [];
               if (searchQuery) searchTerms.push(`"${searchQuery}"`);
-              if (selectedCountry) searchTerms.push(selectedCountry);
               if (selectedState) searchTerms.push(selectedState);
               if (selectedCategory) searchTerms.push(selectedCategory);
             %>
@@ -114,7 +107,6 @@
             function buildPageUrl(pageNum) {
               let params = [];
               if (searchQuery) params.push(`q=${encodeURIComponent(searchQuery)}`);
-              if (selectedCountry) params.push(`country=${encodeURIComponent(selectedCountry)}`);
               if (selectedState) params.push(`state=${encodeURIComponent(selectedState)}`);
               if (selectedCategory) params.push(`category=${encodeURIComponent(selectedCategory)}`);
               params.push(`page=${pageNum}`);

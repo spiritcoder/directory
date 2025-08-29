@@ -10,7 +10,7 @@ router.get('/:slug', async (req, res) => {
     if (!restaurant) {
       return res.status(404).render('404', {
         seo: {
-          title: 'Restaurant Not Found - Vegan Restaurant Finds',
+          title: 'Restaurant Not Found - US Vegan Restaurant Directory',
           description: 'The restaurant you are looking for does not exist.',
           canonical: `${req.protocol}://${req.get('host')}/restaurant/${req.params.slug}`
         }

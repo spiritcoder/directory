@@ -52,7 +52,6 @@ router.get('/', async (req, res) => {
 
     // Get total stats
     const totalRestaurants = await Restaurant.countDocuments();
-    const usRestaurants = await Restaurant.countDocuments({ 'address.country': 'United States' });
     const totalReviews = await Restaurant.aggregate([
       { $group: { _id: null, total: { $sum: '$reviewCount' } } }
     ]);
@@ -73,12 +72,11 @@ router.get('/', async (req, res) => {
         totalRestaurants,
         totalReviews: totalReviews[0]?.total || 0,
         totalStates: stateCounts.length,
-        totalCategories: categoryCounts.length,
-        usRestaurants
+        totalCategories: categoryCounts.length
       },
       seo: {
-        title: 'Vegan Restaurant Directory - Find Plant-Based Dining Across America,the UK and Canada',
-        description: 'Discover the best vegan restaurants in US, UK and Canada. Browse by location, read reviews, and find your next plant-based dining experience.',
+        title: 'US Vegan Restaurant Directory - Find Plant-Based Dining Across America',
+        description: 'Discover the best vegan restaurants across the United States. Browse by state and city, read reviews, and find your next plant-based dining experience.',
         canonical: `${req.protocol}://${req.get('host')}/`,
         ogImage: `${req.protocol}://${req.get('host')}/images/logo.png`
       }

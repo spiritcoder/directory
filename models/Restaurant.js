@@ -30,8 +30,22 @@ const restaurantSchema = new mongoose.Schema({
   category: String,
   description: String,
   about: String,
+  
+  // AI-generated rich content fields
+  menuHighlights: String,
+  atmosphereDescription: String,
+  dietaryAccommodations: String,
+  bestTimesToVisit: String,
+  uniqueSellingPoints: String,
+  localContext: String,
+  faqSection: String,
+  
+  // AI generation tracking
   aiDescriptionGenerated: { type: Boolean, default: false },
   aiDescriptionAttempts: { type: Number, default: 0 },
+  aiContentGenerated: { type: Boolean, default: false },
+  aiContentAttempts: { type: Number, default: 0 },
+  
   images: [String],
   priceRange: String
 }, { timestamps: true });

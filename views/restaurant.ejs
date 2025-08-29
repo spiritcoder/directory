@@ -181,6 +181,66 @@
       </section>
       <% } %>
 
+      <!-- Menu Highlights -->
+      <% if (restaurant.menuHighlights) { %>
+      <section class="menu-section">
+        <div class="section-card">
+          <h3 class="section-title">🍽️ Menu Highlights</h3>
+          <div class="about-text"><%- restaurant.menuHighlights %></div>
+        </div>
+      </section>
+      <% } %>
+
+      <!-- Atmosphere & Ambiance -->
+      <% if (restaurant.atmosphereDescription) { %>
+      <section class="atmosphere-section">
+        <div class="section-card">
+          <h3 class="section-title">🏮 Atmosphere & Ambiance</h3>
+          <div class="about-text"><%- restaurant.atmosphereDescription %></div>
+        </div>
+      </section>
+      <% } %>
+
+      <!-- Dietary Accommodations -->
+      <% if (restaurant.dietaryAccommodations) { %>
+      <section class="dietary-section">
+        <div class="section-card">
+          <h3 class="section-title">🌿 Dietary Accommodations</h3>
+          <div class="about-text"><%- restaurant.dietaryAccommodations %></div>
+        </div>
+      </section>
+      <% } %>
+
+      <!-- Best Times to Visit -->
+      <% if (restaurant.bestTimesToVisit) { %>
+      <section class="timing-section">
+        <div class="section-card">
+          <h3 class="section-title">⏰ Best Times to Visit</h3>
+          <div class="about-text"><%- restaurant.bestTimesToVisit %></div>
+        </div>
+      </section>
+      <% } %>
+
+      <!-- What Makes Us Special -->
+      <% if (restaurant.uniqueSellingPoints) { %>
+      <section class="unique-section">
+        <div class="section-card">
+          <h3 class="section-title">⭐ What Makes Us Special</h3>
+          <div class="about-text"><%- restaurant.uniqueSellingPoints %></div>
+        </div>
+      </section>
+      <% } %>
+
+      <!-- Local Area -->
+      <% if (restaurant.localContext) { %>
+      <section class="local-section">
+        <div class="section-card">
+          <h3 class="section-title">📍 Local Area & Neighborhood</h3>
+          <div class="about-text"><%- restaurant.localContext %></div>
+        </div>
+      </section>
+      <% } %>
+
       <!-- Gallery Modal -->
       <div id="galleryModal" class="gallery-modal">
         <span class="gallery-close" onclick="closeGallery()">&times;</span>

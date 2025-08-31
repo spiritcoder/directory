@@ -54,11 +54,11 @@ Existing details: ${restaurant.description || 'No additional details'}`;
     for (const section of sections) {
       // Set optimized token limits based on word count requirements
       let maxTokens = 200; // Reduced default for efficiency
-      if (section.field === 'about') maxTokens = 450; // 250-300 words
+      if (section.field === 'about') maxTokens = 550; // 250-300 words
       if (section.field === 'atmosphereDescription') maxTokens = 300; // 150-200 words
       if (section.field === 'localContext') maxTokens = 300; // 150-200 words
       if (section.field === 'menuHighlights') maxTokens = 350; // 120-150 words + HTML formatting
-      if (section.field === 'uniqueSellingPoints') maxTokens = 280; // 100-120 words + HTML formatting
+      if (section.field === 'uniqueSellingPoints') maxTokens = 350; // 100-120 words + HTML formatting
       if (section.field === 'dietaryAccommodations') maxTokens = 250; // 80-100 words + HTML formatting
       if (section.field === 'bestTimesToVisit') maxTokens = 250; // 80-100 words + HTML formatting
       

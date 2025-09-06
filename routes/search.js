@@ -63,7 +63,7 @@ router.get('/', async (req, res) => {
       seo: {
         title: `Search Results${q ? ` for "${q}"` : ''} - US Vegan Restaurant Directory`,
         description: `Find vegan restaurants in the US${q ? ` matching "${q}"` : ''}. Browse plant-based dining options with reviews and ratings.`,
-        canonical: `${req.protocol}://${req.get('host')}${req.originalUrl}`,
+        canonical: `${req.protocol}://${req.get('host')}/search`,
         ogImage: `${req.protocol}://${req.get('host')}/images/logo.png`
       }
     });

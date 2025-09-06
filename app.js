@@ -110,7 +110,7 @@ app.use((req, res) => {
     seo: {
       title: 'Page Not Found - US Vegan Restaurant Directory',
       description: 'The page you are looking for does not exist.',
-      canonical: `${req.protocol}://${req.get('host')}${req.originalUrl}`
+      canonical: `${req.protocol}://${req.get('host')}${req.path}`
     }
   });
 });

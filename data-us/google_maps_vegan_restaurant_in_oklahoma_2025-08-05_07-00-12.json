@@ -1,0 +1,1203 @@
+[
+  {
+    "businessName": "The Loaded Bowl",
+    "address": {
+      "street": "1211 SW 2nd St",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73108",
+      "country": "United States"
+    },
+    "phone": "+1 405-820-9599",
+    "website": "https://theloadedbowlokc.com",
+    "rating": "4.7",
+    "reviewCount": "1826",
+    "priceRange": "$10–20",
+    "reviews": [],
+    "hours": [
+      "Tuesday11 am–8 pm",
+      "Wednesday11 am–8 pm",
+      "Thursday11 am–8 pm",
+      "Friday11 am–8 pm",
+      "Saturday11 am–8 pm"
+    ],
+    "category": "Casual Dining",
+    "description": "",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipNHfiAd-hpmMwjR2aTVtTRcPYLBCSW3UkI_47Si=s0"
+    ]
+  },
+  {
+    "businessName": "Betty's",
+    "address": {
+      "street": "3604 N May Ave suite e",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73112",
+      "country": "United States"
+    },
+    "phone": "+1 405-420-1585",
+    "website": "https://bettystogo.com",
+    "rating": "4.8",
+    "reviewCount": "218",
+    "priceRange": "$10–20",
+    "reviews": [
+      "Betty’s is the BEST vegan place around! We drive over an hour from Tulsa just to enjoy Betty’s, and it is so worth it! Not only is the food incredible but the owners are so kind and down to earth. They really make your experience amazing! 1000/10 🤩⭐️ …",
+      "This is a takeout only place so I’m only giving it to stars for atmosphere because there is none.  Now let’s get to the food. The macaroni and cheese had a unique taste. Not really bad not really delicious. Just OK but very unique. The …",
+      "Thank you for the review family. We appreciate your feedback and are so glad you enjoyed everything.",
+      "I'm from NC and was looking for a healthy vegan place to eat and boy did I hit the jackpot when I found Betty's. I got the Soul Platter, with collards green, cabbage and blackpeas. Each dish had its very own distinct delicious flavor. For …",
+      "The soul platter is definitely a house favorite and we are so happy to know you enjoyed it as much as us!! Thank you for your detailed and kind review. We appreciate you family."
+    ],
+    "hours": [
+      "Closed ⋅ Opens 12 pm"
+    ],
+    "category": "Casual Dining",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance,  Does not have assistive hearing loop, No wheelchair-accessible seating, No wheelchair-accessible toilet; From the business: Identifies as Black-owned; Service options: Offers kerbside pickup, Has no-contact delivery, Offers delivery, Offers takeaway, On-site services not available, No dine-in; Highlights: Serves great dessert; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves comfort food, Serves healthy options, Quick bite, Serves small plates, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves lunch, Serves dinner, Has catering, Serves dessert, No table service; Amenities: No toilet; Atmosphere: Casual, Quiet, Trendy; Crowd: Popular with tourists, Popular with university students; Planning: Doesn't accept reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Parking: Free of charge street parking, Free parking lot, Plenty of parking",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0"
+    ]
+  },
+  {
+    "businessName": "The Beet Box",
+    "address": {
+      "street": "7101 Northwest Expy #300",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73132",
+      "country": "United States"
+    },
+    "phone": "+1 580-430-0186",
+    "website": "https://beetboxokc.com",
+    "rating": "4.8",
+    "reviewCount": "370",
+    "priceRange": "$10–20",
+    "reviews": [
+      "I had an amazing experience at The Beet Box. I was skeptical about Chickless sandwich but it had good flavor. I like the fact you can choose a spicy or regular ‘Chick’. The sweet potato tots were delicious and the garlic & herb fries were …",
+      "Jamaal!  Thank you so much for your review! Please let us know what we can do to earn that fifth star!",
+      "Incredible would be an understatement for the amount of flavor and care that goes into this food. My wife and I were excited to try this place out for the first time and it did not disappoint. It's my new favorite restaurant in town. …",
+      "Garrett, This review truly made our day! Thank you so much for giving us a try AND taking the time to leave this awesome review. It feels good knowing you appreciate all the details and love we pour into this business. You got to try some of our best sellers and we're so glad you loved them! Please see us again!",
+      "Fantastic food. I'm not a vegan, and this knocked the socks off of any other local food hands down. The imitation fish/shrimp in the tacos is my favorite, but the bean burger and chicken sandwich were phenomenal. Cheaper than most non fast …"
+    ],
+    "hours": [
+      "TuesdayClosedWednesday12–7:30 pm",
+      "Thursday12–7:30 pm",
+      "Friday12–8:30 pm",
+      "Saturday12–8:30 pm",
+      "Sunday12–7:30 pm"
+    ],
+    "category": "Casual Dining",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating; From the business: Identifies as Black-owned, Identifies as women-owned; Service options: Has outdoor seating, Has no-contact delivery, Offers delivery, Offers takeaway, Serves dine-in; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves comfort food, Serves healthy options, Quick bite, Serves small plates, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves lunch, Serves dinner, Has catering, Serves dessert, Has seating; Amenities: Has gender-neutral toilets, Has toilet; Atmosphere: Casual, Trendy; Crowd: Family friendly, LGBTQ+ friendly, Popular with tourists, Transgender safe space, Popular with university students; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids, High chairs available; Parking: Free of charge street parking, Free parking lot, Plenty of parking; Pets: Dogs allowed outside",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0"
+    ]
+  },
+  {
+    "businessName": "Picasso Cafe",
+    "address": {
+      "street": "3009 Paseo",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73103",
+      "country": "United States"
+    },
+    "phone": "+1 405-602-2002",
+    "website": "https://picassosonpaseo.com",
+    "rating": "4.6",
+    "reviewCount": "2608",
+    "priceRange": "$10–20",
+    "reviews": [
+      "The Paseo District is a really neat area,  lots of shops, has been fixed up very neatly.   The Picasso cafe is a very neat building.  We starting off with the Fried goat cheese , they are a little too rich in taste for us , about 1 was all …",
+      "Creative and Innovative - Sunday Brunch is a work of art!\n10:00am – 3:00pm on Sundays 🤩\nIt took me 4 years but I finally experienced my first brunch at Picasso Café. It …",
+      "My partner and I ate here twice (once in the restaurant and once to-go) within three days on a trip to OKC because of how good the food is. When we dined in, our waiter, Rose, was very sweet and even gave us a list of fun things to do in …"
+    ],
+    "hours": [
+      "Tuesday11 am–10 pm",
+      "Wednesday11 am–10 pm",
+      "Thursday11 am–10 pm",
+      "Friday11 am–11 pm",
+      "Saturday11 am–11 pm",
+      "Sunday10 am–9 pm",
+      "Monday11 am–10 pm"
+    ],
+    "category": "Casual Dining",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Has outdoor seating, Offers kerbside pickup, Has no-contact delivery, Offers delivery, Offers takeaway, Serves dine-in; Highlights: Has fast service, Has great beer selection, Serves great cocktails, Serves great coffee, Serves great dessert, Has great tea selection, Has great wine list, Serves local speciality; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves alcohol, Serves beer, Serves cocktails, Serves coffee, Serves happy-hour drinks, Serves happy-hour food, Serves healthy options, Serves late-night food, Serves organic dishes, Quick bite, Serves small plates, Serves spirits, Serves vegan dishes, Serves vegetarian dishes, Serves wine; Dining options: Serves breakfast, Serves brunch, Serves lunch, Serves dinner, Has catering, Serves dessert, Has seating, Has table service; Amenities: Has bar on site, Has toilet, Has Wi-Fi, Free Wi-Fi; Atmosphere: Casual, Cosy, Historic, Trendy; Crowd: Good for groups, Popular with tourists, Popular with university students; Planning: Brunch reservations recommended, Dinner reservations recommended, Accepts reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: High chairs available, Has kids' menu; Parking: Free of charge street parking, Free parking lot, Somewhat difficult to find a space; Pets: Dogs allowed outside",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipNHfiAd-hpmMwjR2aTVtTRcPYLBCSW3UkI_47Si=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0"
+    ]
+  },
+  {
+    "businessName": "The Red Cup",
+    "address": {
+      "street": "3122 N Classen Blvd",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73118",
+      "country": "United States"
+    },
+    "phone": "+1 405-525-3430",
+    "website": "https://theredcupokc.com",
+    "rating": "4.7",
+    "reviewCount": "1146",
+    "priceRange": "$10–20",
+    "reviews": [
+      "The Red Cup is more than a café — it’s a non-homogenized experience in a homogenized world. A space where flavors, people, and philosophies are celebrated in all their natural diversity. Whether you’re vegan, vegetarian, or just hungry for something real, this spot is worth a visit. We love it!",
+      "First time here. A big variety of foods all vegan or vegetarian. Friendly people.  My kind of place!! Patio or inside seating.  A big chicken walks around on the patio which is very cool...it doesn't brother anyone.  This is a so relaxing …",
+      "I've driven by The Red Cup many times throughout the years but never really had an interest in it. One of my vegan friends highly recommended it, so I decided to give it a try, and I have to say, it was amazing! The place is much bigger on …"
+    ],
+    "hours": [
+      "Tuesday8 am–3 pm",
+      "Wednesday8 am–3 pm",
+      "Thursday8 am–3 pm",
+      "Friday8 am–3 pm",
+      "Saturday9 am–3 pm",
+      "Sunday9 am–3 pm",
+      "Monday8 am–3 pm"
+    ],
+    "category": "Casual Dining",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Has outdoor seating, On-site services available, Offers takeaway, Serves dine-in, No delivery; Highlights: Serves great coffee, Serves great dessert, Has great tea selection; Popular for: Popular for breakfast, Popular for lunch, Good for solo dining; Offerings: Serves coffee, Serves comfort food, Serves healthy options, Serves organic dishes, Quick bite, Serves small plates, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves breakfast, Serves brunch, Serves lunch, Serves dessert, Has seating, No table service; Amenities: Has toilet, Has Wi-Fi, Paid Wi-Fi; Atmosphere: Casual, Cosy, Trendy; Crowd: Family friendly, Good for groups, LGBTQ+ friendly, Popular with tourists, Transgender safe space, Popular with university students; Planning: Doesn't accept reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Parking: Free of charge street parking, Free parking lot, Somewhat difficult to find a space; Pets: Dogs allowed outside",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npiKyB9owHSxV6zGsmCyrmwfgnii8DOlFWq1-eFWUUOD3WimJ-Fvviqjh_W5zUj1plA2IdAjxoL02f_8kePuid74TRsSfsaDO0vlwApOMP-NwYCzv_98BWVMpWNe3Mt-dFg1NXj=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipNHfiAd-hpmMwjR2aTVtTRcPYLBCSW3UkI_47Si=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0"
+    ]
+  },
+  {
+    "businessName": "MushWings",
+    "address": {
+      "street": "1407 NE 10th St",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73117",
+      "country": "United States"
+    },
+    "phone": "+1 405-768-3470",
+    "website": "https://order.online",
+    "rating": "4.7",
+    "reviewCount": "65",
+    "priceRange": "$10–20",
+    "reviews": [
+      "Very friendly staff. Very impressive. barbecue mush wingz were so tender and tasty. the quinoa burger was very very tasty. MushWingz Great Job!  Great food.  Enjoyed every thing about it.  Thank you!",
+      "**Hi Tammy,** … More",
+      "Excellent food! I was impressed with how well the fried mushrooms kept for the next day, but of course, the day of was the best! The owner was super nice and it was just a great experience over all.",
+      "Thank you so much. Glad you enjoyed your food…Even the next day😉 …",
+      "Mush Wings Vegan Food has rapidly established itself as a premier destination for plant-based cuisine in Oklahoma City, earning a reputation as the best vegan food spot in town. The restaurant's commitment to quality, flavor, and innovation …"
+    ],
+    "hours": [
+      "Tuesday4–9 pm",
+      "Wednesday4–9 pm",
+      "Thursday4–9 pm",
+      "Friday4–9 pm",
+      "Saturday4–8 pm",
+      "SundayClosedMonday4–9 pm"
+    ],
+    "category": "Casual Dining",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet,  Does not have assistive hearing loop; From the business: Identifies as Black-owned; Service options: Has outdoor seating, Offers kerbside pickup, Has no-contact delivery, Offers delivery, Offers takeaway, Serves dine-in; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves comfort food, Serves healthy options, Quick bite, Serves small plates, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves lunch, Serves dinner, Has catering, Has counter service, Has seating; Amenities: Has toilet, Has Wi-Fi, Free Wi-Fi; Atmosphere: Casual, Trendy; Crowd: Family friendly, LGBTQ+ friendly, Popular with tourists, Transgender safe space, Popular with university students; Planning: Accepts reservations; Payments: Accepts credit cards, Accepts debit cards, Credit cards; Children: Good for kids, High chairs available; Parking: Free of charge street parking, Free parking lot",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipMb-98XevEPfpw22GzfJWuWdXmPjyoHmq2VnDa_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npiKyB9owHSxV6zGsmCyrmwfgnii8DOlFWq1-eFWUUOD3WimJ-Fvviqjh_W5zUj1plA2IdAjxoL02f_8kePuid74TRsSfsaDO0vlwApOMP-NwYCzv_98BWVMpWNe3Mt-dFg1NXj=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0"
+    ]
+  },
+  {
+    "businessName": "Plant",
+    "address": {
+      "street": "1120 N Walker Ave",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73103",
+      "country": "United States"
+    },
+    "phone": "+1 405-225-1314",
+    "website": "https://eatatplant.com",
+    "rating": "4.2",
+    "reviewCount": "368",
+    "priceRange": "$10–20",
+    "reviews": [
+      "What an oasis of healthy AND delicious food! No compromise! I wish we had more places like this one. 100%plant based except for honey :( which can be easily replaced with dates, date syrup, agave, maple syrup… …",
+      "I love this restaurant! I have all the allergies, and I can eat anything on their menu. The cacao mint chocolate drink is a drink I dream about. Also their fall menu item of Maple Djion Kale salad is the stuff of legends. The complexity of …",
+      "I went and ordered food from Plant on my last day in Oklahoma City and the service from the owner Emma was disgusting, I HIGHLY DO NOT recommend you or anyone supports her business. The food was terrible/poor quality and Emma seemed to be …",
+      "Hi there, \n\nI normally don’t respond to reviews like this, but this one deserves some … More"
+    ],
+    "hours": [
+      "Closed ⋅ Opens 8 am"
+    ],
+    "category": "Casual Dining",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Offers takeaway, Serves dine-in; Highlights: Has fast service, Has great tea selection; Popular for: Popular for breakfast, Popular for lunch, Good for solo dining; Offerings: Serves alcohol, Serves beer, Serves coffee, Serves healthy options, Serves organic dishes, Quick bite, Serves small plates, Serves vegan dishes, Serves vegetarian dishes, Serves wine; Dining options: Serves breakfast, Serves brunch, Serves lunch, Serves dessert, Has seating, No table service; Amenities: Has toilet; Atmosphere: Casual, Cosy, Trendy; Crowd: Good for groups, Popular with tourists, Popular with university students; Planning: Accepts reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments; Children: High chairs available, Has kids' menu; Parking: Free of charge street parking, Free parking lot, Plenty of parking; Pets: Dogs allowed outside",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqcaapFnJGAkUISpAarFlJ3lPWtwzB9dDLBUuNc0NE0d2EPXOZeqm0Gi6BC9rSJCQVT9tvl-hq4Ze9w4As_i_5k2CWwc4O1kmyXP-WCYF29dtkudV_ddVVSDzTg6iZ44OI_3WtA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipMb-98XevEPfpw22GzfJWuWdXmPjyoHmq2VnDa_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0"
+    ]
+  },
+  {
+    "businessName": "The Alkaline Plant-Based Stop",
+    "address": {
+      "street": "1407 NE 10th St",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73117",
+      "country": "United States"
+    },
+    "phone": "+1 405-768-3470",
+    "website": "https://order.online",
+    "rating": "4.7",
+    "reviewCount": "198",
+    "priceRange": "$10–20",
+    "reviews": [
+      "They are between locations at a temporary location. Find these folks! I had an oyster mushroom “chicken” sandwich. Friendly people. This place is a blessing. Delicious. Satisfying.",
+      "We’re so happy you enjoyed the food! We’re looking forward to serving you! Safe travels my friend!",
+      "little kitchen tucked in wellness center which turn out to a real awesome high vibe slow food experience!! they grow their own oysters ! the kickn chicken sandwich was the best we have ever had!!! mouth watering tacos and mush wings- worth noted “hot” means piping hot its not for the weak 😀 …",
+      "thank you so much Kat.  So glad that you enjoyed the food and thank you for the kind words.",
+      "They did not have all the menu items so I opted for the recommended item it was pretty decent. It was not something that I would order again but that's not because it wasn't good flavor it's just not something that I personally like. The …"
+    ],
+    "hours": [
+      "Closed ⋅ Opens 4 pm"
+    ],
+    "category": "Casual Dining",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; From the business: Identifies as Black-owned; Service options: Has outdoor seating, Offers kerbside pickup, Offers delivery, Offers takeaway, Serves dine-in; Highlights: Good for watching sport; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves comfort food, Serves healthy options, Serves organic dishes, Has private dining room, Quick bite, Serves small plates, Serves vegan dishes; Dining options: Serves breakfast, Serves brunch, Serves lunch, Serves dinner, Has catering, Has counter service, Has seating; Amenities: Has toilet, Has Wi-Fi, Free Wi-Fi; Atmosphere: Casual, Trendy; Crowd: Family friendly, LGBTQ+ friendly, Popular with tourists, Transgender safe space; Planning: Accepts reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids, High chairs available, Has kids' menu; Parking: Free of charge street parking, Free parking lot",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipPF1EU7Y9GfMZOvIfz_k44ehI3F8sMswnh_4oY3=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqcaapFnJGAkUISpAarFlJ3lPWtwzB9dDLBUuNc0NE0d2EPXOZeqm0Gi6BC9rSJCQVT9tvl-hq4Ze9w4As_i_5k2CWwc4O1kmyXP-WCYF29dtkudV_ddVVSDzTg6iZ44OI_3WtA=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0"
+    ]
+  },
+  {
+    "businessName": "Flower Child",
+    "address": {
+      "street": "1144 NW 63rd St Suite 1003",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73116",
+      "country": "United States"
+    },
+    "phone": "+1 405-486-0420",
+    "website": "https://iamaflowerchild.com",
+    "rating": "4.6",
+    "reviewCount": "921",
+    "priceRange": "$10–20",
+    "reviews": [
+      "Food is meh. I’ve eaten here 3 times. While the atmosphere and decor is inviting. The food doesn’t hit, it has fell short each time. Their seasonal sangrias are great…but even the desserts miss.",
+      "Hello!\nI apologize for your last few visits; we would love to get you paired up with some food that you would love! Please ask for a manager next time you're in and … More",
+      "Pleasant atmosphere to linger and eat. The attentive server helped me pick the entree and 2 sides meal.  I ordered blackened salmon with sweet potatoes and Brussel sprouts.  It was the right portion size for a healthy weeknight meal.",
+      "Thank you!",
+      "This dining experience presented a unique and intriguing approach to ordering, adding an element of novelty to the proceedings. The overall presentation of the dishes was visually appealing, and the execution demonstrated a certain level of …"
+    ],
+    "hours": [
+      "Tuesday11 am–9 pm",
+      "Wednesday11 am–9 pm",
+      "Thursday11 am–9 pm",
+      "Friday11 am–9 pm",
+      "Saturday11 am–9 pm",
+      "Sunday11 am–9 pm",
+      "Monday11 am–9 pm"
+    ],
+    "category": "American",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Has outdoor seating, Offers kerbside pickup, Offers delivery, Offers takeaway, Serves dine-in; Highlights: Has fast service; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves alcohol, Serves beer, Serves coffee, Serves comfort food, Serves healthy options, Serves organic dishes, Quick bite, Serves small plates, Serves vegan dishes, Serves vegetarian dishes, Serves wine; Dining options: Serves lunch, Serves dinner, Has catering, Has counter service, Serves dessert, Has seating, Has table service; Amenities: Has toilet; Atmosphere: Casual, Trendy; Crowd: Family friendly, Good for groups, Popular with tourists, Popular with university students; Planning: Doesn't accept reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids, High chairs available, Has kids' menu; Parking: Free of charge street parking, Free parking lot, Plenty of parking",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqSE653jltDZy56zubyxTlgjX6A73W51op3uTn37E_fTyiWXUIuuehi9igRuvuBsk8j6vKHhanLgG_SweNRZ_jhoT5bEcQcptXBWezIefBLA1Ao-nT0YeK1RmT2dnKxihQwxdmdNg=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipPF1EU7Y9GfMZOvIfz_k44ehI3F8sMswnh_4oY3=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0"
+    ]
+  },
+  {
+    "businessName": "Opolis",
+    "address": {
+      "street": "113 N Crawford Ave",
+      "city": "Norman",
+      "state": "OK",
+      "zipCode": "73069",
+      "country": "United States"
+    },
+    "phone": "",
+    "website": "https://opolis.org",
+    "rating": "4.6",
+    "reviewCount": "234",
+    "priceRange": "$10–20",
+    "reviews": [
+      "I had such an incredible experience that I completely forgot to snap a photo of the food, but wow! This all-vegan venue absolutely blew me away. The flavors that emerged from the kitchen were beyond words—just pure deliciousness! And let’s …",
+      "LOVE this place. Sage & Busty’s drag show is a must see. Opolis is keeping Norman awesome.",
+      "June 2, 2023\nI went to Opolis tonight and it was a blast. From what I gather a group of \"fascinating and eclectic young individuals\" have shown enterpreuneuship and taken …"
+    ],
+    "hours": [
+      "Closed ⋅ Opens 7 pm"
+    ],
+    "category": "Casual Dining",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Has outdoor seating, Offers kerbside pickup, Offers delivery, Offers takeaway, Serves dine-in; Highlights: Has fast service, Has great beer selection, Serves great cocktails, Has live music; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves alcohol, Serves beer, Serves cocktails, Serves healthy options, Serves small plates, Serves spirits, Serves vegan dishes, Serves vegetarian dishes, Serves wine; Dining options: Serves brunch, Serves lunch, Serves dinner, Serves dessert, Has seating; Amenities: Has bar on site, Has gender-neutral toilets, Has toilet; Atmosphere: Casual, Trendy; Crowd: Good for groups, Popular with tourists, Popular with university students; Planning: Accepts reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids; Parking: Free of charge street parking, Free parking lot, Paid parking lot, Plenty of parking; Pets: Dogs allowed",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq6i7OOwfirdRpERU4iJ0kYAJbBrHgU8H9VVcU7wNfcyevywudYSD2MT2X7d5PuIADBWzoAqwe2bRB_to-4vwUBGfTx4PNJrE7m6Mnbk1U2oeTgh6K72qBsU1vL8lMnMn7caESTCQ=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqSE653jltDZy56zubyxTlgjX6A73W51op3uTn37E_fTyiWXUIuuehi9igRuvuBsk8j6vKHhanLgG_SweNRZ_jhoT5bEcQcptXBWezIefBLA1Ao-nT0YeK1RmT2dnKxihQwxdmdNg=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipPF1EU7Y9GfMZOvIfz_k44ehI3F8sMswnh_4oY3=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0"
+    ]
+  },
+  {
+    "businessName": "ShoNuff Vegan - Burger/Philly Joint",
+    "address": {
+      "street": "1407 NE 10th St",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73117",
+      "country": "United States"
+    },
+    "phone": "+1 405-768-3470",
+    "website": "https://order.online",
+    "rating": "5.0",
+    "reviewCount": "7",
+    "priceRange": "",
+    "reviews": [
+      "Absolutely delicious food and excellent owners that care! Best food I've ordered in years, the absolute BEST vegan gluten free food ever! Thank you! Dr. Sebi saved my life and it's wonderful to see his diet being promoted.",
+      "Thank you so much! So glad you enjoyed the food.",
+      "Totally impressed with the food, service and the atmosphere. Two thumbs up!! I have never been more saturated. Thanks shonuff, for pleasing my palette healthily.",
+      "This was the BEST vegan/plant base burger i ever tasted.  The texture is out of this world.  You seriously can not tell the difference and feel as though you are eating a meat patty but it is not! Oh my gosh!  If you have not tried them you …",
+      "Thank you so much! So glad you enjoyed our food!"
+    ],
+    "hours": [
+      "Tuesday4–9 pm",
+      "Wednesday4–9 pm",
+      "Thursday4–9 pm",
+      "Friday4–9 pm",
+      "Saturday4–8 pm",
+      "SundayClosedMonday4–9 pm"
+    ],
+    "category": "Casual Dining",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet,  Does not have assistive hearing loop; From the business: Identifies as Black-owned, Identifies as women-owned; Service options: Offers delivery, Offers takeaway, Serves dine-in; Highlights: Has fast service, Good for watching sport; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves comfort food, Serves healthy options, Serves organic dishes, Quick bite, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves lunch, Serves dinner, Serves dessert, Has seating; Amenities: Has gender-neutral toilets, Has toilet, Has Wi-Fi, Free Wi-Fi; Atmosphere: Casual, Trendy; Crowd: Family friendly, LGBTQ+ friendly, Popular with tourists, Transgender safe space, Popular with university students; Planning: Accepts reservations; Payments: Accepts credit cards, Accepts debit cards; Children: Good for kids, High chairs available, Has kids' menu; Parking: Free of charge street parking, Free parking lot; Pets: Dogs allowed, Dogs allowed outside",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq6i7OOwfirdRpERU4iJ0kYAJbBrHgU8H9VVcU7wNfcyevywudYSD2MT2X7d5PuIADBWzoAqwe2bRB_to-4vwUBGfTx4PNJrE7m6Mnbk1U2oeTgh6K72qBsU1vL8lMnMn7caESTCQ=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipPVFcTV2Kc2I7bt_6Aqu-6M1BVNkcopbUNdjQ8l=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqSE653jltDZy56zubyxTlgjX6A73W51op3uTn37E_fTyiWXUIuuehi9igRuvuBsk8j6vKHhanLgG_SweNRZ_jhoT5bEcQcptXBWezIefBLA1Ao-nT0YeK1RmT2dnKxihQwxdmdNg=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0"
+    ]
+  },
+  {
+    "businessName": "Red Rooster",
+    "address": {
+      "street": "3100 N Walker Ave",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73118",
+      "country": "United States"
+    },
+    "phone": "+1 405-463-9982",
+    "website": "https://okcredrooster.com",
+    "rating": "4.5",
+    "reviewCount": "324",
+    "priceRange": "",
+    "reviews": [
+      "We arrived right when they opened. Promptly seated and water served. Hostess and waitress were both super pleasant and inside was clean and orderly. We ordered the charcuterie board for an appetizer and brisket and chicken fried bison for …",
+      "Everything was AMAZING!! The cherry on top was the peach upside down cake! Don't hesitate to visit the red rooster. Clean intimate dining area wonderful attentive staff, clean washrooms.",
+      "First time coming here! Can’t wait to come back!! The service was absolutely incredible- Cassie the manager went above and beyond for us! Very personable & accommodating and made me feel very safe about my food allergies (celiac & allergic …"
+    ],
+    "hours": [
+      "Closed ⋅ Opens 4 pm"
+    ],
+    "category": "Casual Dining",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; From the business: Identifies as women-owned; Service options: Has outdoor seating, Offers kerbside pickup, Offers delivery, Offers takeaway, Serves dine-in; Highlights: Has fast service, Has great beer selection, Serves great cocktails, Good for watching sport; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves alcohol, Serves beer, Serves cocktails, Serves coffee, Serves comfort food, Serves happy-hour drinks, Serves happy-hour food, Serves healthy options, Serves late-night food, Serves organic dishes, Quick bite, Serves small plates, Serves spirits, Serves vegan dishes, Serves vegetarian dishes, Serves wine; Dining options: Serves brunch, Serves lunch, Serves dinner, Has catering, Serves dessert, Has seating, Has table service; Amenities: Has bar on site, Has gender-neutral toilets, Has toilet, Has Wi-Fi, Free Wi-Fi; Atmosphere: Casual, Cosy, Historic, Trendy; Crowd: Family friendly, Good for groups, LGBTQ+ friendly, Popular with tourists, Transgender safe space; Planning: Accepts reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids, High chairs available, Has kids' menu; Parking: Free of charge street parking, Free parking lot; Pets: Dogs allowed",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq6i7OOwfirdRpERU4iJ0kYAJbBrHgU8H9VVcU7wNfcyevywudYSD2MT2X7d5PuIADBWzoAqwe2bRB_to-4vwUBGfTx4PNJrE7m6Mnbk1U2oeTgh6K72qBsU1vL8lMnMn7caESTCQ=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np9f0yV5SlsMIVWS2VtKSUobGnkaOHdDRXWMSzaoubFH8JQ9uP3wXa9MmM5fN7y4C08U8hsdRcKIzc1soGljgfbpqtG2x-TGr1aKMUwGc2nWc_LdRjNa0a3H9pGg4f9m5qUoFg8=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipPVFcTV2Kc2I7bt_6Aqu-6M1BVNkcopbUNdjQ8l=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0"
+    ]
+  },
+  {
+    "businessName": "Saturn Grill",
+    "address": {
+      "street": "6432 Avondale Dr",
+      "city": "Nichols Hills",
+      "state": "OK",
+      "zipCode": "73116",
+      "country": "United States"
+    },
+    "phone": "+1 405-843-7114",
+    "website": "https://saturngrill.com",
+    "rating": "4.5",
+    "reviewCount": "439",
+    "priceRange": "$10–20",
+    "reviews": [
+      "The Alaskan Salmon with Thai red curry was delicious! Sadly I couldn’t find it on delivery app. They cook the salmon perfectly! The price is very reasonable! Super recommended",
+      "If you’re craving a good, solid sandwich that doesn’t disappoint, then this is the place for you! If a sandwich doesn’t suit your fancy, then you can get pasta, salad, pizza, and many other delicious options. There are items on the menu …",
+      "Saturn Grill – Wild Alaskan Salmon Review 🐟🔥🍛\n\nBaybeeee... this Wild Alaskan Salmon from Saturn Grill was a whole tropical …"
+    ],
+    "hours": [
+      "Tuesday11 am–9 pm",
+      "Wednesday11 am–9 pm",
+      "Thursday11 am–9 pm",
+      "Friday11 am–9 pm",
+      "Saturday11 am–9 pm",
+      "SundayClosedMonday11 am–9 pm"
+    ],
+    "category": "Casual Dining",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Has outdoor seating, Offers delivery, Offers takeaway, Serves dine-in; Highlights: Has fast service; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves alcohol, Serves beer, Serves coffee, Serves comfort food, Serves healthy options, Quick bite, Serves small plates, Serves vegan dishes, Serves vegetarian dishes, Serves wine; Dining options: Serves lunch, Serves dinner, Has catering, Serves dessert, Has seating, No table service; Amenities: Has toilet; Atmosphere: Casual, Trendy; Crowd: Family friendly, Popular with locals, Popular with university students; Planning: Doesn't accept reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids, High chairs available, Has kids' menu; Parking: Free of charge street parking, Free parking lot, Plenty of parking",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq6i7OOwfirdRpERU4iJ0kYAJbBrHgU8H9VVcU7wNfcyevywudYSD2MT2X7d5PuIADBWzoAqwe2bRB_to-4vwUBGfTx4PNJrE7m6Mnbk1U2oeTgh6K72qBsU1vL8lMnMn7caESTCQ=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqsoudTH4Pn77DcsoW9wjg8IFdlY1IJi7Bj_khsiugPXJu91i-uhl2i9VLblBTT_kAXwDz0_t6gvY2LKWJsg_VF4HwRbZXA5OPqVTY9d2ikMyXYhlqoDHwp7OI0ZN6bJACaK6M=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np9f0yV5SlsMIVWS2VtKSUobGnkaOHdDRXWMSzaoubFH8JQ9uP3wXa9MmM5fN7y4C08U8hsdRcKIzc1soGljgfbpqtG2x-TGr1aKMUwGc2nWc_LdRjNa0a3H9pGg4f9m5qUoFg8=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0"
+    ]
+  },
+  {
+    "businessName": "Bondi Bowls",
+    "address": {
+      "street": "136 E 5th St",
+      "city": "Edmond",
+      "state": "OK",
+      "zipCode": "73034",
+      "country": "United States"
+    },
+    "phone": "+1 405-982-8606",
+    "website": "https://bondibowls.com",
+    "rating": "4.8",
+    "reviewCount": "127",
+    "priceRange": "$10–20",
+    "reviews": [
+      "A refreshing treat on a hot summer day! The atmosphere is super cute and inviting, and the service is always friendly and quick. Definitely a sweet spot we visit often.",
+      "Thank you so much for your kind and thoughtful review!! We hope to serve you again soon!",
+      "Love this açaí place! They have SO many clean/vegan/organic options and allow you to add whey or pea protein to bowls. Their power balls are yummy too! If I had to compare açaí places (surf bar or boho berry) I would choose surf bar every time.",
+      "Absolutely beautiful place!!\nService was amazing!\nI’m not a smoothie person nor would I eat something like this, but OMG! It was so yummy! Can’t wait to go back again!",
+      "Thank you so much!! We are blessed to serve you, and can't wait to see you in the store again soon!"
+    ],
+    "hours": [
+      "Tuesday8 am–9 pm",
+      "Wednesday8 am–9 pm",
+      "Thursday8 am–9 pm",
+      "Friday8 am–9 pm",
+      "Saturday8 am–9 pm",
+      "Sunday12–9 pm",
+      "Monday8 am–9 pm"
+    ],
+    "category": "Juice & Smoothies",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; From the business: Identifies as women-owned; Service options: Offers kerbside pickup, Offers delivery, Offers takeaway, Serves dine-in; Popular for: Popular for lunch, Good for solo dining; Offerings: Serves coffee, Serves comfort food, Serves healthy options, Quick bite, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves breakfast, Serves brunch, Serves lunch, Serves dinner, Has catering, Has counter service, Serves dessert, Has seating; Amenities: Has toilet; Atmosphere: Casual, Trendy; Crowd: Family friendly, Popular with tourists, Popular with university students; Planning: Doesn't accept reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids, Has kids' menu; Parking: Free of charge street parking, Free parking lot",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipOY8cOfjUCeX-0_O_0rAKAnsJNeSjUD5KRucM_v=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqsoudTH4Pn77DcsoW9wjg8IFdlY1IJi7Bj_khsiugPXJu91i-uhl2i9VLblBTT_kAXwDz0_t6gvY2LKWJsg_VF4HwRbZXA5OPqVTY9d2ikMyXYhlqoDHwp7OI0ZN6bJACaK6M=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0"
+    ]
+  },
+  {
+    "businessName": "The Press",
+    "address": {
+      "street": "1610 N Gatewood Ave",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73106",
+      "country": "United States"
+    },
+    "phone": "+1 405-208-7739",
+    "website": "https://thepressokc.com",
+    "rating": "4.5",
+    "reviewCount": "2223",
+    "priceRange": "$10–20",
+    "reviews": [
+      "Absolutely loved our dinner at The Press! The mozzarella sticks were perfectly crispy on the outside and gooey on the inside—an ideal starter. The real star, though, was the chicken fried ribeye: juicy, tender, and fried to golden …",
+      "The Press is brunch heaven! 🍳🥂 Their drinks are on point, the food is delicious, and it’s the perfect spot for groups. Chill vibes, tasty bites—what more could you want? We’ll be back! I only gave it 4 stars because the service wasn't the best. …",
+      "The atmosphere was great. Old meets new is also where old meets young. Our waitress was nice, very quiet, and difficult to hear in a large space with general conversation noise. We ordered the Mozz sticks and nachos with chicken. Sticks …"
+    ],
+    "hours": [
+      "Tuesday11 am–10 pm",
+      "Wednesday11 am–10 pm",
+      "Thursday11 am–10 pm",
+      "Friday11 am–10 pm",
+      "Saturday11 am–10 pm",
+      "Sunday10 am–9 pm",
+      "Monday11 am–10 pm"
+    ],
+    "category": "American",
+    "description": "",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq6i7OOwfirdRpERU4iJ0kYAJbBrHgU8H9VVcU7wNfcyevywudYSD2MT2X7d5PuIADBWzoAqwe2bRB_to-4vwUBGfTx4PNJrE7m6Mnbk1U2oeTgh6K72qBsU1vL8lMnMn7caESTCQ=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqEqaIJHeqyFohRsR5VqgTwuyj75Gd1NOf7qv5LIIzQAD8F-oRu9zI5nRvYQwFJWDtOXTeWSdQilVvwRM9nKR-cHu_dI5hpmqCpm0T2vQr9Sr6MLqWz7E3DfnrvDtTEtMQxOx6S1Q=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOY8cOfjUCeX-0_O_0rAKAnsJNeSjUD5KRucM_v=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0"
+    ]
+  },
+  {
+    "businessName": "Queen of Sheba Restaurant",
+    "address": {
+      "street": "2308 N MacArthur Blvd",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73127",
+      "country": "United States"
+    },
+    "phone": "+1 405-606-8616",
+    "website": "https://2308 N MacArthur Blvd, Oklahoma City, OK 73127, United States",
+    "rating": "4.7",
+    "reviewCount": "532",
+    "priceRange": "$10–20",
+    "reviews": [
+      "Super quick, super nice people, and absolutely amazing food. We get the Queen of Sheba messob every time (2 person picture shown), and we were beyond full by the time we finished. Water was always full, and we also enjoyed the spiced tea.",
+      "Ordered a vegetarian combo and Kitfo! So Good! Vegetarian food is their specialty! Portion is humongous! You'll love the veggie combos! fluffy injera!",
+      "Service was top notch. EXCELLENT and very personable. Friendly environment with great music. The menus even provided some history on the cuisine and Ethiopia. The Sambua was delicious, it is spicy!"
+    ],
+    "hours": [
+      "WednesdayClosedThursday4–9:30 pm",
+      "Friday4–9:30 pm",
+      "Saturday4–9:30 pm"
+    ],
+    "category": "Ethiopian",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Offers delivery, Offers takeaway, Serves dine-in; Highlights: Has fast service, Serves great cocktails, Serves great coffee, Has great tea selection; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves alcohol, Serves beer, Serves cocktails, Serves coffee, Serves comfort food, Serves healthy options, Serves small plates, Serves spirits, Serves vegan dishes, Serves vegetarian dishes, Serves wine; Dining options: Serves lunch, Serves dinner, Serves dessert, Has seating, Has table service; Amenities: Has bar on site, Has toilet, Has Wi-Fi, Free Wi-Fi; Atmosphere: Casual, Cosy, Quiet, Trendy; Crowd: Good for groups, Popular with tourists; Planning: Accepts reservations; Payments: Accepts credit cards, Accepts debit cards, Credit cards; Children: Good for kids, High chairs available; Parking: Free of charge street parking, Free parking lot, Plenty of parking",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq6i7OOwfirdRpERU4iJ0kYAJbBrHgU8H9VVcU7wNfcyevywudYSD2MT2X7d5PuIADBWzoAqwe2bRB_to-4vwUBGfTx4PNJrE7m6Mnbk1U2oeTgh6K72qBsU1vL8lMnMn7caESTCQ=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npe-AMKVcsestxSTau5xNc0uT_v0GWR8TSr8pCLIDNm0pH4Q3rsJ7zoq9zpztrV34undfovEYOxUYlLF5Gq1FKOG2TSKycDu07grdqZpoK8-lxqvjpNtyyFewNzqgawUFZo6qAQ=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqEqaIJHeqyFohRsR5VqgTwuyj75Gd1NOf7qv5LIIzQAD8F-oRu9zI5nRvYQwFJWDtOXTeWSdQilVvwRM9nKR-cHu_dI5hpmqCpm0T2vQr9Sr6MLqWz7E3DfnrvDtTEtMQxOx6S1Q=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0"
+    ]
+  },
+  {
+    "businessName": "Bee Healthy Cafe (Automobile Alley)",
+    "address": {
+      "street": "722 N Broadway Ave #100",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73102",
+      "country": "United States"
+    },
+    "phone": "+1 405-900-5552",
+    "website": "https://beehealthycafe.com",
+    "rating": "4.5",
+    "reviewCount": "190",
+    "priceRange": "$10–20",
+    "reviews": [
+      "Always enjoy my food at Bee Healthy Cafe! It’s fast and delicious. I feel clean afterwards, very nourishing to my body! …",
+      "Thank you, Angel!",
+      "Healthful, refreshing meal & snack options in a colorful modern dining area near downtown. Ordered a turkey sandwich with house-made hummus and a berry smoothie. My lunch was flavorful, and I felt great for the rest of the day. There was an …",
+      "Katarina, thank you so much for leaving a great review. Eating good food and feeling great is our number one goal for guests and it sounds like we totally nailed for you! Hope to see you again soon!",
+      "I actually love this place! It’s frustrating ordering from uber eats, i order a smoothie and a bowl every time. :/ and they keep forgetting to put in my smoothie so i have to usually take the trip back myself to get it! it has happened 4 times. But the people there are pretty nice and the food is good"
+    ],
+    "hours": [
+      "Tuesday7 am–3 pm",
+      "Wednesday7 am–3 pm",
+      "Thursday7 am–3 pm",
+      "Friday7 am–3 pm",
+      "SundayClosedMonday7 am–3 pm"
+    ],
+    "category": "Casual Dining",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Has outdoor seating, Has no-contact delivery, Offers delivery, Offers takeaway, Serves dine-in; Popular for: Popular for lunch, Good for solo dining; Offerings: Serves coffee, Serves healthy options, Quick bite, Serves small plates, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves breakfast, Serves lunch, Serves dinner, Has catering, Serves dessert, Has seating, No table service; Amenities: Has gender-neutral toilets, Has toilet; Atmosphere: Casual, Trendy; Crowd: Family friendly, LGBTQ+ friendly, Transgender safe space; Planning: Doesn't accept reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids, Has kids' menu; Parking: Free of charge street parking, Free parking lot, Plenty of parking; Pets: Dogs allowed outside",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq6i7OOwfirdRpERU4iJ0kYAJbBrHgU8H9VVcU7wNfcyevywudYSD2MT2X7d5PuIADBWzoAqwe2bRB_to-4vwUBGfTx4PNJrE7m6Mnbk1U2oeTgh6K72qBsU1vL8lMnMn7caESTCQ=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipO6rrteR4j8OkNqqjaBNZXtcsABWhdZxspaC2KX=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npe-AMKVcsestxSTau5xNc0uT_v0GWR8TSr8pCLIDNm0pH4Q3rsJ7zoq9zpztrV34undfovEYOxUYlLF5Gq1FKOG2TSKycDu07grdqZpoK8-lxqvjpNtyyFewNzqgawUFZo6qAQ=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0"
+    ]
+  },
+  {
+    "businessName": "Enoki Eatz",
+    "address": {
+      "street": "3556 Spencer Rd",
+      "city": "Spencer",
+      "state": "OK",
+      "zipCode": "73084",
+      "country": "United States"
+    },
+    "phone": "+1 405-209-8003",
+    "website": "https://3556 Spencer Rd, Spencer, OK 73084, United States",
+    "rating": "5.0",
+    "reviewCount": "3",
+    "priceRange": "",
+    "reviews": [
+      "Food is great and always fresh . Everytime I eat it I feel so refreshed afterwards.",
+      "Thank you so much for your review. Enoki Eatz strives to nurture all.",
+      "Everything was soooo delicious and fresh. Would highly recommend!",
+      "Thank you so much for your positive feedback.",
+      "The food is quality and you can tell that it's made with love and passion! You have to try the burger, it's amazing!!"
+    ],
+    "hours": [
+      "ThursdayClosedFriday1–7 pm",
+      "Saturday1–7 pm",
+      "Sunday1–7 pm"
+    ],
+    "category": "Casual Dining",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; From the business: Identifies as Black-owned, Identifies as women-owned; Service options: Offers takeaway, Serves dine-in; Offerings: Serves comfort food, Serves organic dishes, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves lunch, Serves dinner, Has catering, Has counter service, Serves dessert, Has seating, Has table service; Amenities: Has gender-neutral toilets, Has toilet; Crowd: Family friendly, LGBTQ+ friendly, Transgender safe space; Payments: Accepts credit cards; Children: Good for kids, High chairs available, Has kids' menu; Parking: Free parking lot, On-site parking",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipOzgpXyDS2Y7Og90za3tZLO_fVM0gj-7DgGD2OU=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipO6rrteR4j8OkNqqjaBNZXtcsABWhdZxspaC2KX=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0"
+    ]
+  },
+  {
+    "businessName": "Modern Berry Co.",
+    "address": {
+      "street": "2941 W Hefner Rd",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73120",
+      "country": "United States"
+    },
+    "phone": "+1 405-849-5130",
+    "website": "https://modernberryco.com",
+    "rating": "4.8",
+    "reviewCount": "159",
+    "priceRange": "$1–10",
+    "reviews": [
+      "This place is amazing and has amazing vegan snacks and food! + vegetarian Safe products …",
+      "If I lived closer I would be there every single day! The coffee is so good every single time. The staff is typically nice. I've only had one person there was was kind of rude on my last time going but other than that everyone has been very nice and helpful! The lattes are my favourite I've had in Oklahoma.",
+      "My coffee was a little undersweetened and it was quite expensive for how small it was. Not a lot of options for sugar free folks. The bowls look delicious though and i would go back to try them another day. The person I met there was very …"
+    ],
+    "hours": [
+      "Tuesday7 am–5 pm",
+      "Wednesday7 am–5 pm",
+      "Thursday7 am–5 pm",
+      "Friday7 am–5 pm",
+      "Saturday8 am–5 pm",
+      "Sunday8 am–5 pm",
+      "Monday7 am–5 pm"
+    ],
+    "category": "Cafe",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; From the business: Identifies as women-owned; Service options: Has outdoor seating, Offers kerbside pickup, Offers delivery, Offers takeaway, Serves dine-in; Highlights: Serves great coffee, Has great tea selection; Popular for: Popular for breakfast, Good for solo dining, Good for working on laptop; Offerings: Serves coffee, Serves healthy options, Sells prepared foods, Quick bite, Serves small plates, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves breakfast, Serves brunch, Serves lunch, Serves dinner, Has catering, Serves dessert, Has seating, No table service; Amenities: Has bar on site, Has gender-neutral toilets, Has toilet, Has Wi-Fi, Free Wi-Fi; Atmosphere: Casual, Cosy, Trendy; Crowd: Family friendly, Good for groups, LGBTQ+ friendly, Popular with tourists, Transgender safe space, Popular with university students; Planning: Doesn't accept reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids, High chairs available, Has kids' menu; Parking: Free of charge street parking, Free parking lot, Plenty of parking; Pets: Dogs allowed, Dogs allowed outside",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipPtb4LwuvDUo6E5EhKlZyBf4asTFRqfWX0W6f6v=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOzgpXyDS2Y7Og90za3tZLO_fVM0gj-7DgGD2OU=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0"
+    ]
+  },
+  {
+    "businessName": "The Vegan Capital - Cafe420Market",
+    "address": {
+      "street": "902 W Britton Rd",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73114",
+      "country": "United States"
+    },
+    "phone": "+1 405-849-6008",
+    "website": "https://order.online",
+    "rating": "5.0",
+    "reviewCount": "8",
+    "priceRange": "",
+    "reviews": [
+      "This is very delicious!! Thank you to the young man that made this for me. I really appreciate it. I love it💚 Me and my sister had walked in thinking we were going to get some food but instead I was giving a delicious smoothie 💜Now my next step is tasting their food and I can't wait! …",
+      "Spicy Mango smoothie is soo addictive wish i had a 64oz of this stuff🥭 …",
+      "Phenomenal spicy mango smoothie and the patties are perfection."
+    ],
+    "hours": [
+      "Tuesday11 am–7 pm",
+      "Wednesday11 am–7 pm",
+      "Thursday11 am–7 pm",
+      "Friday11 am–7 pm",
+      "Saturday11 am–7 pm",
+      "SundayClosedMonday11 am–7 pm"
+    ],
+    "category": "Retail",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance; From the business: Small Business; Service options: Offers delivery, Has in-store shopping; Crowd: LGBTQ+ friendly, Transgender safe space; Planning: Good for quick visit; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqRLn_2hYZLq9eF0p4a6BuU0iTZSPr6tZweCLSOX82l-rIGLdtLlPXwVKLSWp561qYbPy-rdhaa8TfewrwQbiXLmLOQBJcCXxHpctzynyrd7BlBg5sazrdI0r308yPYUychIcM=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipPtb4LwuvDUo6E5EhKlZyBf4asTFRqfWX0W6f6v=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0"
+    ]
+  },
+  {
+    "businessName": "Bee Healthy Cafe (Continental Resources HQ)",
+    "address": {
+      "street": "20 N Broadway Ave",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73102",
+      "country": "United States"
+    },
+    "phone": "+1 405-856-9300",
+    "website": "https://beehealthycafe.com",
+    "rating": "4.6",
+    "reviewCount": "27",
+    "priceRange": "$10–20",
+    "reviews": [
+      "Stopped here for a quick lunch on a road trip. It’s slightly confusing to find, but some friendly folks offered directions before we even asked. …",
+      "I should’ve been warned by the food photos clearly being photoshopped. Regretted coming here for a few reasons. First, the location is in an extremely weird and inconvenient location, you have to go around the building, through multiple …",
+      "Hi Theo - We're so sorry to hear this was your experience. Some of our locations are hard to find! Located in office buildings and medical complexes, they are amenities for the office workers but can be hard to find for others! We hope … More",
+      "Ordered via DoorDash and it was the best choice I could’ve made! The tuna nut sandwich was fantastic and the hummus was top notch. Highly recommend this restaurant if you’re looking for a lunch that leaves you feeling great.",
+      "Hi Laura! Thank you so much for your review. We appreciate your business, and the kind words. We look forward to seeing you again soon, -- Julie"
+    ],
+    "hours": [
+      "Tuesday7 am–3 pm",
+      "Wednesday7 am–3 pm",
+      "Thursday7 am–3 pm",
+      "Friday7 am–2 pm",
+      "SundayClosedMonday7 am–3 pm"
+    ],
+    "category": "Casual Dining",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Has no-contact delivery, Offers delivery, Offers takeaway, Serves dine-in; Highlights: Serves great coffee, Has great tea selection; Popular for: Popular for breakfast, Popular for lunch, Good for solo dining; Offerings: Serves coffee, Serves happy-hour drinks, Serves healthy options, Quick bite, Serves small plates, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves breakfast, Serves lunch, Has catering, Has counter service, Serves dessert, Has seating; Amenities: Has toilet; Atmosphere: Casual, Trendy; Crowd: Family friendly, LGBTQ+ friendly, Transgender safe space; Planning: Doesn't accept reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids, Has kids' menu; Parking: Free of charge street parking",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipMyLJ91cQGEwP7N3oI_L_ifAdUIhACL8c_bP-Bd=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqRLn_2hYZLq9eF0p4a6BuU0iTZSPr6tZweCLSOX82l-rIGLdtLlPXwVKLSWp561qYbPy-rdhaa8TfewrwQbiXLmLOQBJcCXxHpctzynyrd7BlBg5sazrdI0r308yPYUychIcM=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0"
+    ]
+  },
+  {
+    "businessName": "Naija Wife Kitchen",
+    "address": {
+      "street": "119 N Robinson Ave",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73102",
+      "country": "United States"
+    },
+    "phone": "+1 469-315-8724",
+    "website": "https://naijawifekitchenfusion.com",
+    "rating": "4.6",
+    "reviewCount": "256",
+    "priceRange": "$10–20",
+    "reviews": [
+      "My 1st time here and WoW I was surprised how friendly and giving the lady behind the counter was. Even though she was dealing with multiple customers she gave a sample dish to try and said let her know what was my favorite. After tasting …",
+      "Omg thank you sooo so much for the beautiful review! I appreciate you and it was a pleasure!",
+      "Staff is very friendly and was cool enough to let you sample all the different soups options before buying.\nI got half Banga and half Egusi with fufu and added goat meat and had it …",
+      "The 2025 James Beard Foundation Semifinalists have been announced, and Oklahoma City is at the forefront of representing Oklahoma in the Best Chef: Southwest category. Among the nominees is Tahnee Francis, whose Nigerian concept, Naija Wife …"
+    ],
+    "hours": [
+      "Tuesday11 am–5 pm",
+      "Wednesday11 am–5 pm",
+      "Thursday11 am–5 pm",
+      "Friday11 am–5 pm",
+      "SundayClosedMonday11 am–5 pm"
+    ],
+    "category": "African",
+    "description": "Accessibility: Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet, No wheelchair-accessible car park; Service options: Offers kerbside pickup, Has no-contact delivery, Offers delivery, Offers takeaway, Serves dine-in; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves comfort food, Serves healthy options, Quick bite, Serves small plates, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves lunch, Serves dinner, Has catering, Has counter service, Has seating; Amenities: Has toilet; Atmosphere: Casual, Cosy, Quiet, Trendy; Crowd: Family friendly, Popular with locals, Popular with tourists; Planning: Accepts reservations; Payments: Accepts credit cards, Accepts debit cards, Credit cards; Children: Good for kids; Parking: Paid street parking, Somewhat difficult to find a space",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr27aDlVXl-KtvcSeZEfDA5UfaTDDd0T4cu8gWenlsNVRSEDYO6I99ZffuA6i7KotAcssHX89kCdZ-YP97UDJERo0vbpuhphcxPkwH7279R9RbcVXtqBRB4qgLvTjlw3VUOf7yp=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipMyLJ91cQGEwP7N3oI_L_ifAdUIhACL8c_bP-Bd=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0"
+    ]
+  },
+  {
+    "businessName": "Zorba’s Mediterranean Restaurant and Bar",
+    "address": {
+      "street": "6014 N May Ave",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73112",
+      "country": "United States"
+    },
+    "phone": "+1 405-947-7788",
+    "website": "https://zorbasokc.com",
+    "rating": "4.5",
+    "reviewCount": "2097",
+    "priceRange": "$10–20",
+    "reviews": [
+      "I don't think I've been in over a decade at this point but it still stands as one of the best Mediterranean restaurants around. The food is very fresh and so flavorful. The price per dish for what you get is better than most restaurants …",
+      "Dear Guest,\n\nThank you for taking the time to write such a glowing review. It's heartwarming … More",
+      "This is a wonderful Mediterranean restaurant in OKC. I really enjoyed the Paella and my dads Lamb Chops were so tender.\nWe also had some amazing Baklava and a black saffron hot tea with an infused …",
+      "Dear Guest,\n\nThank you for taking the time to write such a wonderful review. We're thrilled … More",
+      "Hidden Gem Alert!\n\nZorba’s Mediterranean is an absolute treasure in Oklahoma City! The lamb chops …"
+    ],
+    "hours": [
+      "Closed ⋅ Opens 11 am"
+    ],
+    "category": "Mediterranean",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Offers kerbside pickup, Has no-contact delivery, Offers delivery, Offers takeaway, Serves dine-in; Highlights: Has fast service, Has great beer selection, Serves great cocktails, Serves great coffee, Serves great dessert, Has great tea selection, Has great wine list, Good for watching sport; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves alcohol, Serves beer, Serves cocktails, Serves coffee, Serves comfort food, Serves halal food, Serves happy-hour drinks, Serves healthy options, Quick bite, Serves small plates, Serves spirits, Serves vegan dishes, Serves vegetarian dishes, Serves wine; Dining options: Serves lunch, Serves dinner, Has catering, Has counter service, Serves dessert, Has seating, Has table service; Amenities: Has bar on site, Has toilet, Has Wi-Fi, Free Wi-Fi; Atmosphere: Casual, Cosy, Romantic, Trendy; Crowd: Family friendly, Good for groups, LGBTQ+ friendly, Popular with tourists; Planning: Accepts reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids, Has changing table(s), High chairs available, Has kids' menu; Parking: Free of charge street parking, Free parking lot, On-site parking, Plenty of parking",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrmbAueMKmMyFSlN2czFRw7gcMWsqhh4_s-IqbLn_ZaoH5hT05COn2HaP3hGlUzza3MAlcJRW-ouyDYOl0dW6HWpOUN4hId-yrLK-2QBPqjGh49fTimbTaEsyYPZL-vy7CALDLf=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr27aDlVXl-KtvcSeZEfDA5UfaTDDd0T4cu8gWenlsNVRSEDYO6I99ZffuA6i7KotAcssHX89kCdZ-YP97UDJERo0vbpuhphcxPkwH7279R9RbcVXtqBRB4qgLvTjlw3VUOf7yp=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0"
+    ]
+  },
+  {
+    "businessName": "Not Your Average Joe",
+    "address": {
+      "street": "300 Park Ave",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73102",
+      "country": "United States"
+    },
+    "phone": "+1 405-265-5733",
+    "website": "https://nyaj.coffee",
+    "rating": "4.8",
+    "reviewCount": "76",
+    "priceRange": "$1–10",
+    "reviews": [
+      "Always a great cup of coffee and a smile awaits at not your average Joe. They have excellent snack, snacks and outdoor seating as well as of course good Java.",
+      "I stopped by and got an iced vanilla latte. It was a little difficult to locate as it is in the library but no big deal. My coffee was fantastic! They nailed the balance of milk and bitterness of espresso. It was Also not overly sweet. I …",
+      "Needed a quick bite and some Joe! So I walked over to the Library. I can’t state how happy I feel when I enter any of these locations. Being invited by everyone so warmly and the detail they put into getting your order exactly right is …"
+    ],
+    "hours": [
+      "Tuesday7 am–4:30 pm",
+      "Wednesday7 am–4:30 pm",
+      "Thursday7 am–4:30 pm",
+      "Friday7 am–4:30 pm",
+      "Saturday9 am–3:30 pm",
+      "SundayClosedMonday7 am–4:30 pm"
+    ],
+    "category": "Cafe",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Offers takeaway, Serves dine-in, No delivery; Highlights: Serves great coffee, Has great tea selection; Popular for: Popular for breakfast, Popular for lunch, Good for solo dining; Offerings: Serves coffee, Serves healthy options, Quick bite; Dining options: Serves breakfast, Serves lunch, Serves dessert; Amenities: Has toilet; Atmosphere: Casual, Cosy, Trendy; Crowd: Popular with tourists; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np6gR0vCTjLJ2YJwKEiBI97dBbTO96NUSSq8SWtKZmrQzYJ49LePgqyoVi5KLnFYQtk_4NpEDv2YGrOnHenqe9qPTv6Mvym-xkKJqE5Frm2Yp8wF1KPLZS-AeJIsP8u0ons4V77=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrmbAueMKmMyFSlN2czFRw7gcMWsqhh4_s-IqbLn_ZaoH5hT05COn2HaP3hGlUzza3MAlcJRW-ouyDYOl0dW6HWpOUN4hId-yrLK-2QBPqjGh49fTimbTaEsyYPZL-vy7CALDLf=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0"
+    ]
+  },
+  {
+    "businessName": "Delish Nutrish",
+    "address": {
+      "street": "2205 W Main St",
+      "city": "Norman",
+      "state": "OK",
+      "zipCode": "73069",
+      "country": "United States"
+    },
+    "phone": "+1 405-217-2069",
+    "website": "https://delishnutrishcafe.com",
+    "rating": "4.8",
+    "reviewCount": "45",
+    "priceRange": "$10–20",
+    "reviews": [
+      "DelishNutrish, located in Norman, Oklahoma, is definitely a must try organic cafe that offers a delightful menu! I’ve tried their Chicken Alfredo pasta and it was very yummy. I went there again today and tried their cheesy burger with a …",
+      "The food is delishious, the smoothies were perfect. Wonderful place to eat.\nI dont eat bread so she made me a bunless cheesssy burger dry it was amazing all my items had great flavor.",
+      "Food was very tasty and nutritional! The person helping us was very friendly."
+    ],
+    "hours": [
+      "Tuesday10 am–7 pm",
+      "Wednesday10 am–7 pm",
+      "Thursday10 am–7 pm",
+      "SaturdayClosedSunday10 am–7 pm",
+      "Monday10 am–7 pm"
+    ],
+    "category": "Casual Dining",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Offers kerbside pickup, Has no-contact delivery, Offers delivery, Offers takeaway, Serves dine-in; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves coffee, Serves healthy options, Serves organic dishes, Quick bite, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves lunch, Serves dinner, Has seating; Amenities: Has toilet; Atmosphere: Casual, Quiet, Trendy; Crowd: Family friendly, Popular with university students; Planning: Doesn't accept reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids, High chairs available; Parking: Free of charge street parking, Free parking lot, Plenty of parking; Pets: Dogs allowed outside",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipNGkeWfAVVPAfPg_AAucPdjIe61_zEpFMyCTa6Q=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np6gR0vCTjLJ2YJwKEiBI97dBbTO96NUSSq8SWtKZmrQzYJ49LePgqyoVi5KLnFYQtk_4NpEDv2YGrOnHenqe9qPTv6Mvym-xkKJqE5Frm2Yp8wF1KPLZS-AeJIsP8u0ons4V77=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0"
+    ]
+  },
+  {
+    "businessName": "Bee Healthy Cafe (South Western)",
+    "address": {
+      "street": "12201 S Western Ave",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73170",
+      "country": "United States"
+    },
+    "phone": "+1 405-676-8777",
+    "website": "https://beehealthycafe.com",
+    "rating": "4.4",
+    "reviewCount": "226",
+    "priceRange": "$10–20",
+    "reviews": [
+      "Great customer service, healthy options for the Gluten-free Flyer!  Traveling and being gluten free had a happy lunch at Bee Healthy Cafe.  Go here…Order gluten free, give them money. Support good gluten free options. #glutenfreeflyer",
+      "Thank you so much for your wonderful review and kind words. We appreciate you!",
+      "I recently visited Be Healthy Cafe and had a fantastic experience. I ordered the Terlingua sandwich and the Salted Caramel Espresso Smoothie, both of which were outstanding. The sandwich was packed with fresh, flavorful ingredients, making …",
+      "Thank you so much for the glowing review and we appreciate you letting us know we \"got it right\"! See you again soon!",
+      "We waited 20 minutes at the drive thru for a $35 order. Three people waiting behind us. I want to love this place as I’ve spent a kings ransom here but I think it’s obvious at this point that over priced healthy food can’t be delivered in a …"
+    ],
+    "hours": [
+      "Tuesday7 am–8 pm",
+      "Wednesday7 am–8 pm",
+      "Thursday7 am–8 pm",
+      "Friday7 am–8 pm",
+      "Saturday8 am–7 pm",
+      "Sunday9 am–3 pm",
+      "Monday7 am–8 pm"
+    ],
+    "category": "Casual Dining",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Has outdoor seating, Has no-contact delivery, Offers delivery, Has drive-through, Offers takeaway, Serves dine-in; Highlights: Has fast service, Serves great coffee, Has great tea selection; Popular for: Popular for breakfast, Popular for lunch, Good for solo dining; Offerings: Serves coffee, Serves comfort food, Serves healthy options, Quick bite, Serves small plates, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves breakfast, Serves lunch, Serves dinner, Has catering, Serves dessert, Has seating; Amenities: Has gender-neutral toilets, Has toilet, Has Wi-Fi, Free Wi-Fi; Atmosphere: Casual, Quiet, Trendy; Crowd: Family friendly, LGBTQ+ friendly, Popular with locals, Transgender safe space; Planning: Doesn't accept reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids, High chairs available, Has kids' menu; Parking: Free of charge street parking, Free parking lot, Plenty of parking; Pets: Dogs allowed outside",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipPd_S2VLBR3x_pUaNE7D3d-wNIj5n1NnHmr7wzW=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipNGkeWfAVVPAfPg_AAucPdjIe61_zEpFMyCTa6Q=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0"
+    ]
+  },
+  {
+    "businessName": "30th Street Market",
+    "address": {
+      "street": "407 NW 30th St",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73118",
+      "country": "United States"
+    },
+    "phone": "+1 405-645-5397",
+    "website": "https://30thstreet.market",
+    "rating": "4.8",
+    "reviewCount": "105",
+    "priceRange": "$10–20",
+    "reviews": [
+      "So glad we found this place! Loved the vibes and the aesthetic of this space. Variety of sandwich options and lots of seasonal menu items. Also sells bread by itself. Very friendly staff. Would love to come back and try another sandwich!",
+      "Food was excellent. The tuna melt was delicious. The orzo chicken soup was amazing. The orange chocolate chip cookie was great! Pimento cheese with bacon!",
+      "There is ample street parking at the location. The area around the location is very nice. The exterior of the location is in good condition. There is both indoor and outdoor seating. The interior was clean. They sell wines and perishables. …"
+    ],
+    "hours": [
+      "Tuesday7:30 am–6 pm",
+      "Wednesday7:30 am–6 pm",
+      "Thursday7:30 am–6 pm",
+      "Friday7:30 am–6 pm",
+      "Saturday8 am–3 pm",
+      "Sunday8 am–3 pm"
+    ],
+    "category": "Casual Dining",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; From the business: Identifies as women-owned; Service options: Has outdoor seating, Has no-contact delivery, Offers delivery, On-site services available, Offers takeaway, Serves dine-in; Highlights: Has fast service, Serves great coffee, Serves great dessert, Has great tea selection, Has live music; Popular for: Popular for breakfast, Popular for lunch, Good for solo dining; Offerings: Serves alcohol, Serves beer, Serves coffee, Serves comfort food, Serves healthy options, Serves organic dishes, Quick bite, Serves small plates, Serves vegan dishes, Serves vegetarian dishes, Serves wine; Dining options: Serves breakfast, Serves brunch, Serves lunch, Has catering, Has counter service, Serves dessert, Has seating; Amenities: Has gender-neutral toilets, Has toilet, Has Wi-Fi, Free Wi-Fi; Atmosphere: Casual, Cosy, Quiet, Trendy; Crowd: Family friendly, LGBTQ+ friendly, Popular with tourists, Transgender safe space; Planning: Doesn't accept reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids, High chairs available, Has kids' menu; Parking: Free of charge street parking, Free parking lot, Plenty of parking; Pets: Dogs allowed",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nomZcZH2VXUx09QDxQwNHTPUWiNHGx-bmHPoyQ-5LZEeUB7zvfGxVAG8br6UiQLiOgiXv84Y_9tmNFWuv1zzuOj-1g1Sgx1L5QwK1SSHO6pSu1mFvJSAqksvZjnTIxQ7fD3WjjL=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipPd_S2VLBR3x_pUaNE7D3d-wNIj5n1NnHmr7wzW=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0"
+    ]
+  },
+  {
+    "businessName": "Nón Lá Café",
+    "address": {
+      "street": "3000 SW 104th St ste 10a",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73159",
+      "country": "United States"
+    },
+    "phone": "+1 405-237-3827",
+    "website": "https://nonlacafeokc.com",
+    "rating": "4.8",
+    "reviewCount": "172",
+    "priceRange": "$10–20",
+    "reviews": [
+      "May 18, 2025\nSunday\nI tried Nón Lá Café a few weeks ago, as it was recommended to me by my friend. …",
+      "Came in for a special friend who can only sip soup at the moment. I requested only the broth and they accommodated me over my expectations.",
+      "Amazing first time experience.  Enjoyed some shrimp dumplings and the oxtail pho.  Great flavors!  Will definitely come back"
+    ],
+    "hours": [
+      "TuesdayClosedWednesday10:30 am–8:30 pm",
+      "Thursday10:30 am–8:30 pm",
+      "Friday10:30 am–8:30 pm",
+      "Saturday10:30 am–8:30 pm",
+      "Sunday10:30 am–8:30 pm",
+      "Monday10:30 am–8:30 pm"
+    ],
+    "category": "Vietnamese",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; From the business: Identifies as Asian-owned, Identifies as women-owned; Service options: Offers kerbside pickup, Has no-contact delivery, Offers delivery, Offers takeaway, Serves dine-in; Highlights: Has great tea selection; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves coffee, Serves comfort food, Serves healthy options, Quick bite, Serves small plates, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves brunch, Serves lunch, Serves dinner, Has catering, Has counter service, Serves dessert, Has seating, Has table service; Amenities: Has toilet, Has Wi-Fi, Free Wi-Fi; Atmosphere: Casual, Cosy, Quiet; Crowd: Family friendly, Good for groups, Popular with locals; Planning: Accepts reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids, Has changing table(s), High chairs available, Has kids' menu; Parking: Free of charge street parking, Free parking lot, Plenty of parking",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq6sa1ISZONFAD0Sbs-ZuRt1EHacVOgpwKQJ6Cw9izmoMth6MLPmq8fQceaVxfdY7Fy-OYC9VLgE_T0dFGU_U2XDV8yp-IONaM4WoXL03tU28ZBduouFFsL9lo7lvd-rZgG8qe6=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nomZcZH2VXUx09QDxQwNHTPUWiNHGx-bmHPoyQ-5LZEeUB7zvfGxVAG8br6UiQLiOgiXv84Y_9tmNFWuv1zzuOj-1g1Sgx1L5QwK1SSHO6pSu1mFvJSAqksvZjnTIxQ7fD3WjjL=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0"
+    ]
+  },
+  {
+    "businessName": "Kitchen No. 324",
+    "address": {
+      "street": "324 N Robinson Ave",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73102",
+      "country": "United States"
+    },
+    "phone": "+1 405-763-5911",
+    "website": "https://kitchen324.com",
+    "rating": "4.5",
+    "reviewCount": "2781",
+    "priceRange": "$10–20",
+    "reviews": [
+      "Our family recently visited this beautiful restaurant in downtown OKC. Advanced reservation is highly encouraged. We were greeted by some friendly and gorgeous smiles once we stepped in Kitchen No. 324. FAMOUS chicken pot pie, breakfast …",
+      "I had breakfast here on the morning of my birthday and it was such a great choice. Not only did I receive top notch service, the food was incredible too. (I was also given a complementary pastry for my birthday). …",
+      "First time here and it was for a late breakfast. What a great location, great staff and great food! The 324 omelet with herbs and creme fraiche is where it's at! Their croissants are definitely impressive. Their espresso in my cappuccino had a unique flavor. Loved the vibe, I'll be back!"
+    ],
+    "hours": [
+      "Tuesday7:30 am–2:30 pm",
+      "Wednesday7:30 am–2:30 pm",
+      "Thursday7:30 am–2:30 pm",
+      "Friday7:30 am–2:30 pm",
+      "Saturday7:30 am–2:30 pm",
+      "Sunday7:30 am–2:30 pm",
+      "Monday7:30 am–2:30 pm"
+    ],
+    "category": "Breakfast & Brunch",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Has outdoor seating, Has no-contact delivery, Offers delivery, Offers takeaway, Serves dine-in; Highlights: Has fast service, Serves great cocktails, Serves great coffee, Serves great dessert, Has great tea selection, Has great wine list, Serves local speciality; Popular for: Popular for breakfast, Good for solo dining; Offerings: Serves alcohol, Serves beer, Serves cocktails, Serves coffee, Serves comfort food, Serves healthy options, Serves organic dishes, Serves small plates, Serves spirits, Serves vegan dishes, Serves vegetarian dishes, Serves wine; Dining options: Serves breakfast, Serves brunch, Serves lunch, Serves dinner, Serves dessert, Has seating, Has table service; Amenities: Has bar on site, Has toilet; Atmosphere: Casual, Cosy, Trendy, Upmarket; Crowd: Family friendly, Good for groups, Popular with tourists, Popular with university students; Planning: Brunch reservations recommended, Accepts reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids, High chairs available, Has kids' menu; Parking: Free of charge street parking, Paid street parking, Somewhat difficult to find a space; Pets: Dogs allowed outside",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npyfhN8VZMbkbVkrL2CzUt-e0OdLRmhfIN9LrycWZeYQ-l1Y11Jzxj3T5UZuHejBD5owzOlMyjL1kg03bR-CxRjW3T-2ocLXW7O6P_FiPMf6dkrz8wM3YM88Xc20qhZCWIDd3WL=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq6sa1ISZONFAD0Sbs-ZuRt1EHacVOgpwKQJ6Cw9izmoMth6MLPmq8fQceaVxfdY7Fy-OYC9VLgE_T0dFGU_U2XDV8yp-IONaM4WoXL03tU28ZBduouFFsL9lo7lvd-rZgG8qe6=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0"
+    ]
+  },
+  {
+    "businessName": "Nunu's Mediterranean Inc",
+    "address": {
+      "street": "3131 W Memorial Rd",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73134",
+      "country": "United States"
+    },
+    "phone": "+1 405-751-7000",
+    "website": "https://nunuscafe.com",
+    "rating": "4.7",
+    "reviewCount": "970",
+    "priceRange": "$10–20",
+    "reviews": [
+      "What an amazing find. The restaurant isn’t a fancy sit down but like a family owned Mediterranean restaurant. The food was not expensive and I was able to order a large sampler for a very reasonable price. The food was savory and the …",
+      "Nunu’s is an extended family member’s favorite, and so the next time Mrs. Flip Out wanted  Mediterranean food, we came here. It was good, and the Littles found the options we ordered for them interesting. Mrs. Flip Out went with the sampler …",
+      "Nunu's is Yummy Yummy! We got falafel sandwiches and humus....every bite so tasty. Fresh veg, hot falafel, and fluffy pita with a delicious dipping sauce! All the stars. Every bite layered with flavor. I was full and still taking bites. Portions great and price totally reasonable. Will definately eat here again."
+    ],
+    "hours": [
+      "Tuesday11 am–8 pm",
+      "Wednesday11 am–8 pm",
+      "Thursday8 am–8 pm",
+      "Friday11 am–8 pm",
+      "Saturday11 am–8 pm",
+      "SundayClosedMonday11 am–8 pm"
+    ],
+    "category": "Mediterranean",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Has outdoor seating, Has no-contact delivery, Offers delivery, On-site services available, Offers takeaway, Serves dine-in; Highlights: Has fast service, Serves great dessert, Serves local speciality; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves alcohol, Serves coffee, Serves comfort food, Serves halal food, Serves healthy options, Quick bite, Serves small plates, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves lunch, Serves dinner, Has catering, Serves dessert, Has seating; Amenities: Has toilet; Atmosphere: Casual, Cosy, Quiet, Trendy; Crowd: Family friendly, Good for groups, Popular with tourists; Planning: Doesn't accept reservations; Payments: Accepts cheques, Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments; Children: Good for kids, High chairs available, Has kids' menu; Parking: Free of charge street parking, Free parking lot, Plenty of parking; Pets: Dogs allowed outside",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noAJvz_ZFq8sM2vkhNCjy4KGv7S-GW5ZmOnhtaxBkN-4kFB4tlN8RHEyPKrly4tFNdhSVgwz9SmugQAX9drnmM6lB8qtek54hp3ldq1WLMamoQEmvkhc74sS1nvw5_7elJnTi7X=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npyfhN8VZMbkbVkrL2CzUt-e0OdLRmhfIN9LrycWZeYQ-l1Y11Jzxj3T5UZuHejBD5owzOlMyjL1kg03bR-CxRjW3T-2ocLXW7O6P_FiPMf6dkrz8wM3YM88Xc20qhZCWIDd3WL=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0"
+    ]
+  },
+  {
+    "businessName": "The Earth Café & Deli",
+    "address": {
+      "street": "309 S Flood Ave",
+      "city": "Norman",
+      "state": "OK",
+      "zipCode": "73069",
+      "country": "United States"
+    },
+    "phone": "+1 405-364-3551",
+    "website": "https://theearthnorman.com",
+    "rating": "4.8",
+    "reviewCount": "426",
+    "priceRange": "$10–20",
+    "reviews": [
+      "This place blew me away! I am vegan and gluten free and I had SO MANY options!\nMy heart, soul and body are all happy! …",
+      "Unique little cafe we happened to be staying next door in the Earth House (amazing on its own) but we stopped in to order Organic smoothies and they were the best. This little place gets packed. It has indoor and outdoor seating a huge lot …",
+      "We stopped in here after running some errands.  We hadn’t eaten here in a while because we don’t live on the east side of Norman. …"
+    ],
+    "hours": [
+      "Tuesday9 am–5 pm",
+      "Wednesday9 am–5 pm",
+      "Thursday9 am–5 pm",
+      "Friday9 am–5 pm",
+      "Saturday9 am–5 pm",
+      "SundayClosedMonday9 am–5 pm"
+    ],
+    "category": "Cafe",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Has outdoor seating, On-site services available, Offers takeaway, Serves dine-in, No delivery; Highlights: Serves great coffee, Serves great dessert, Has great tea selection, Serves local speciality; Popular for: Popular for breakfast, Popular for lunch, Good for solo dining; Offerings: Serves coffee, Serves comfort food, Serves healthy options, Serves organic dishes, Quick bite, Serves small plates, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves breakfast, Serves brunch, Serves lunch, Serves dinner, Serves dessert, Has seating; Amenities: Has toilet; Atmosphere: Casual, Cosy, Trendy; Crowd: Popular with tourists, Popular with university students; Planning: Doesn't accept reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Accepts SNAP/EBT, Credit cards; Children: Good for kids, High chairs available; Parking: Free of charge street parking, Free parking lot, Plenty of parking; Pets: Dogs allowed outside",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrf-oQsmA34zS6FL90ROPzQJcDIVA7tYOZeYMFYjdfEZO0Neo2GnoQGDn1DZ2_73wFHrpfb3lemB2oKEp8nTUa6R2JNe2uBd9QV36_kgDTZoS6l_GiTJnUouiZ61jktMz3czD8yng=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noAJvz_ZFq8sM2vkhNCjy4KGv7S-GW5ZmOnhtaxBkN-4kFB4tlN8RHEyPKrly4tFNdhSVgwz9SmugQAX9drnmM6lB8qtek54hp3ldq1WLMamoQEmvkhc74sS1nvw5_7elJnTi7X=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0"
+    ]
+  },
+  {
+    "businessName": "Bee Healthy Cafe (OU Physicians)",
+    "address": {
+      "street": "825 NE 10th St",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73104",
+      "country": "United States"
+    },
+    "phone": "+1 405-724-7558",
+    "website": "https://order.beehealthycafe.com",
+    "rating": "5.0",
+    "reviewCount": "3",
+    "priceRange": "$10–20",
+    "reviews": [
+      "Visited this location again today. Maddie waited on me. Great customer service and good food. I have enjoyed this location both times I visited. EmaLou was working on helping another customer at the time I was there. Both ladies were kind and very helpful to there customers.",
+      "First time ever eating at this establishment. Daniel took my order and was very polite and explained what they had to offer. I had the quesadilla melt and it was surprisingly good. Will order again. Thank you Daniel.",
+      "Healthy, tasty, and relaxing!",
+      "Hi Judy! So happy to see your review - thank you and look forward to seeing you soon! -julie"
+    ],
+    "hours": [
+      "Tuesday7 am–3:30 pm",
+      "Wednesday7 am–3:30 pm",
+      "Thursday7 am–3:30 pm",
+      "Friday7 am–3:30 pm",
+      "SundayClosedMonday7 am–3:30 pm"
+    ],
+    "category": "Casual Dining",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Offers delivery, Offers takeaway, Serves dine-in; Popular for: Popular for breakfast, Popular for lunch, Good for solo dining; Offerings: Serves coffee, Serves healthy options, Quick bite, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves breakfast, Serves lunch, Has catering, Has counter service, Serves dessert, Has seating; Amenities: Has toilet; Atmosphere: Casual, Quiet, Trendy; Crowd: Family friendly, LGBTQ+ friendly, Transgender safe space; Planning: Doesn't accept reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids, Has kids' menu; Parking: Free parking lot; Pets: Dogs allowed outside",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipNFMNom8ERllw8v3n3gTN_Hw8k-W9bVsBg7GKjO=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrf-oQsmA34zS6FL90ROPzQJcDIVA7tYOZeYMFYjdfEZO0Neo2GnoQGDn1DZ2_73wFHrpfb3lemB2oKEp8nTUa6R2JNe2uBd9QV36_kgDTZoS6l_GiTJnUouiZ61jktMz3czD8yng=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0"
+    ]
+  },
+  {
+    "businessName": "Vegans Got Soul",
+    "address": {
+      "street": "231 SE Grand Blvd",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73129",
+      "country": "United States"
+    },
+    "phone": "+1 405-450-6605",
+    "website": "https://vegansgotsoul.com",
+    "rating": "5.0",
+    "reviewCount": "",
+    "priceRange": "",
+    "reviews": [
+      "I DIDN'T THINK IT WAS POSSIBLE TO GET GOOD FOOD!!!! So I saw a flyer and decided I'd check it out. Best decision ever! I wanted to see what they were all about so I ordered a few things; The BBQ pizza was amazing, that first bite had me …",
+      "Thank you very much! I’m glad you enjoyed the food we are here to continue to serve and fill tummies."
+    ],
+    "hours": "",
+    "category": "Casual Dining",
+    "description": "Service options: Offers delivery, No takeaway",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipPjzyBk5UNG2uDmEein30rgZ0moJRHyMQLP6_mp=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipNFMNom8ERllw8v3n3gTN_Hw8k-W9bVsBg7GKjO=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrriOuHVTqdLfAfZG7J0DvidYFNDMfdgQynmwuD29gAQfsOtTP1iEln2FsFDTqO9gUtYq_rUIbWWxIWh-FIzkOw0U7DsFYz0J4jM2WY_qNKDZiZ7aS43K-mE4DxM9k_XlwwSqlRwA=s0",
+      "https://lh3.googleusercontent.com/p/AF1QipOoZa7o6gpeuJFY01JAOS3cOGPQXlGaksNr8NY_=s0",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmQzWWDsNWvZwOiVlcNmDPHauxj12lSZTJ13ReE_EQyUrTNisWV2olAYYO07SeqDLnBbJNvujiVGYPsMjMNFmFp3oyqVwnYHoGOxFQaxQv1gUpJB2AK_KetJgD6ZaXS_KykeO9zA=s0"
+    ]
+  }
+]

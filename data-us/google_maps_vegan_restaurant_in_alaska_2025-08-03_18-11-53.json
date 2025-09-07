@@ -1,0 +1,804 @@
+[
+  {
+    "businessName": "Organic Oasis | Restaurant & Juice Bar",
+    "address": {
+      "street": "2610 Spenard Rd",
+      "city": "Anchorage",
+      "state": "AK",
+      "zipCode": "99503",
+      "country": "United States"
+    },
+    "phone": "+1 907-277-7882",
+    "website": "https://organicoasis.com",
+    "rating": "4.4",
+    "reviewCount": "459",
+    "priceRange": "$20–30",
+    "reviews": [],
+    "hours": [
+      "Closed ⋅ Opens 12 pm"
+    ],
+    "category": "Health Food",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Offers kerbside pickup, Offers delivery, Offers takeaway, Serves dine-in; Highlights: Has fast service, Serves great coffee, Has great tea selection, Has live music, Serves local speciality; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves alcohol, Serves beer, Serves coffee, Serves comfort food, Serves healthy options, Serves organic dishes, Quick bite, Serves small plates, Serves vegan dishes, Serves vegetarian dishes, Serves wine; Dining options: Serves breakfast, Serves brunch, Serves lunch, Serves dinner, Has catering, Serves dessert, Has seating, Has table service; Amenities: Has toilet, Has Wi-Fi, Free Wi-Fi; Atmosphere: Casual, Cosy, Trendy; Crowd: Family friendly, Good for groups, LGBTQ+ friendly, Popular with tourists, Transgender safe space, Popular with university students; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids, Has changing table(s), High chairs available, Has kids' menu; Parking: Free of charge street parking, Free parking lot, Plenty of parking",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noD_ioxUsIuXXFXNJxTSJKrgk3NzGM7UGjADFZnavMP0ctMuNtfDfvDH7e8A6G1XiRhtkVTxjtHIiUWdeXdRUh_SE7Zl5O8KcDNNile20g0vSsWXFQue5AZMNi-qE5AhKfnA5XwKw=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/p/AF1QipPqo-mgPQdI7vZrZdb9CN2NHaDIq-_EsbwZWaZP=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npYjXBZxeT8WeS6tz-FwMFnAXuLDJw8zjqWnukzthqz4MWtC8_6hEAX-5SmCeJxBsUWsNamBdBGzGSPu9uxl4oFQ7JeXvO6eQA2bKEIuowFAxA6QiO0JO79qwCn0O77X_HXlHQ=w122-h92-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrIw50L5Jn7ouKEZupY0lIcwI3FFhjtIjpVogI3QvAFrrzp_GmCfRMYqkYb_iYD1NRHN-OZmbn0DZnlXqmnzp1Sq93ekp3e63TNC6lq74GMDSP1u98Mvlpm8Oxs6UK2S548JjsJxg=w122-h92-k-no",
+      "https://lh3.googleusercontent.com/p/AF1QipPqo-mgPQdI7vZrZdb9CN2NHaDIq-_EsbwZWaZP=w122-h92-k-no"
+    ]
+  },
+  {
+    "businessName": "myThai Downtown Restaurant",
+    "address": {
+      "street": "333 W 4th Ave #228",
+      "city": "Anchorage",
+      "state": "AK",
+      "zipCode": "99501",
+      "country": "United States"
+    },
+    "phone": "+1 907-333-0684",
+    "website": "https://facebook.com",
+    "rating": "4.5",
+    "reviewCount": "432",
+    "priceRange": "$10–20",
+    "reviews": [],
+    "hours": [
+      "Sunday12–9 pm",
+      "Monday11 am–9 pm",
+      "Tuesday11 am–9 pm",
+      "WednesdayClosedThursday11 am–9 pm",
+      "Friday11 am–9 pm",
+      "Saturday12–9 pm"
+    ],
+    "category": "Thai",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Offers delivery, Offers takeaway, Serves dine-in; Highlights: Has fast service; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves alcohol, Serves beer, Serves coffee, Serves comfort food, Serves healthy options, Quick bite, Serves small plates, Serves vegan dishes, Serves vegetarian dishes, Serves wine; Dining options: Serves lunch, Serves dinner, Serves dessert, Has table service; Amenities: Has bar on site, Has toilet; Atmosphere: Casual, Cosy, Trendy; Crowd: Good for groups, Popular with tourists; Planning: Accepts reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids; Parking: Free of charge street parking, Paid parking lot, Paid street parking",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqIs8KSdXVoXzK6dWs0KqBbWwCrNQI_3X9_vzsFE7gpPNO2_Iv9nuuCmyZW40YDmPpdqIpfBY47ko1XEwM5hSuCPawbMsEykGUcu1IGPVST7XssonQSRlNfL-ZgvRcguOpgPT_2=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noD_ioxUsIuXXFXNJxTSJKrgk3NzGM7UGjADFZnavMP0ctMuNtfDfvDH7e8A6G1XiRhtkVTxjtHIiUWdeXdRUh_SE7Zl5O8KcDNNile20g0vSsWXFQue5AZMNi-qE5AhKfnA5XwKw=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npYjXBZxeT8WeS6tz-FwMFnAXuLDJw8zjqWnukzthqz4MWtC8_6hEAX-5SmCeJxBsUWsNamBdBGzGSPu9uxl4oFQ7JeXvO6eQA2bKEIuowFAxA6QiO0JO79qwCn0O77X_HXlHQ=w122-h92-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrIw50L5Jn7ouKEZupY0lIcwI3FFhjtIjpVogI3QvAFrrzp_GmCfRMYqkYb_iYD1NRHN-OZmbn0DZnlXqmnzp1Sq93ekp3e63TNC6lq74GMDSP1u98Mvlpm8Oxs6UK2S548JjsJxg=w122-h92-k-no",
+      "https://lh3.googleusercontent.com/p/AF1QipPqo-mgPQdI7vZrZdb9CN2NHaDIq-_EsbwZWaZP=w122-h92-k-no"
+    ]
+  },
+  {
+    "businessName": "Acai of Alaska",
+    "address": {
+      "street": "12908 Brandon St",
+      "city": "Anchorage",
+      "state": "AK",
+      "zipCode": "99515",
+      "country": "United States"
+    },
+    "phone": "+1 907-333-2224",
+    "website": "https://acaiofalaska.com",
+    "rating": "4.6",
+    "reviewCount": "157",
+    "priceRange": "$10–20",
+    "reviews": [
+      "Acai Alaska has been one of my favorite spots to go to since 2020. I was so sad when they had temporarily closed. It’s so exciting to have them back. So deliciously refreshing and customizable. My husband and kiddos demolished their smoothie bowls. Be sure to go the the address shown on maps. 10/10",
+      "I've been here so many times. Mostly for the grilled cheese sandwich! Its always my favorite food to order from there. I have tried the smoothie bowls as well. They are spectacular. Prices are fair. Service is nice. I would recommend this place to anyone looking for a healthy, and filling snack.",
+      "The acai bowls are da kind, brah! Everyrhing is top quality, not an easy task considering Alaskan produce.The new owners are super cool and I love that it's a family owned and operated business. If I could give more stars, I would!"
+    ],
+    "hours": [
+      "Sunday8 am–6 pm",
+      "MondayClosedTuesday8 am–6 pm",
+      "Wednesday8 am–6 pm",
+      "Thursday8 am–6 pm",
+      "Friday8 am–6 pm",
+      "Saturday8 am–6 pm"
+    ],
+    "category": "Health Food",
+    "description": "",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrB71ZfRpQYjW7qT_yUCJxBv5vIU6NfQvMJ-HKGbe5G4UbDeLW6q7spue2_nDm4YBJ2tn-j2hf9l03EZdcuwP8NEN4NNFJCnjhVL-RaoUkDxcdx4-4uTEdfD5-Ep8RMPRPwJ-Jw=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqIs8KSdXVoXzK6dWs0KqBbWwCrNQI_3X9_vzsFE7gpPNO2_Iv9nuuCmyZW40YDmPpdqIpfBY47ko1XEwM5hSuCPawbMsEykGUcu1IGPVST7XssonQSRlNfL-ZgvRcguOpgPT_2=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npYjXBZxeT8WeS6tz-FwMFnAXuLDJw8zjqWnukzthqz4MWtC8_6hEAX-5SmCeJxBsUWsNamBdBGzGSPu9uxl4oFQ7JeXvO6eQA2bKEIuowFAxA6QiO0JO79qwCn0O77X_HXlHQ=w122-h92-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrIw50L5Jn7ouKEZupY0lIcwI3FFhjtIjpVogI3QvAFrrzp_GmCfRMYqkYb_iYD1NRHN-OZmbn0DZnlXqmnzp1Sq93ekp3e63TNC6lq74GMDSP1u98Mvlpm8Oxs6UK2S548JjsJxg=w122-h92-k-no",
+      "https://lh3.googleusercontent.com/p/AF1QipPqo-mgPQdI7vZrZdb9CN2NHaDIq-_EsbwZWaZP=w122-h92-k-no"
+    ]
+  },
+  {
+    "businessName": "Queen of Sheba Ethiopian Restaurant",
+    "address": {
+      "street": "2813 Dawson St",
+      "city": "Anchorage",
+      "state": "AK",
+      "zipCode": "99503",
+      "country": "United States"
+    },
+    "phone": "+1 907-222-1010",
+    "website": "https://queenofshebaalaska.com",
+    "rating": "4.8",
+    "reviewCount": "433",
+    "priceRange": "$20–30",
+    "reviews": [],
+    "hours": [
+      "Sunday1 am–2 pm4–8 pm",
+      "TuesdayClosedWednesday8 am–2 pm4–8 pm",
+      "Thursday8 am–2 pm4–8 pm",
+      "Friday8 am–2 pm4–8 pm",
+      "Saturday10 am–2 pm4–8 pm"
+    ],
+    "category": "Ethiopian",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Offers kerbside pickup, Offers takeaway, Serves dine-in; Highlights: Has fast service, Has great tea selection; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves coffee, Serves comfort food, Serves healthy options, Serves organic dishes, Serves small plates, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves breakfast, Serves lunch, Serves dinner, Has catering, Serves dessert, Has seating, Has table service; Amenities: Has toilet, Has Wi-Fi, Free Wi-Fi; Atmosphere: Casual, Cosy, Quiet; Crowd: Family friendly, Good for groups, Popular with tourists; Planning: Accepts reservations; Payments: Cash only, Accepts cheques, Accepts credit cards, Accepts debit cards, Credit cards; Children: Good for kids, High chairs available; Parking: Free of charge street parking, Free parking lot, Plenty of parking; Pets: Dogs allowed",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nodSuwy3LpPqePAFYJHMSk1xikr2A3mlUf242vP1jhv86JigFZpEtIVrU_7Sydf3p7XDbUQXBhLjzjn7IsAjvpGxnRg1nDkPwKybdqXUWXcSCcRNIIeExhlyTjYS6C1eOqbIL5O=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrB71ZfRpQYjW7qT_yUCJxBv5vIU6NfQvMJ-HKGbe5G4UbDeLW6q7spue2_nDm4YBJ2tn-j2hf9l03EZdcuwP8NEN4NNFJCnjhVL-RaoUkDxcdx4-4uTEdfD5-Ep8RMPRPwJ-Jw=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npYjXBZxeT8WeS6tz-FwMFnAXuLDJw8zjqWnukzthqz4MWtC8_6hEAX-5SmCeJxBsUWsNamBdBGzGSPu9uxl4oFQ7JeXvO6eQA2bKEIuowFAxA6QiO0JO79qwCn0O77X_HXlHQ=w122-h92-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrIw50L5Jn7ouKEZupY0lIcwI3FFhjtIjpVogI3QvAFrrzp_GmCfRMYqkYb_iYD1NRHN-OZmbn0DZnlXqmnzp1Sq93ekp3e63TNC6lq74GMDSP1u98Mvlpm8Oxs6UK2S548JjsJxg=w122-h92-k-no",
+      "https://lh3.googleusercontent.com/p/AF1QipPqo-mgPQdI7vZrZdb9CN2NHaDIq-_EsbwZWaZP=w122-h92-k-no"
+    ]
+  },
+  {
+    "businessName": "myThai Downtown Restaurant",
+    "address": {
+      "street": "333 W 4th Ave #228",
+      "city": "Anchorage",
+      "state": "AK",
+      "zipCode": "99501",
+      "country": "United States"
+    },
+    "phone": "+1 907-333-0684",
+    "website": "https://facebook.com",
+    "rating": "4.5",
+    "reviewCount": "432",
+    "priceRange": "$10–20",
+    "reviews": [
+      "Blown away!!! Just GO!!! Most amazing Thai food we have ever had including in Thailand. Each and every item was sumptuous, cooked to perfection with utmost care. Service was top notch. Extremely polite and courteous. We would be regulars to …",
+      "Excellent service and the food was very flavorful. Their lunch specials are a good deal. Lots of vegetarian options and the location is very convenient to everything in downtown.",
+      "I just got the pad thai, but it is some of the best pad thai I've ever had. It's hard for me to find good pad thai because most places can't make it vegan and gluten-free, but they do an excellent job!"
+    ],
+    "hours": [
+      "Sunday12–9 pm",
+      "Monday11 am–9 pm",
+      "Tuesday11 am–9 pm",
+      "WednesdayClosedThursday11 am–9 pm",
+      "Friday11 am–9 pm",
+      "Saturday12–9 pm"
+    ],
+    "category": "Thai",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Offers delivery, Offers takeaway, Serves dine-in; Highlights: Has fast service; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves alcohol, Serves beer, Serves coffee, Serves comfort food, Serves healthy options, Quick bite, Serves small plates, Serves vegan dishes, Serves vegetarian dishes, Serves wine; Dining options: Serves lunch, Serves dinner, Serves dessert, Has table service; Amenities: Has bar on site, Has toilet; Atmosphere: Casual, Cosy, Trendy; Crowd: Good for groups, Popular with tourists; Planning: Accepts reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids; Parking: Free of charge street parking, Paid parking lot, Paid street parking",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqIs8KSdXVoXzK6dWs0KqBbWwCrNQI_3X9_vzsFE7gpPNO2_Iv9nuuCmyZW40YDmPpdqIpfBY47ko1XEwM5hSuCPawbMsEykGUcu1IGPVST7XssonQSRlNfL-ZgvRcguOpgPT_2=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nodSuwy3LpPqePAFYJHMSk1xikr2A3mlUf242vP1jhv86JigFZpEtIVrU_7Sydf3p7XDbUQXBhLjzjn7IsAjvpGxnRg1nDkPwKybdqXUWXcSCcRNIIeExhlyTjYS6C1eOqbIL5O=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npYjXBZxeT8WeS6tz-FwMFnAXuLDJw8zjqWnukzthqz4MWtC8_6hEAX-5SmCeJxBsUWsNamBdBGzGSPu9uxl4oFQ7JeXvO6eQA2bKEIuowFAxA6QiO0JO79qwCn0O77X_HXlHQ=w122-h92-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrIw50L5Jn7ouKEZupY0lIcwI3FFhjtIjpVogI3QvAFrrzp_GmCfRMYqkYb_iYD1NRHN-OZmbn0DZnlXqmnzp1Sq93ekp3e63TNC6lq74GMDSP1u98Mvlpm8Oxs6UK2S548JjsJxg=w122-h92-k-no",
+      "https://lh3.googleusercontent.com/p/AF1QipPqo-mgPQdI7vZrZdb9CN2NHaDIq-_EsbwZWaZP=w122-h92-k-no"
+    ]
+  },
+  {
+    "businessName": "Acai of Alaska",
+    "address": {
+      "street": "12908 Brandon St",
+      "city": "Anchorage",
+      "state": "AK",
+      "zipCode": "99515",
+      "country": "United States"
+    },
+    "phone": "+1 907-333-2224",
+    "website": "https://acaiofalaska.com",
+    "rating": "4.6",
+    "reviewCount": "157",
+    "priceRange": "$10–20",
+    "reviews": [
+      "Acai Alaska has been one of my favorite spots to go to since 2020. I was so sad when they had temporarily closed. It’s so exciting to have them back. So deliciously refreshing and customizable. My husband and kiddos demolished their smoothie bowls. Be sure to go the the address shown on maps. 10/10",
+      "I've been here so many times. Mostly for the grilled cheese sandwich! Its always my favorite food to order from there. I have tried the smoothie bowls as well. They are spectacular. Prices are fair. Service is nice. I would recommend this place to anyone looking for a healthy, and filling snack.",
+      "The acai bowls are da kind, brah! Everyrhing is top quality, not an easy task considering Alaskan produce.The new owners are super cool and I love that it's a family owned and operated business. If I could give more stars, I would!"
+    ],
+    "hours": [
+      "Sunday8 am–6 pm",
+      "MondayClosedTuesday8 am–6 pm",
+      "Wednesday8 am–6 pm",
+      "Thursday8 am–6 pm",
+      "Friday8 am–6 pm",
+      "Saturday8 am–6 pm"
+    ],
+    "category": "Health Food",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance,  Does not have assistive hearing loop, No wheelchair-accessible toilet; From the business: Identifies as Latino-owned, Identifies as women-owned; Service options: Has outdoor seating, Offers kerbside pickup, Offers delivery, Has drive-through, Offers takeaway, Serves dine-in; Popular for: Popular for breakfast, Popular for lunch, Good for solo dining; Offerings: Serves coffee, Serves comfort food, Serves healthy options, Serves organic dishes, Quick bite, Serves small plates, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves breakfast, Serves brunch, Serves lunch, Has catering, Serves dessert, No table service; Atmosphere: Casual, Trendy; Crowd: Family friendly, Good for groups, LGBTQ+ friendly, Popular with tourists, Transgender safe space, Popular with university students; Planning: Doesn't accept reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrB71ZfRpQYjW7qT_yUCJxBv5vIU6NfQvMJ-HKGbe5G4UbDeLW6q7spue2_nDm4YBJ2tn-j2hf9l03EZdcuwP8NEN4NNFJCnjhVL-RaoUkDxcdx4-4uTEdfD5-Ep8RMPRPwJ-Jw=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqIs8KSdXVoXzK6dWs0KqBbWwCrNQI_3X9_vzsFE7gpPNO2_Iv9nuuCmyZW40YDmPpdqIpfBY47ko1XEwM5hSuCPawbMsEykGUcu1IGPVST7XssonQSRlNfL-ZgvRcguOpgPT_2=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npYjXBZxeT8WeS6tz-FwMFnAXuLDJw8zjqWnukzthqz4MWtC8_6hEAX-5SmCeJxBsUWsNamBdBGzGSPu9uxl4oFQ7JeXvO6eQA2bKEIuowFAxA6QiO0JO79qwCn0O77X_HXlHQ=w122-h92-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrIw50L5Jn7ouKEZupY0lIcwI3FFhjtIjpVogI3QvAFrrzp_GmCfRMYqkYb_iYD1NRHN-OZmbn0DZnlXqmnzp1Sq93ekp3e63TNC6lq74GMDSP1u98Mvlpm8Oxs6UK2S548JjsJxg=w122-h92-k-no",
+      "https://lh3.googleusercontent.com/p/AF1QipPqo-mgPQdI7vZrZdb9CN2NHaDIq-_EsbwZWaZP=w122-h92-k-no"
+    ]
+  },
+  {
+    "businessName": "Queen of Sheba Ethiopian Restaurant",
+    "address": {
+      "street": "2813 Dawson St",
+      "city": "Anchorage",
+      "state": "AK",
+      "zipCode": "99503",
+      "country": "United States"
+    },
+    "phone": "+1 907-222-1010",
+    "website": "https://queenofshebaalaska.com",
+    "rating": "4.8",
+    "reviewCount": "433",
+    "priceRange": "$20–30",
+    "reviews": [
+      "Out of this world delicious.  As soon as you walk in you are hit with instant comfort and warmth.  You will know what I am talking about once you come in and experience it for yourself;  That is if you want an experience that cannot be had …",
+      "Just go. If you want some super tasty and flavorful food in the ambiance of smooth jazz, Queen of Sheba is a must! Really enjoyed dishes 12 and 14 tonight with lamb and chicken. So refreshing to eat something different than pizza or burgers …",
+      "I first ate here in the summer of 2019, when it had just opened — a true one-man show with the owner as chef, waiter, and host. The injera was the best I’ve had (and I’m from Oakland, home to plenty of great Ethiopian spots). I promised …"
+    ],
+    "hours": [
+      "Sunday1 am–2 pm4–8 pm",
+      "TuesdayClosedWednesday8 am–2 pm4–8 pm",
+      "Thursday8 am–2 pm4–8 pm",
+      "Friday8 am–2 pm4–8 pm",
+      "Saturday10 am–2 pm4–8 pm"
+    ],
+    "category": "Ethiopian",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Offers kerbside pickup, Offers takeaway, Serves dine-in; Highlights: Has fast service, Has great tea selection; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves coffee, Serves comfort food, Serves healthy options, Serves organic dishes, Serves small plates, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves breakfast, Serves lunch, Serves dinner, Has catering, Serves dessert, Has seating, Has table service; Amenities: Has toilet, Has Wi-Fi, Free Wi-Fi; Atmosphere: Casual, Cosy, Quiet; Crowd: Family friendly, Good for groups, Popular with tourists; Planning: Accepts reservations; Payments: Cash only, Accepts cheques, Accepts credit cards, Accepts debit cards, Credit cards; Children: Good for kids, High chairs available; Parking: Free of charge street parking, Free parking lot, Plenty of parking; Pets: Dogs allowed",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nodSuwy3LpPqePAFYJHMSk1xikr2A3mlUf242vP1jhv86JigFZpEtIVrU_7Sydf3p7XDbUQXBhLjzjn7IsAjvpGxnRg1nDkPwKybdqXUWXcSCcRNIIeExhlyTjYS6C1eOqbIL5O=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrB71ZfRpQYjW7qT_yUCJxBv5vIU6NfQvMJ-HKGbe5G4UbDeLW6q7spue2_nDm4YBJ2tn-j2hf9l03EZdcuwP8NEN4NNFJCnjhVL-RaoUkDxcdx4-4uTEdfD5-Ep8RMPRPwJ-Jw=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npYjXBZxeT8WeS6tz-FwMFnAXuLDJw8zjqWnukzthqz4MWtC8_6hEAX-5SmCeJxBsUWsNamBdBGzGSPu9uxl4oFQ7JeXvO6eQA2bKEIuowFAxA6QiO0JO79qwCn0O77X_HXlHQ=w122-h92-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrIw50L5Jn7ouKEZupY0lIcwI3FFhjtIjpVogI3QvAFrrzp_GmCfRMYqkYb_iYD1NRHN-OZmbn0DZnlXqmnzp1Sq93ekp3e63TNC6lq74GMDSP1u98Mvlpm8Oxs6UK2S548JjsJxg=w122-h92-k-no",
+      "https://lh3.googleusercontent.com/p/AF1QipPqo-mgPQdI7vZrZdb9CN2NHaDIq-_EsbwZWaZP=w122-h92-k-no"
+    ]
+  },
+  {
+    "businessName": "Yak & Yeti Cafe",
+    "address": {
+      "street": "1360 W Northern Lights Blvd",
+      "city": "Anchorage",
+      "state": "AK",
+      "zipCode": "99507",
+      "country": "United States"
+    },
+    "phone": "+1 907-743-9090",
+    "website": "https://yakandyetialaska.com",
+    "rating": "4.6",
+    "reviewCount": "573",
+    "priceRange": "$10–20",
+    "reviews": [],
+    "hours": [
+      "Sunday11 am–8 pm",
+      "Monday10 am–8 pm",
+      "Tuesday10 am–8 pm",
+      "Wednesday10 am–8 pm",
+      "Thursday10 am–8 pm",
+      "Friday10 am–8 pm",
+      "Saturday10 am–8 pm"
+    ],
+    "category": "Nepalese restaurant",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Offers delivery, On-site services available, Offers takeaway, Serves dine-in; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves coffee, Serves comfort food, Serves healthy options, Quick bite, Serves small plates, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves lunch, Serves dinner, Serves dessert, No table service; Amenities: Has toilet; Atmosphere: Casual, Cosy, Trendy; Crowd: Good for groups, Popular with locals, Popular with tourists, Popular with university students; Planning: Doesn't accept reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids; Parking: Free of charge street parking, Free parking lot, Plenty of parking",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrsyQgmPsqILPJli5SJBKEtl94wjva0zKNetfDx9nSX05B4rfioitEtsMKfdxedoIXbTBbyVwHBeOKoJNVXFYAjYLlvTZ_V_EWcTmx2mZQdshoPGKLF2heFMiLo7hpTiVLSYa_A=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nodSuwy3LpPqePAFYJHMSk1xikr2A3mlUf242vP1jhv86JigFZpEtIVrU_7Sydf3p7XDbUQXBhLjzjn7IsAjvpGxnRg1nDkPwKybdqXUWXcSCcRNIIeExhlyTjYS6C1eOqbIL5O=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npYjXBZxeT8WeS6tz-FwMFnAXuLDJw8zjqWnukzthqz4MWtC8_6hEAX-5SmCeJxBsUWsNamBdBGzGSPu9uxl4oFQ7JeXvO6eQA2bKEIuowFAxA6QiO0JO79qwCn0O77X_HXlHQ=w122-h92-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrIw50L5Jn7ouKEZupY0lIcwI3FFhjtIjpVogI3QvAFrrzp_GmCfRMYqkYb_iYD1NRHN-OZmbn0DZnlXqmnzp1Sq93ekp3e63TNC6lq74GMDSP1u98Mvlpm8Oxs6UK2S548JjsJxg=w122-h92-k-no",
+      "https://lh3.googleusercontent.com/p/AF1QipPqo-mgPQdI7vZrZdb9CN2NHaDIq-_EsbwZWaZP=w122-h92-k-no"
+    ]
+  },
+  {
+    "businessName": "Pita Place",
+    "address": {
+      "street": "3300 College Rd",
+      "city": "Fairbanks",
+      "state": "AK",
+      "zipCode": "99709",
+      "country": "United States"
+    },
+    "phone": "",
+    "website": "https://pita.place",
+    "rating": "4.9",
+    "reviewCount": "427",
+    "priceRange": "$10–20",
+    "reviews": [],
+    "hours": [
+      "TuesdayClosedWednesday11 am–3 pm",
+      "Thursday11 am–3 pm",
+      "Friday11 am–3 pm",
+      "Saturday11 am–3 pm"
+    ],
+    "category": "Casual Dining",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Has outdoor seating, Offers takeaway, Serves dine-in, No delivery; Highlights: Has fast service, Serves great coffee; Popular for: Popular for lunch, Good for solo dining; Offerings: Serves coffee, Serves comfort food, Serves halal food, Serves healthy options, Serves organic dishes, Quick bite, Has salad bar, Serves small plates, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves lunch, Has catering, Has counter service, Serves dessert, Has seating, No table service; Amenities: Has toilet; Atmosphere: Casual, Cosy, Quiet, Trendy; Crowd: Family friendly, Good for groups, Popular with tourists, Popular with university students; Planning: Doesn't accept reservations; Payments: Accepts cheques, Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids, Has kids' menu; Parking: Free of charge street parking, Free parking lot, Plenty of parking",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq32Hl89pNzsxWSYVkSIfEmLo50j6OdsALK5XHaEL7ONkcuH3DHMXX5-0NmsKVWnSDWm0dScNofooh7xz_uhAQchLPpgdJQjEa_R6Fn8ih7onjGYFvDhtQ3avi8WdHkrEgXyAe_=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrsyQgmPsqILPJli5SJBKEtl94wjva0zKNetfDx9nSX05B4rfioitEtsMKfdxedoIXbTBbyVwHBeOKoJNVXFYAjYLlvTZ_V_EWcTmx2mZQdshoPGKLF2heFMiLo7hpTiVLSYa_A=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nodSuwy3LpPqePAFYJHMSk1xikr2A3mlUf242vP1jhv86JigFZpEtIVrU_7Sydf3p7XDbUQXBhLjzjn7IsAjvpGxnRg1nDkPwKybdqXUWXcSCcRNIIeExhlyTjYS6C1eOqbIL5O=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npYjXBZxeT8WeS6tz-FwMFnAXuLDJw8zjqWnukzthqz4MWtC8_6hEAX-5SmCeJxBsUWsNamBdBGzGSPu9uxl4oFQ7JeXvO6eQA2bKEIuowFAxA6QiO0JO79qwCn0O77X_HXlHQ=w122-h92-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrIw50L5Jn7ouKEZupY0lIcwI3FFhjtIjpVogI3QvAFrrzp_GmCfRMYqkYb_iYD1NRHN-OZmbn0DZnlXqmnzp1Sq93ekp3e63TNC6lq74GMDSP1u98Mvlpm8Oxs6UK2S548JjsJxg=w122-h92-k-no"
+    ]
+  },
+  {
+    "businessName": "Moose-AKa's",
+    "address": {
+      "street": "Denali National Park and Preserve, 238.9 Parks Hwy",
+      "city": "Denali National Park and Preserve",
+      "state": "AK",
+      "zipCode": "99755",
+      "country": "United States"
+    },
+    "phone": "+1 907-687-0003",
+    "website": "https://moose-akas.com",
+    "rating": "4.8",
+    "reviewCount": "928",
+    "priceRange": "$30–50",
+    "reviews": [],
+    "hours": [
+      "SundayClosedMonday5–9 pm",
+      "Tuesday5–9 pm",
+      "WednesdayClosedThursday5–9 pm",
+      "Friday5–9 pm"
+    ],
+    "category": "Casual Dining",
+    "description": "Accessibility: Has wheelchair-accessible entrance; Service options: Serves dine-in, No delivery, No takeaway; Highlights: Has fireplace; Offerings: Serves alcohol, Serves beer, Serves cocktails, Serves coffee, Serves comfort food, Serves organic dishes, Serves small plates, Serves vegan dishes, Serves vegetarian dishes, Serves wine; Dining options: Serves dinner, Serves dessert, Has seating; Amenities: Has bar on site, Has toilet, Has Wi-Fi, Free Wi-Fi; Crowd: Family friendly, LGBTQ+ friendly, Transgender safe space; Planning: Reservations required, Accepts reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids; Parking: Free parking lot, Plenty of parking",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqY-aiusGBE9uHk55_wdE_hZBEZkSAqHn3TK5m2KFqgDwnKdYunqD3raOqSuQntPoIN9ePbCJWFPJNP2ucfe_yyoAoHKsDEPxBVLsbIPClKucMYh-KuxfqR-E1qLtiYUmEjPHk=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq32Hl89pNzsxWSYVkSIfEmLo50j6OdsALK5XHaEL7ONkcuH3DHMXX5-0NmsKVWnSDWm0dScNofooh7xz_uhAQchLPpgdJQjEa_R6Fn8ih7onjGYFvDhtQ3avi8WdHkrEgXyAe_=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrsyQgmPsqILPJli5SJBKEtl94wjva0zKNetfDx9nSX05B4rfioitEtsMKfdxedoIXbTBbyVwHBeOKoJNVXFYAjYLlvTZ_V_EWcTmx2mZQdshoPGKLF2heFMiLo7hpTiVLSYa_A=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nodSuwy3LpPqePAFYJHMSk1xikr2A3mlUf242vP1jhv86JigFZpEtIVrU_7Sydf3p7XDbUQXBhLjzjn7IsAjvpGxnRg1nDkPwKybdqXUWXcSCcRNIIeExhlyTjYS6C1eOqbIL5O=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npYjXBZxeT8WeS6tz-FwMFnAXuLDJw8zjqWnukzthqz4MWtC8_6hEAX-5SmCeJxBsUWsNamBdBGzGSPu9uxl4oFQ7JeXvO6eQA2bKEIuowFAxA6QiO0JO79qwCn0O77X_HXlHQ=w122-h92-k-no"
+    ]
+  },
+  {
+    "businessName": "Jack Sprat",
+    "address": {
+      "street": "165 Olympic Mountain Loop",
+      "city": "Girdwood",
+      "state": "AK",
+      "zipCode": "99587",
+      "country": "United States"
+    },
+    "phone": "+1 907-783-5225",
+    "website": "https://jacksprat.net",
+    "rating": "4.5",
+    "reviewCount": "1069",
+    "priceRange": "$30–50",
+    "reviews": [
+      "This was honestly the best meal I've had in a while. Our server was incredibly welcoming. Our meals were amazing. The Mama Mia! might be the winner. I appreciated the extensive kids menu. The Birds and the Trees was a great healthy option. Not sure how they cooked those carrots, but they were to die for!",
+      "Great local spot. Ordered the halibut cheeks lettuce wraps🥰. Salmon bowl,  and sausage pasta.\nFood was great, service was pretty slow, the gentleman next to us sent back his food and ordered something else and it took over 20 min to get his next dish. …",
+      "Absolutely the best service and food in Alaska. 7 glaciers and the double musky have a lot of catching up to do.\nThe atmosphere is relaxed with low lit dining experience and people are welcomed …"
+    ],
+    "hours": [
+      "Sunday4–10 pm",
+      "TuesdayClosedWednesday4–10 pm",
+      "Thursday4–10 pm",
+      "Friday4–10 pm",
+      "Saturday4–10 pm"
+    ],
+    "category": "Casual Dining",
+    "description": "",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np_DrDCM92f0clSN0ly1BBwMdmHqGx-HALcHJuD_R8hixJegr0WXcRn5BEXiAthK9J9cmkB4yxwWLtLLkPHRoXfro78Ny4_3bMgHS_ejsqPU-lTM2K1jxs6vEG5VNlAUEMjCeq4=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqY-aiusGBE9uHk55_wdE_hZBEZkSAqHn3TK5m2KFqgDwnKdYunqD3raOqSuQntPoIN9ePbCJWFPJNP2ucfe_yyoAoHKsDEPxBVLsbIPClKucMYh-KuxfqR-E1qLtiYUmEjPHk=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq32Hl89pNzsxWSYVkSIfEmLo50j6OdsALK5XHaEL7ONkcuH3DHMXX5-0NmsKVWnSDWm0dScNofooh7xz_uhAQchLPpgdJQjEa_R6Fn8ih7onjGYFvDhtQ3avi8WdHkrEgXyAe_=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrsyQgmPsqILPJli5SJBKEtl94wjva0zKNetfDx9nSX05B4rfioitEtsMKfdxedoIXbTBbyVwHBeOKoJNVXFYAjYLlvTZ_V_EWcTmx2mZQdshoPGKLF2heFMiLo7hpTiVLSYa_A=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nodSuwy3LpPqePAFYJHMSk1xikr2A3mlUf242vP1jhv86JigFZpEtIVrU_7Sydf3p7XDbUQXBhLjzjn7IsAjvpGxnRg1nDkPwKybdqXUWXcSCcRNIIeExhlyTjYS6C1eOqbIL5O=w114-h86-k-no"
+    ]
+  },
+  {
+    "businessName": "Namaste Shangri-La",
+    "address": {
+      "street": "2446 E Tudor Rd",
+      "city": "Anchorage",
+      "state": "AK",
+      "zipCode": "99507",
+      "country": "United States"
+    },
+    "phone": "+1 907-569-3000",
+    "website": "https://namasteshangrila.com",
+    "rating": "4.4",
+    "reviewCount": "849",
+    "priceRange": "$10–20",
+    "reviews": [],
+    "hours": [
+      "Sunday11 am–3 pm4:30–9 pm",
+      "Monday11 am–3 pm4:30–9 pm",
+      "Tuesday11 am–3 pm4:30–9 pm",
+      "Wednesday11 am–3 pm4:30–9 pm",
+      "Thursday11 am–3 pm4:30–9 pm",
+      "Friday11 am–3 pm4:30–9 pm",
+      "Saturday11 am–3 pm4:30–9 pm"
+    ],
+    "category": "Indian",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Offers delivery, Offers takeaway, Serves dine-in; Highlights: Has great tea selection; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves coffee, Serves comfort food, Serves healthy options, Serves small plates, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves lunch, Serves dinner, Has catering, Serves dessert, Has seating, Has table service; Amenities: Has toilet, Has Wi-Fi, Free Wi-Fi; Atmosphere: Casual, Cosy, Quiet, Trendy; Crowd: Family friendly, Good for groups, Popular with tourists; Planning: Accepts reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids, High chairs available; Parking: Free parking lot, Plenty of parking",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np_DrDCM92f0clSN0ly1BBwMdmHqGx-HALcHJuD_R8hixJegr0WXcRn5BEXiAthK9J9cmkB4yxwWLtLLkPHRoXfro78Ny4_3bMgHS_ejsqPU-lTM2K1jxs6vEG5VNlAUEMjCeq4=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqY-aiusGBE9uHk55_wdE_hZBEZkSAqHn3TK5m2KFqgDwnKdYunqD3raOqSuQntPoIN9ePbCJWFPJNP2ucfe_yyoAoHKsDEPxBVLsbIPClKucMYh-KuxfqR-E1qLtiYUmEjPHk=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq32Hl89pNzsxWSYVkSIfEmLo50j6OdsALK5XHaEL7ONkcuH3DHMXX5-0NmsKVWnSDWm0dScNofooh7xz_uhAQchLPpgdJQjEa_R6Fn8ih7onjGYFvDhtQ3avi8WdHkrEgXyAe_=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqEUnJtdx_JaRX7nX3HagxC4ftgmytdsIIc50W2eEX2scQgUIkS3pcqIk1iWbKG14NdqyxQBg7jyTfxVwu6BfmtlZmqVnK_HhmOahR6FBCL1Lryk_rO7AK6uP6VLwNpmqzWAnwP=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrsyQgmPsqILPJli5SJBKEtl94wjva0zKNetfDx9nSX05B4rfioitEtsMKfdxedoIXbTBbyVwHBeOKoJNVXFYAjYLlvTZ_V_EWcTmx2mZQdshoPGKLF2heFMiLo7hpTiVLSYa_A=w114-h86-k-no"
+    ]
+  },
+  {
+    "businessName": "Everest Restaurant",
+    "address": {
+      "street": "3637 Old Seward Hwy",
+      "city": "Anchorage",
+      "state": "AK",
+      "zipCode": "99503",
+      "country": "United States"
+    },
+    "phone": "+1 907-677-8848",
+    "website": "https://indianrestaurantanchorage.com",
+    "rating": "4.5",
+    "reviewCount": "398",
+    "priceRange": "$20–30",
+    "reviews": [],
+    "hours": [
+      "Closed ⋅ Opens 11 am"
+    ],
+    "category": "Indian",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Offers kerbside pickup, Has no-contact delivery, Offers delivery, Has drive-through, Offers takeaway, Serves dine-in; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves coffee, Serves comfort food, Serves healthy options, Serves small plates, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves lunch, Serves dinner, Has catering, Has counter service, Serves dessert, Has seating, Has table service; Amenities: Has toilet; Atmosphere: Casual, Cosy; Crowd: Family friendly, Good for groups; Planning: Accepts reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids, High chairs available; Parking: Free of charge street parking, Free parking lot, Plenty of parking",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np_DrDCM92f0clSN0ly1BBwMdmHqGx-HALcHJuD_R8hixJegr0WXcRn5BEXiAthK9J9cmkB4yxwWLtLLkPHRoXfro78Ny4_3bMgHS_ejsqPU-lTM2K1jxs6vEG5VNlAUEMjCeq4=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqY-aiusGBE9uHk55_wdE_hZBEZkSAqHn3TK5m2KFqgDwnKdYunqD3raOqSuQntPoIN9ePbCJWFPJNP2ucfe_yyoAoHKsDEPxBVLsbIPClKucMYh-KuxfqR-E1qLtiYUmEjPHk=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq32Hl89pNzsxWSYVkSIfEmLo50j6OdsALK5XHaEL7ONkcuH3DHMXX5-0NmsKVWnSDWm0dScNofooh7xz_uhAQchLPpgdJQjEa_R6Fn8ih7onjGYFvDhtQ3avi8WdHkrEgXyAe_=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/p/AF1QipM3aYLs2AzCaBbv1zfpc97TlwN2l_M8QCbTXV7B=w128-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqEUnJtdx_JaRX7nX3HagxC4ftgmytdsIIc50W2eEX2scQgUIkS3pcqIk1iWbKG14NdqyxQBg7jyTfxVwu6BfmtlZmqVnK_HhmOahR6FBCL1Lryk_rO7AK6uP6VLwNpmqzWAnwP=w152-h86-k-no"
+    ]
+  },
+  {
+    "businessName": "Mandala Restaurant",
+    "address": {
+      "street": "209 E Dimond Blvd",
+      "city": "Anchorage",
+      "state": "AK",
+      "zipCode": "99515",
+      "country": "United States"
+    },
+    "phone": "+1 907-562-2662",
+    "website": "https://mandalacuisine.com",
+    "rating": "4.5",
+    "reviewCount": "275",
+    "priceRange": "$20–30",
+    "reviews": [],
+    "hours": [
+      "SundayClosedMonday11:30 am–2 pm5–9 pm",
+      "Tuesday5–9 pm",
+      "Wednesday11:30 am–2 pm5–9 pm",
+      "Thursday11:30 am–2 pm5–9 pm",
+      "Friday11:30 am–2 pm5–9 pm",
+      "Saturday11:30 am–2 pm5–9 pm"
+    ],
+    "category": "Indian",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Offers kerbside pickup, Offers delivery, Offers takeaway, Serves dine-in; Highlights: Has fast service, Has great tea selection; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves alcohol, Serves beer, Serves cocktails, Serves coffee, Serves comfort food, Serves halal food, Serves healthy options, Serves late-night food, Serves vegan dishes, Serves vegetarian dishes, Serves wine; Dining options: Serves lunch, Serves dinner, Serves dessert, Has seating, Has table service; Amenities: Has bar on site, Has toilet; Atmosphere: Casual, Cosy; Crowd: Good for groups, Popular with locals, Popular with tourists; Planning: Accepts reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids, High chairs available; Parking: Free of charge street parking, Free parking lot, Plenty of parking",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np_DrDCM92f0clSN0ly1BBwMdmHqGx-HALcHJuD_R8hixJegr0WXcRn5BEXiAthK9J9cmkB4yxwWLtLLkPHRoXfro78Ny4_3bMgHS_ejsqPU-lTM2K1jxs6vEG5VNlAUEMjCeq4=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqY-aiusGBE9uHk55_wdE_hZBEZkSAqHn3TK5m2KFqgDwnKdYunqD3raOqSuQntPoIN9ePbCJWFPJNP2ucfe_yyoAoHKsDEPxBVLsbIPClKucMYh-KuxfqR-E1qLtiYUmEjPHk=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq32Hl89pNzsxWSYVkSIfEmLo50j6OdsALK5XHaEL7ONkcuH3DHMXX5-0NmsKVWnSDWm0dScNofooh7xz_uhAQchLPpgdJQjEa_R6Fn8ih7onjGYFvDhtQ3avi8WdHkrEgXyAe_=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq7HjKNqrocv1h32My0DQ2--NjrXFZrRZeLaLiomhOCzVCUoyn0z73IWRgzI0EbTxsu_UdIfe0V9aKFdw_jeAL2oPBZf2HdrpZxxB5JvpjVO6xlGusEwR6reIP6dlNOhQTqPw-0=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/p/AF1QipM3aYLs2AzCaBbv1zfpc97TlwN2l_M8QCbTXV7B=w128-h86-k-no"
+    ]
+  },
+  {
+    "businessName": "Bombay Deluxe Indian Restaurant",
+    "address": {
+      "street": "555 W Northern Lights Blvd Suite 102",
+      "city": "Anchorage",
+      "state": "AK",
+      "zipCode": "99503",
+      "country": "United States"
+    },
+    "phone": "+1 907-277-1200",
+    "website": "https://bombaydeluxe.com",
+    "rating": "4.1",
+    "reviewCount": "930",
+    "priceRange": "$20–30",
+    "reviews": [],
+    "hours": [
+      "Closed ⋅ Opens 11 am"
+    ],
+    "category": "Casual Dining",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Has outdoor seating, Offers kerbside pickup, Has no-contact delivery, Offers delivery, Offers takeaway, Serves dine-in; Highlights: Has fast service, Serves great dessert, Has great tea selection; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves alcohol, Has all you can eat, Serves beer, Serves coffee, Serves comfort food, Serves halal food, Serves happy-hour food, Serves healthy options, Quick bite, Has salad bar, Serves small plates, Serves vegan dishes, Serves vegetarian dishes, Serves wine; Dining options: Serves lunch, Serves dinner, Has catering, Serves dessert, Has seating, Has table service; Amenities: Has toilet; Atmosphere: Casual, Cosy, Quiet; Crowd: Good for groups, Popular with locals, Popular with tourists; Planning: Accepts reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids, High chairs available; Parking: Free of charge street parking, Free parking lot, Plenty of parking",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np_DrDCM92f0clSN0ly1BBwMdmHqGx-HALcHJuD_R8hixJegr0WXcRn5BEXiAthK9J9cmkB4yxwWLtLLkPHRoXfro78Ny4_3bMgHS_ejsqPU-lTM2K1jxs6vEG5VNlAUEMjCeq4=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqY-aiusGBE9uHk55_wdE_hZBEZkSAqHn3TK5m2KFqgDwnKdYunqD3raOqSuQntPoIN9ePbCJWFPJNP2ucfe_yyoAoHKsDEPxBVLsbIPClKucMYh-KuxfqR-E1qLtiYUmEjPHk=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq32Hl89pNzsxWSYVkSIfEmLo50j6OdsALK5XHaEL7ONkcuH3DHMXX5-0NmsKVWnSDWm0dScNofooh7xz_uhAQchLPpgdJQjEa_R6Fn8ih7onjGYFvDhtQ3avi8WdHkrEgXyAe_=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqviVcMWmVXaKi5BlFBY0wLaJt-O2rAU88fPWS5m5YVLNB2WzIdhif7qadT8TdrOo_TfbbZhlf8NK668g_jU0zB5HT726DJJx-83tElve3nL2ZLx1I-Z7vqIZuErW2lg3cXVeue=w176-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq7HjKNqrocv1h32My0DQ2--NjrXFZrRZeLaLiomhOCzVCUoyn0z73IWRgzI0EbTxsu_UdIfe0V9aKFdw_jeAL2oPBZf2HdrpZxxB5JvpjVO6xlGusEwR6reIP6dlNOhQTqPw-0=w114-h86-k-no"
+    ]
+  },
+  {
+    "businessName": "Ginger",
+    "address": {
+      "street": "425 W 5th Ave",
+      "city": "Anchorage",
+      "state": "AK",
+      "zipCode": "99501",
+      "country": "United States"
+    },
+    "phone": "+1 907-929-3680",
+    "website": "https://gingeralaska.com",
+    "rating": "4.5",
+    "reviewCount": "994",
+    "priceRange": "$30–50",
+    "reviews": [
+      "Amazing banana foster egg roll. Duck was good but not enough fried rice to accompany it. My friends scallop mac and cheese was great too but the scallops were kind of small. Overall delicious, and amazing service.",
+      "Thank you for the great feedback, Joao!",
+      "Our service started with a smile from the hostess asking if we were celebrating any special occasions. Our sever asked again which is a nice touch. He made sure we didn't have time constraints or food allergies. We ordered the seared …",
+      "Thank you for the thorough and thoughtful review and the beautiful photos. We hope to see you again!",
+      "Love the vibe and Vietnam style dishes, especially the curry beef one. Although waited for quite long, but services were very nice and accommodating!"
+    ],
+    "hours": [
+      "Sunday11 am–10 pm",
+      "MondayClosedTuesday4–10 pm",
+      "Wednesday4–10 pm",
+      "Thursday4–10 pm",
+      "Friday4–11 pm",
+      "Saturday11 am–11 pm"
+    ],
+    "category": "American",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Offers delivery, Offers takeaway, Serves dine-in; Highlights: Has great beer selection, Serves great cocktails, Serves great coffee, Serves great dessert, Has great tea selection, Has great wine list, Serves local speciality; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves alcohol, Serves beer, Serves cocktails, Serves coffee, Serves happy-hour drinks, Serves happy-hour food, Serves healthy options, Serves late-night food, Serves small plates, Serves spirits, Serves vegan dishes, Serves vegetarian dishes, Serves wine; Dining options: Serves brunch, Serves lunch, Serves dinner, Serves dessert, Has table service; Amenities: Has bar on site, Has toilet; Atmosphere: Cosy, Romantic, Trendy, Upmarket; Crowd: Good for groups, LGBTQ+ friendly, Popular with tourists; Planning: Dinner reservations recommended, Accepts reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Parking: Free of charge street parking, Paid parking lot, Paid street parking, Somewhat difficult to find a space",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np_DrDCM92f0clSN0ly1BBwMdmHqGx-HALcHJuD_R8hixJegr0WXcRn5BEXiAthK9J9cmkB4yxwWLtLLkPHRoXfro78Ny4_3bMgHS_ejsqPU-lTM2K1jxs6vEG5VNlAUEMjCeq4=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqY-aiusGBE9uHk55_wdE_hZBEZkSAqHn3TK5m2KFqgDwnKdYunqD3raOqSuQntPoIN9ePbCJWFPJNP2ucfe_yyoAoHKsDEPxBVLsbIPClKucMYh-KuxfqR-E1qLtiYUmEjPHk=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq32Hl89pNzsxWSYVkSIfEmLo50j6OdsALK5XHaEL7ONkcuH3DHMXX5-0NmsKVWnSDWm0dScNofooh7xz_uhAQchLPpgdJQjEa_R6Fn8ih7onjGYFvDhtQ3avi8WdHkrEgXyAe_=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noj26azI0SjiXd01c3qsD1CkhhASC3E_XptS6MaI0wDWvbBqwZ52v4Na7PCd-ex8_7CNUXyTR_26usuE9FU5SBIrHRToiUxOJeoF8jC4_MpYhZ70Lc844WwoLvfiGiraGDRqXtJOQ=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqviVcMWmVXaKi5BlFBY0wLaJt-O2rAU88fPWS5m5YVLNB2WzIdhif7qadT8TdrOo_TfbbZhlf8NK668g_jU0zB5HT726DJJx-83tElve3nL2ZLx1I-Z7vqIZuErW2lg3cXVeue=w176-h86-k-no"
+    ]
+  },
+  {
+    "businessName": "Aurora Mediterranean Restaurant",
+    "address": {
+      "street": "1452 S Cushman St",
+      "city": "Fairbanks",
+      "state": "AK",
+      "zipCode": "99701",
+      "country": "United States"
+    },
+    "phone": "+1 907-328-0577",
+    "website": "https://aurorarestaurantak.com",
+    "rating": "4.8",
+    "reviewCount": "512",
+    "priceRange": "$10–20",
+    "reviews": [
+      "Food was very good!! I definitely recommend the bowls, you can choose two salads and two spreads to add! So tasty, highly recommend!",
+      "Food was good, but portion size seemed off to me. My bed of lettuce was a few scraps of lettuce (see pictures below) and out of convenience they gave me two of the same side salads. I picked chefs choice thinking they would make choices …",
+      "We went there as our first meal upon arriving in Fairbanks. The staff was helpful and friendly. My wife had the Butter Chicken and I had the Chicken Curry. We enjoyed the food so much we went back before leaving town so I could have the Butter Chicken. Highly recommend!"
+    ],
+    "hours": [
+      "SundayClosedMonday10 am–8 pm",
+      "Tuesday10 am–8 pm",
+      "Wednesday10 am–8 pm",
+      "Thursday10 am–8 pm",
+      "Friday10 am–8 pm",
+      "Saturday11 am–8 pm"
+    ],
+    "category": "Mediterranean",
+    "description": "",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipNFz8u1bICqBTn5woORU9lD-2_ArvMfbCv1zVPN=w226-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq32Hl89pNzsxWSYVkSIfEmLo50j6OdsALK5XHaEL7ONkcuH3DHMXX5-0NmsKVWnSDWm0dScNofooh7xz_uhAQchLPpgdJQjEa_R6Fn8ih7onjGYFvDhtQ3avi8WdHkrEgXyAe_=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np_DrDCM92f0clSN0ly1BBwMdmHqGx-HALcHJuD_R8hixJegr0WXcRn5BEXiAthK9J9cmkB4yxwWLtLLkPHRoXfro78Ny4_3bMgHS_ejsqPU-lTM2K1jxs6vEG5VNlAUEMjCeq4=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqY-aiusGBE9uHk55_wdE_hZBEZkSAqHn3TK5m2KFqgDwnKdYunqD3raOqSuQntPoIN9ePbCJWFPJNP2ucfe_yyoAoHKsDEPxBVLsbIPClKucMYh-KuxfqR-E1qLtiYUmEjPHk=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noj26azI0SjiXd01c3qsD1CkhhASC3E_XptS6MaI0wDWvbBqwZ52v4Na7PCd-ex8_7CNUXyTR_26usuE9FU5SBIrHRToiUxOJeoF8jC4_MpYhZ70Lc844WwoLvfiGiraGDRqXtJOQ=w152-h86-k-no"
+    ]
+  },
+  {
+    "businessName": "Feather & Flour",
+    "address": {
+      "street": "927 S Cobb St",
+      "city": "Palmer",
+      "state": "AK",
+      "zipCode": "99645",
+      "country": "United States"
+    },
+    "phone": "+1 907-982-9911",
+    "website": "https://featherandflour.com",
+    "rating": "4.9",
+    "reviewCount": "339",
+    "priceRange": "",
+    "reviews": [],
+    "hours": [
+      "MondayClosedTuesday9:30 am–2:30 pm",
+      "Wednesday9:30 am–2:30 pm",
+      "Thursday9:30 am–2:30 pm",
+      "Friday9:30 am–2:30 pm"
+    ],
+    "category": "Cafe",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: On-site services available, Offers takeaway, Serves dine-in, No delivery; Highlights: Serves great coffee, Serves great dessert; Popular for: Popular for breakfast, Popular for lunch, Good for solo dining; Offerings: Serves alcohol, Serves beer, Serves cocktails, Serves coffee, Serves comfort food, Serves healthy options, Serves organic dishes, Has private dining room, Serves vegan dishes, Serves vegetarian dishes, Serves wine; Dining options: Serves breakfast, Serves brunch, Serves lunch, Serves dessert, Has seating, Has table service; Amenities: Has gender-neutral toilets, Has toilet; Atmosphere: Casual, Cosy, Trendy; Crowd: Family friendly, Good for groups, LGBTQ+ friendly, Popular with locals, Popular with tourists, Transgender safe space; Planning: Brunch reservations recommended, Doesn't accept reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids, Has kids' menu; Parking: Free of charge street parking, Free parking lot, Plenty of parking; Pets: Dogs allowed outside",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noAyc93-YVjLZ3xlunu0S8qlkP1cZp_21voj4sNUGmTiHsLbbW6V5UFsLhBwEj0Yvw3YCjCVJromvUhbxkcgtwaU05GzjuQOffTkYGxCpUO4zjkdEi_ZSHonrdR0VDswbWNLETI=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/p/AF1QipNFz8u1bICqBTn5woORU9lD-2_ArvMfbCv1zVPN=w226-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq32Hl89pNzsxWSYVkSIfEmLo50j6OdsALK5XHaEL7ONkcuH3DHMXX5-0NmsKVWnSDWm0dScNofooh7xz_uhAQchLPpgdJQjEa_R6Fn8ih7onjGYFvDhtQ3avi8WdHkrEgXyAe_=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np_DrDCM92f0clSN0ly1BBwMdmHqGx-HALcHJuD_R8hixJegr0WXcRn5BEXiAthK9J9cmkB4yxwWLtLLkPHRoXfro78Ny4_3bMgHS_ejsqPU-lTM2K1jxs6vEG5VNlAUEMjCeq4=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqY-aiusGBE9uHk55_wdE_hZBEZkSAqHn3TK5m2KFqgDwnKdYunqD3raOqSuQntPoIN9ePbCJWFPJNP2ucfe_yyoAoHKsDEPxBVLsbIPClKucMYh-KuxfqR-E1qLtiYUmEjPHk=w152-h86-k-no"
+    ]
+  },
+  {
+    "businessName": "Palmeira tropical fusion",
+    "address": {
+      "street": "329 Barrow St",
+      "city": "Anchorage",
+      "state": "AK",
+      "zipCode": "99501",
+      "country": "United States"
+    },
+    "phone": "+1 907-669-2626",
+    "website": "https://palmeiratropicalfusionak.com",
+    "rating": "4.8",
+    "reviewCount": "351",
+    "priceRange": "$20–30",
+    "reviews": [],
+    "hours": [
+      "Sunday10 am–3 pm",
+      "MondayClosedTuesday10 am–4 pm",
+      "Wednesday10 am–4 pm",
+      "Thursday10 am–8 pm",
+      "Friday10 am–8 pm",
+      "Saturday10 am–8 pm"
+    ],
+    "category": "Casual Dining",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: Offers kerbside pickup, Offers delivery, Offers takeaway, Serves dine-in; Highlights: Serves great cocktails, Serves great dessert; Popular for: Popular for breakfast, Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves coffee, Serves comfort food, Serves halal food, Serves healthy options, Serves organic dishes, Serves small plates, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves breakfast, Serves brunch, Serves lunch, Serves dinner, Has catering, Has counter service, Serves dessert, Has seating, Has table service; Amenities: Has toilet; Atmosphere: Casual, Cosy, Trendy; Crowd: Family friendly, Good for groups, LGBTQ+ friendly, Popular with tourists, Transgender safe space; Planning: Accepts reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments; Children: Good for kids, High chairs available; Parking: Paid street parking",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noAyc93-YVjLZ3xlunu0S8qlkP1cZp_21voj4sNUGmTiHsLbbW6V5UFsLhBwEj0Yvw3YCjCVJromvUhbxkcgtwaU05GzjuQOffTkYGxCpUO4zjkdEi_ZSHonrdR0VDswbWNLETI=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/p/AF1QipNFz8u1bICqBTn5woORU9lD-2_ArvMfbCv1zVPN=w226-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq32Hl89pNzsxWSYVkSIfEmLo50j6OdsALK5XHaEL7ONkcuH3DHMXX5-0NmsKVWnSDWm0dScNofooh7xz_uhAQchLPpgdJQjEa_R6Fn8ih7onjGYFvDhtQ3avi8WdHkrEgXyAe_=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np_DrDCM92f0clSN0ly1BBwMdmHqGx-HALcHJuD_R8hixJegr0WXcRn5BEXiAthK9J9cmkB4yxwWLtLLkPHRoXfro78Ny4_3bMgHS_ejsqPU-lTM2K1jxs6vEG5VNlAUEMjCeq4=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqY-aiusGBE9uHk55_wdE_hZBEZkSAqHn3TK5m2KFqgDwnKdYunqD3raOqSuQntPoIN9ePbCJWFPJNP2ucfe_yyoAoHKsDEPxBVLsbIPClKucMYh-KuxfqR-E1qLtiYUmEjPHk=w152-h86-k-no"
+    ]
+  },
+  {
+    "businessName": "Birch & Alder",
+    "address": {
+      "street": "27635 Seward Hwy",
+      "city": "Anchorage",
+      "state": "AK",
+      "zipCode": "99540",
+      "country": "United States"
+    },
+    "phone": "+1 907-802-0850",
+    "website": "https://birchandalder.com",
+    "rating": "4.8",
+    "reviewCount": "161",
+    "priceRange": "$10–20",
+    "reviews": [],
+    "hours": [
+      "Sunday8 am–2 pm",
+      "TuesdayClosedWednesday8 am–2 pm",
+      "Thursday8 am–2 pm",
+      "Friday8 am–2 pm",
+      "Saturday8 am–2 pm"
+    ],
+    "category": "Casual Dining",
+    "description": "Accessibility: No wheelchair-accessible entrance, No wheelchair-accessible seating; Service options: Has drive-through, On-site services available, Offers takeaway, Serves dine-in, No delivery; Highlights: Has fast service, Serves great coffee; Popular for: Popular for breakfast, Popular for lunch, Good for solo dining; Offerings: Serves alcohol, Serves beer, Serves coffee, Serves organic dishes, Quick bite, Serves small plates, Serves vegetarian dishes, Serves wine; Dining options: Serves breakfast, Serves brunch, Serves lunch, Has catering, Serves dessert; Amenities: Has toilet; Atmosphere: Casual, Trendy; Crowd: Family friendly, LGBTQ+ friendly, Popular with tourists, Transgender safe space; Planning: Doesn't accept reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Parking: Free of charge street parking, Free parking lot, Plenty of parking",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipMvJIinQndh2ne9l6L8Qa3sgaKxXInucgFdHfc=w86-h107-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noAyc93-YVjLZ3xlunu0S8qlkP1cZp_21voj4sNUGmTiHsLbbW6V5UFsLhBwEj0Yvw3YCjCVJromvUhbxkcgtwaU05GzjuQOffTkYGxCpUO4zjkdEi_ZSHonrdR0VDswbWNLETI=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/p/AF1QipNFz8u1bICqBTn5woORU9lD-2_ArvMfbCv1zVPN=w226-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq32Hl89pNzsxWSYVkSIfEmLo50j6OdsALK5XHaEL7ONkcuH3DHMXX5-0NmsKVWnSDWm0dScNofooh7xz_uhAQchLPpgdJQjEa_R6Fn8ih7onjGYFvDhtQ3avi8WdHkrEgXyAe_=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np_DrDCM92f0clSN0ly1BBwMdmHqGx-HALcHJuD_R8hixJegr0WXcRn5BEXiAthK9J9cmkB4yxwWLtLLkPHRoXfro78Ny4_3bMgHS_ejsqPU-lTM2K1jxs6vEG5VNlAUEMjCeq4=w152-h86-k-no"
+    ]
+  },
+  {
+    "businessName": "Ray's Place",
+    "address": {
+      "street": "2412 Spenard Rd",
+      "city": "Anchorage",
+      "state": "AK",
+      "zipCode": "99503",
+      "country": "United States"
+    },
+    "phone": "+1 907-279-2932",
+    "website": "https://raysplaceak.com",
+    "rating": "4.7",
+    "reviewCount": "602",
+    "priceRange": "$10–20",
+    "reviews": [],
+    "hours": [
+      "SundayClosedMonday10 am–3 pm5–8:30 pm",
+      "Tuesday10 am–3 pm5–8:30 pm",
+      "Wednesday10 am–3 pm5–8:30 pm",
+      "Thursday10 am–3 pm5–8:30 pm",
+      "Friday10 am–3 pm5–8:30 pm"
+    ],
+    "category": "Vietnamese",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; From the business: Identifies as Asian-owned; Service options: Offers delivery, Offers takeaway, Serves dine-in; Highlights: Has great tea selection; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves coffee, Serves comfort food, Serves healthy options, Quick bite, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves lunch, Serves dinner, Has catering, Has counter service, Has seating, Has table service; Amenities: Has gender-neutral toilets, Has toilet; Atmosphere: Casual, Cosy, Trendy; Crowd: Good for groups, Popular with tourists; Planning: Accepts reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids, High chairs available; Parking: Free of charge street parking, Free parking lot, Plenty of parking",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipMvJIinQndh2ne9l6L8Qa3sgaKxXInucgFdHfc=w86-h107-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noAyc93-YVjLZ3xlunu0S8qlkP1cZp_21voj4sNUGmTiHsLbbW6V5UFsLhBwEj0Yvw3YCjCVJromvUhbxkcgtwaU05GzjuQOffTkYGxCpUO4zjkdEi_ZSHonrdR0VDswbWNLETI=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/p/AF1QipNFz8u1bICqBTn5woORU9lD-2_ArvMfbCv1zVPN=w226-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq32Hl89pNzsxWSYVkSIfEmLo50j6OdsALK5XHaEL7ONkcuH3DHMXX5-0NmsKVWnSDWm0dScNofooh7xz_uhAQchLPpgdJQjEa_R6Fn8ih7onjGYFvDhtQ3avi8WdHkrEgXyAe_=w152-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np_DrDCM92f0clSN0ly1BBwMdmHqGx-HALcHJuD_R8hixJegr0WXcRn5BEXiAthK9J9cmkB4yxwWLtLLkPHRoXfro78Ny4_3bMgHS_ejsqPU-lTM2K1jxs6vEG5VNlAUEMjCeq4=w152-h86-k-no"
+    ]
+  },
+  {
+    "businessName": "Vagabond Blues",
+    "address": {
+      "street": "642 S Alaska St Suite#103",
+      "city": "Palmer",
+      "state": "AK",
+      "zipCode": "99645",
+      "country": "United States"
+    },
+    "phone": "+1 907-745-2233",
+    "website": "https://greedybitch.org",
+    "rating": "4.5",
+    "reviewCount": "796",
+    "priceRange": "$10–20",
+    "reviews": [],
+    "hours": [
+      "Sunday7 am–6 pm",
+      "Monday6 am–7 pm",
+      "Tuesday6 am–7 pm",
+      "Wednesday6 am–7 pm",
+      "Thursday6 am–7 pm",
+      "Friday6 am–7 pm",
+      "Saturday6 am–7 pm"
+    ],
+    "category": "Casual Dining",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible entrance, Has wheelchair-accessible seating, Has wheelchair-accessible toilet; Service options: On-site services available, Offers takeaway, Serves dine-in, No delivery; Highlights: Serves great coffee, Serves great dessert, Has great tea selection, Has live performances; Popular for: Popular for breakfast, Popular for lunch, Good for solo dining, Good for working on laptop; Offerings: Serves coffee, Serves comfort food, Serves healthy options, Serves organic dishes, Quick bite, Serves small plates, Serves vegan dishes, Serves vegetarian dishes; Dining options: Serves breakfast, Serves brunch, Serves lunch, Serves dinner, Serves dessert, Has seating; Amenities: Has toilet, Has Wi-Fi; Atmosphere: Casual, Cosy, Trendy; Crowd: Good for groups, Popular with tourists, Popular with university students; Planning: Doesn't accept reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments, Credit cards; Children: Good for kids, High chairs available, Has kids' menu; Parking: Free of charge street parking, Free parking lot, Plenty of parking",
+    "images": [
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqRQk64tV5Ak7emJRD0LzpMCfyRN_84dDetDxU9Ql2v7ONk1iMK5Gy2iaeXpfbE_lFXNlpnI8DnSL6-erYt_-4J3HxYSFWQKzMGb4Ora7-yaqoAcdnyvvZriLnnS0JeABJJ4zW-=w86-h114-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noAyc93-YVjLZ3xlunu0S8qlkP1cZp_21voj4sNUGmTiHsLbbW6V5UFsLhBwEj0Yvw3YCjCVJromvUhbxkcgtwaU05GzjuQOffTkYGxCpUO4zjkdEi_ZSHonrdR0VDswbWNLETI=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/p/AF1QipMvJIinQndh2ne9l6L8Qa3sgaKxXInucgFdHfc=w86-h107-k-no",
+      "https://lh3.googleusercontent.com/p/AF1QipNFz8u1bICqBTn5woORU9lD-2_ArvMfbCv1zVPN=w226-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq32Hl89pNzsxWSYVkSIfEmLo50j6OdsALK5XHaEL7ONkcuH3DHMXX5-0NmsKVWnSDWm0dScNofooh7xz_uhAQchLPpgdJQjEa_R6Fn8ih7onjGYFvDhtQ3avi8WdHkrEgXyAe_=w152-h86-k-no"
+    ]
+  },
+  {
+    "businessName": "Hari Om Cuisine Of India",
+    "address": {
+      "street": "1528 S Cushman St",
+      "city": "Fairbanks",
+      "state": "AK",
+      "zipCode": "99701",
+      "country": "United States"
+    },
+    "phone": "+1 907-328-3218",
+    "website": "https://hariomcuisineofindia.com",
+    "rating": "4.2",
+    "reviewCount": "679",
+    "priceRange": "$20–30",
+    "reviews": [
+      "Got the veg and non-veg thali and both were extremely delicious. Authentic taste and a really fun atmosphere. Probably the best Indian food in Alaska and would highly recommend.",
+      "Hi James,\nThank you so much for the wonderful review! We're thrilled you enjoyed both our veg and non-veg thalis. It means a lot to hear that you found the taste … More",
+      "After a few days of traveling through Alaska in June, when we got to Fairbanks, we wanted some Indian food. We didn't have high expectations going in. The place was very colorful with lot of Indian artifact and murals. All the food we …",
+      "We loved this nice and cozy place. The food was really yummy and I would recommend desi peeps to check out the place if in Alaska as the flavors are so Indian specially paneer curry we ordered in veg thali. So try the veg thali, all their curries, raita and kheer were so flavourful. I would eat here every time I am in Fairbanks.",
+      "Hi Sonal,\nThank you so much for your kind words and glowing review! We’re thrilled to hear that you loved the cozy ambiance and enjoyed our authentic Indian flavors, … More"
+    ],
+    "hours": [
+      "SundayClosedMonday12–9 pm",
+      "Tuesday12–9 pm",
+      "Wednesday12–9 pm",
+      "Thursday12–9 pm",
+      "Friday12–9 pm",
+      "Saturday12–9 pm"
+    ],
+    "category": "Indian",
+    "description": "Accessibility: Has wheelchair-accessible car park, Has wheelchair-accessible seating; Service options: Offers delivery, Offers takeaway, Serves dine-in; Highlights: Has fast service; Popular for: Popular for lunch, Popular for dinner, Good for solo dining; Offerings: Serves alcohol, Serves beer, Serves comfort food, Serves halal food, Serves healthy options, Serves small plates, Serves vegan dishes, Serves vegetarian dishes, Serves wine; Dining options: Serves breakfast, Serves lunch, Serves dinner, Has catering, Serves dessert, Has seating, Has table service; Amenities: Has toilet; Atmosphere: Casual, Cosy, Quiet, Trendy; Crowd: Good for groups, Popular with locals, Popular with tourists; Planning: Accepts reservations; Payments: Accepts credit cards, Accepts debit cards, Accepts NFC mobile payments; Children: Good for kids, High chairs available; Parking: Free of charge street parking, Free parking lot, Plenty of parking",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipPrkEM_Usg_HjF_UCrGrLJV_MQPB3WiHonv1Tol=w86-h86-k-no",
+      "https://lh3.googleusercontent.com/p/AF1QipNFz8u1bICqBTn5woORU9lD-2_ArvMfbCv1zVPN=w226-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqRQk64tV5Ak7emJRD0LzpMCfyRN_84dDetDxU9Ql2v7ONk1iMK5Gy2iaeXpfbE_lFXNlpnI8DnSL6-erYt_-4J3HxYSFWQKzMGb4Ora7-yaqoAcdnyvvZriLnnS0JeABJJ4zW-=w86-h114-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noAyc93-YVjLZ3xlunu0S8qlkP1cZp_21voj4sNUGmTiHsLbbW6V5UFsLhBwEj0Yvw3YCjCVJromvUhbxkcgtwaU05GzjuQOffTkYGxCpUO4zjkdEi_ZSHonrdR0VDswbWNLETI=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/p/AF1QipMvJIinQndh2ne9l6L8Qa3sgaKxXInucgFdHfc=w86-h107-k-no"
+    ]
+  },
+  {
+    "businessName": "Preference",
+    "address": {
+      "street": "360 Boniface Pkwy",
+      "city": "Anchorage",
+      "state": "AK",
+      "zipCode": "99504",
+      "country": "United States"
+    },
+    "phone": "+1 907-555-5555",
+    "website": "https://360 Boniface Pkwy, Anchorage, AK 99504, United States",
+    "rating": "4.7",
+    "reviewCount": "207",
+    "priceRange": "$10–20",
+    "reviews": [
+      "Best vegan food in the US and the best vegan burgers we have had in the world thus far (and we have tried them in countless countries). The Big Mac is the real deal - just much better! …",
+      "I am not vegan and with a sister who is I’ve tried a lot of vegan food. This is the first time I would say I would not have known it was vegan. I had a Philly and she had a cheese burger. Probably the best Philly I’ve had. Truly delicious. …",
+      "It’s a bit hard to find cause the address on Google lead us next door but after we ended up in the right spot we were glad we went the extra mile. Ive had so many vegan Philly cheesesteaks but THIS ONE RIGHT HERE?!?! This is the winner …"
+    ],
+    "hours": "",
+    "category": "Casual Dining",
+    "description": "",
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipPrkEM_Usg_HjF_UCrGrLJV_MQPB3WiHonv1Tol=w86-h86-k-no",
+      "https://lh3.googleusercontent.com/p/AF1QipNFz8u1bICqBTn5woORU9lD-2_ArvMfbCv1zVPN=w226-h86-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqRQk64tV5Ak7emJRD0LzpMCfyRN_84dDetDxU9Ql2v7ONk1iMK5Gy2iaeXpfbE_lFXNlpnI8DnSL6-erYt_-4J3HxYSFWQKzMGb4Ora7-yaqoAcdnyvvZriLnnS0JeABJJ4zW-=w86-h114-k-no",
+      "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noAyc93-YVjLZ3xlunu0S8qlkP1cZp_21voj4sNUGmTiHsLbbW6V5UFsLhBwEj0Yvw3YCjCVJromvUhbxkcgtwaU05GzjuQOffTkYGxCpUO4zjkdEi_ZSHonrdR0VDswbWNLETI=w114-h86-k-no",
+      "https://lh3.googleusercontent.com/p/AF1QipMvJIinQndh2ne9l6L8Qa3sgaKxXInucgFdHfc=w86-h107-k-no"
+    ]
+  }
+]

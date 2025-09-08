@@ -7,28 +7,28 @@
   <!-- Hero Section -->
   <section class="restaurant-hero">
     <div class="hero-background">
-      <% if (restaurant.images && restaurant.images.length > 0) { %>
-        <img src="<%= restaurant.images[0] %>" alt="<%= restaurant.businessName %>" class="hero-image">
+      <% if (tattooShop.images && tattooShop.images.length > 0) { %>
+        <img src="<%= tattooShop.images[0] %>" alt="<%= tattooShop.businessName %>" class="hero-image">
       <% } %>
       <div class="hero-overlay"></div>
     </div>
     <div class="hero-content">
       <nav class="breadcrumb">
         <a href="/">Home</a> > 
-        <a href="/state/<%= restaurant.address.state.toLowerCase().replace(/\s+/g, '-') %>"><%= restaurant.address.state %></a> > 
-        <span><%= restaurant.businessName %></span>
+        <a href="/state/<%= tattooShop.address.state.toLowerCase().replace(/\s+/g, '-') %>"><%= tattooShop.address.state %></a> > 
+        <span><%= tattooShop.businessName %></span>
       </nav>
-      <h1 class="hero-title"><%= restaurant.businessName %></h1>
+      <h1 class="hero-title"><%= tattooShop.businessName %></h1>
       <div class="hero-meta">
-        <span class="hero-rating">⭐ <%= restaurant.rating %>/5</span>
-        <span class="hero-reviews">(<%= restaurant.reviewCount %> reviews)</span>
-        <% if (restaurant.priceRange) { %>
-          <span class="hero-price">💰 <%= restaurant.priceRange %> per person</span>
+        <span class="hero-rating">⭐ <%= tattooShop.rating %>/5</span>
+        <span class="hero-reviews">(<%= tattooShop.reviewCount %> reviews)</span>
+        <% if (tattooShop.priceRange) { %>
+          <span class="hero-price">💰 <%= tattooShop.priceRange %></span>
         <% } %>
-        <span class="hero-category"><%= restaurant.category %></span>
+        <span class="hero-category"><%= tattooShop.category %></span>
       </div>
       <p class="hero-address">
-        📍 <%= restaurant.address.street %>, <%= restaurant.address.city %>, <%= restaurant.address.state %>
+        📍 <%= tattooShop.address.street %>, <%= tattooShop.address.city %>, <%= tattooShop.address.state %>
       </p>
     </div>
   </section>
@@ -37,16 +37,16 @@
     <div class="restaurant-layout">
       <article class="restaurant-main">
 
-      <!-- Restaurant Overview -->
+      <!-- Tattoo Shop Overview -->
       <section class="restaurant-overview">
         <div class="overview-grid">
           <!-- Main Info Panel -->
           <div class="main-info-panel">
             <div class="panel-header">
-              <h2 class="panel-title">Restaurant Information</h2>
+              <h2 class="panel-title">Tattoo Shop Information</h2>
               <div class="panel-rating-badge">
                 <span class="rating-stars">⭐⭐⭐⭐⭐</span>
-                <span class="rating-text"><%= restaurant.rating %>/5.0 • <%= restaurant.reviewCount %> reviews</span>
+                <span class="rating-text"><%= tattooShop.rating %>/5.0 • <%= tattooShop.reviewCount %> reviews</span>
               </div>
             </div>
             
@@ -54,40 +54,40 @@
               <div class="info-item">
                 <div class="info-label">📍 Address</div>
                 <div class="info-value">
-                  <%= restaurant.address.street %><br>
-                  <%= restaurant.address.city %>, <%= restaurant.address.state %> <%= restaurant.address.zipCode %>
+                  <%= tattooShop.address.street %><br>
+                  <%= tattooShop.address.city %>, <%= tattooShop.address.state %> <%= tattooShop.address.zipCode %>
                 </div>
               </div>
               
-              <% if (restaurant.phone) { %>
+              <% if (tattooShop.phone) { %>
               <div class="info-item">
                 <div class="info-label">📞 Phone</div>
                 <div class="info-value">
-                  <a href="tel:<%= restaurant.phone %>" class="contact-link"><%= restaurant.phone %></a>
+                  <a href="tel:<%= tattooShop.phone %>" class="contact-link"><%= tattooShop.phone %></a>
                 </div>
               </div>
               <% } %>
               
-              <% if (restaurant.website) { %>
+              <% if (tattooShop.website) { %>
               <div class="info-item">
                 <div class="info-label">🌐 Website</div>
                 <div class="info-value">
-                  <a href="<%= restaurant.website %>" target="_blank" rel="noopener" class="contact-link">Visit Website →</a>
+                  <a href="<%= tattooShop.website %>" target="_blank" rel="noopener" class="contact-link">Visit Website →</a>
                 </div>
               </div>
               <% } %>
               
-              <% if (restaurant.priceRange) { %>
+              <% if (tattooShop.priceRange) { %>
               <div class="info-item">
                 <div class="info-label">💰 Price Range</div>
-                <div class="info-value price-value"><%= restaurant.priceRange %> per person</div>
+                <div class="info-value price-value"><%= tattooShop.priceRange %></div>
               </div>
               <% } %>
               
               <div class="info-item">
-                <div class="info-label">🍽️ Category</div>
+                <div class="info-label">🎨 Category</div>
                 <div class="info-value">
-                  <span class="category-badge"><%= restaurant.category %></span>
+                  <span class="category-badge"><%= tattooShop.category %></span>
                 </div>
               </div>
             </div>
@@ -96,9 +96,9 @@
           <!-- Hours Panel -->
           <div class="hours-panel">
             <h3 class="panel-title">⏰ Opening Hours</h3>
-            <% if (restaurant.hours && restaurant.hours.length > 0) { %>
+            <% if (tattooShop.hours && tattooShop.hours.length > 0) { %>
               <div class="hours-list">
-                <% restaurant.hours.forEach(hour => { %>
+                <% tattooShop.hours.forEach(hour => { %>
                   <div class="hour-entry"><%= hour %></div>
                 <% }) %>
               </div>
@@ -110,14 +110,14 @@
       </section>
 
       <!-- Photo Gallery -->
-      <% if (restaurant.images && restaurant.images.length > 0) { %>
+      <% if (tattooShop.images && tattooShop.images.length > 0) { %>
       <section class="gallery-section">
         <div class="section-card">
           <h3 class="section-title">📸 Photo Gallery</h3>
-          <div class="gallery-grid" data-images='<%- JSON.stringify(restaurant.images) %>'>
-            <% restaurant.images.forEach((image, index) => { %>
+          <div class="gallery-grid" data-images='<%- JSON.stringify(tattooShop.images) %>'>
+            <% tattooShop.images.forEach((image, index) => { %>
               <div class="gallery-item">
-                <img src="<%= image %>" alt="<%= restaurant.businessName %> photo <%= index + 1 %>" onclick="openGallery(this, <%= index %>)" loading="lazy">
+                <img src="<%= image %>" alt="<%= tattooShop.businessName %> photo <%= index + 1 %>" onclick="openGallery(this, <%= index %>)" loading="lazy">
                 <div class="gallery-overlay">
                   <span class="gallery-icon">🔍</span>
                 </div>
@@ -129,114 +129,78 @@
       <% } %>
 
       <!-- About Section -->
-      <% if (restaurant.about || restaurant.description) { %>
+      <% if (tattooShop.about || tattooShop.description) { %>
       <section class="about-section">
         <div class="section-card">
-          <h3 class="section-title">ℹ️ About This Restaurant</h3>
+          <h3 class="section-title">ℹ️ About This Tattoo Shop</h3>
           
-          <% if (restaurant.about) { %>
-            <div class="about-text"><%- restaurant.about %></div>
+          <% if (tattooShop.about) { %>
+            <div class="about-text"><%- tattooShop.about %></div>
           <% } %>
           
-          <% if (restaurant.description) { %>
-            <% 
-              function parseDescription(desc) {
-                const sections = {};
-                const parts = desc.split(';');
-                
-                parts.forEach(part => {
-                  const colonIndex = part.indexOf(':');
-                  if (colonIndex > 0) {
-                    const key = part.substring(0, colonIndex).trim();
-                    const value = part.substring(colonIndex + 1).trim();
-                    if (key && value) {
-                      sections[key] = value.split(',').map(item => item.trim()).filter(Boolean);
-                    }
-                  }
-                });
-                
-                return sections;
-              }
-              
-              const sections = parseDescription(restaurant.description);
-            %>
-            
-            <% if (Object.keys(sections).length > 0) { %>
-              <h4 class="amenities-title">Features & Amenities</h4>
-              <div class="amenities-grid">
-                <% Object.entries(sections).forEach(([title, items]) => { %>
-                  <div class="amenity-group">
-                    <h5 class="amenity-title"><%= title %></h5>
-                    <div class="amenity-tags">
-                      <% items.forEach(item => { %>
-                        <span class="amenity-tag"><%= item %></span>
-                      <% }) %>
-                    </div>
-                  </div>
-                <% }) %>
-              </div>
-            <% } %>
+          <% if (tattooShop.description) { %>
+            <div class="about-text"><%= tattooShop.description %></div>
           <% } %>
         </div>
       </section>
       <% } %>
 
-      <!-- Menu Highlights -->
-      <% if (restaurant.menuHighlights) { %>
+      <!-- Artist Specialties -->
+      <% if (tattooShop.artistSpecialties) { %>
       <section class="menu-section">
         <div class="section-card">
-          <h3 class="section-title">🍽️ Menu Highlights</h3>
-          <div class="about-text"><%- restaurant.menuHighlights %></div>
+          <h3 class="section-title">🎨 Artist Specialties</h3>
+          <div class="about-text"><%- tattooShop.artistSpecialties %></div>
         </div>
       </section>
       <% } %>
 
       <!-- Atmosphere & Ambiance -->
-      <% if (restaurant.atmosphereDescription) { %>
+      <% if (tattooShop.atmosphereDescription) { %>
       <section class="atmosphere-section">
         <div class="section-card">
-          <h3 class="section-title">🏮 Atmosphere & Ambiance</h3>
-          <div class="about-text"><%- restaurant.atmosphereDescription %></div>
+          <h3 class="section-title">🏭 Atmosphere & Ambiance</h3>
+          <div class="about-text"><%- tattooShop.atmosphereDescription %></div>
         </div>
       </section>
       <% } %>
 
-      <!-- Dietary Accommodations -->
-      <% if (restaurant.dietaryAccommodations) { %>
+      <!-- Piercing Services -->
+      <% if (tattooShop.piercingServices) { %>
       <section class="dietary-section">
         <div class="section-card">
-          <h3 class="section-title">🌿 Dietary Accommodations</h3>
-          <div class="about-text"><%- restaurant.dietaryAccommodations %></div>
+          <h3 class="section-title">⚡ Piercing Services</h3>
+          <div class="about-text"><%- tattooShop.piercingServices %></div>
         </div>
       </section>
       <% } %>
 
       <!-- Best Times to Visit -->
-      <% if (restaurant.bestTimesToVisit) { %>
+      <% if (tattooShop.bestTimesToVisit) { %>
       <section class="timing-section">
         <div class="section-card">
           <h3 class="section-title">⏰ Best Times to Visit</h3>
-          <div class="about-text"><%- restaurant.bestTimesToVisit %></div>
+          <div class="about-text"><%- tattooShop.bestTimesToVisit %></div>
         </div>
       </section>
       <% } %>
 
       <!-- What Makes Us Special -->
-      <% if (restaurant.uniqueSellingPoints) { %>
+      <% if (tattooShop.uniqueSellingPoints) { %>
       <section class="unique-section">
         <div class="section-card">
           <h3 class="section-title">⭐ What Makes Us Special</h3>
-          <div class="about-text"><%- restaurant.uniqueSellingPoints %></div>
+          <div class="about-text"><%- tattooShop.uniqueSellingPoints %></div>
         </div>
       </section>
       <% } %>
 
       <!-- Local Area -->
-      <% if (restaurant.localContext) { %>
+      <% if (tattooShop.localContext) { %>
       <section class="local-section">
         <div class="section-card">
           <h3 class="section-title">📍 Local Area & Neighborhood</h3>
-          <div class="about-text"><%- restaurant.localContext %></div>
+          <div class="about-text"><%- tattooShop.localContext %></div>
         </div>
       </section>
       <% } %>
@@ -269,14 +233,14 @@
       
       <!-- Social Share -->
       <section class="social-share">
-        <h4>📲 Share this restaurant:</h4>
+        <h4>📲 Share this tattoo shop:</h4>
         <a href="https://www.facebook.com/sharer/sharer.php?u=<%= encodeURIComponent(seo.canonical) %>" target="_blank" class="share-btn share-facebook">
           📱 Facebook
         </a>
-        <a href="https://twitter.com/intent/tweet?url=<%= encodeURIComponent(seo.canonical) %>&text=<%= encodeURIComponent('Check out ' + restaurant.businessName + ' - a great vegan restaurant!') %>" target="_blank" class="share-btn share-twitter">
+        <a href="https://twitter.com/intent/tweet?url=<%= encodeURIComponent(seo.canonical) %>&text=<%= encodeURIComponent('Check out ' + tattooShop.businessName + ' - a great tattoo shop!') %>" target="_blank" class="share-btn share-twitter">
           🐦 Twitter
         </a>
-        <a href="https://wa.me/?text=<%= encodeURIComponent('Check out ' + restaurant.businessName + ' - ' + seo.canonical) %>" target="_blank" class="share-btn share-whatsapp">
+        <a href="https://wa.me/?text=<%= encodeURIComponent('Check out ' + tattooShop.businessName + ' - ' + seo.canonical) %>" target="_blank" class="share-btn share-whatsapp">
           📱 WhatsApp
         </a>
       </section>
@@ -285,16 +249,16 @@
       <!-- Sidebar -->
       <aside class="restaurant-sidebar">
         <div class="sidebar-section">
-          <h3 class="sidebar-title">🏪 Nearby Restaurants</h3>
-          <% if (nearbyRestaurants && nearbyRestaurants.length > 0) { %>
+          <h3 class="sidebar-title">🎨 Nearby Tattoo Shops</h3>
+          <% if (nearbyShops && nearbyShops.length > 0) { %>
             <div class="nearby-list">
-              <% nearbyRestaurants.forEach(nearby => { %>
+              <% nearbyShops.forEach(nearby => { %>
                 <a href="/tattoo-shop/<%= nearby.slug %>" class="nearby-card">
                   <div class="nearby-image">
                     <% if (nearby.images && nearby.images.length > 0) { %>
                       <img src="<%= nearby.images[0] %>" alt="<%= nearby.businessName %>" loading="lazy">
                     <% } else { %>
-                      <div class="nearby-placeholder">🌱</div>
+                      <div class="nearby-placeholder">🎨</div>
                     <% } %>
                   </div>
                   <div class="nearby-info">
@@ -306,7 +270,7 @@
               <% }) %>
             </div>
           <% } else { %>
-            <p class="no-nearby">No nearby restaurants found.</p>
+            <p class="no-nearby">No nearby tattoo shops found.</p>
           <% } %>
         </div>
       </aside>
@@ -314,6 +278,7 @@
   </main>
   
   <script src="/js/gallery.js"></script>
+
   <%- include('partials/footer') %>
 </body>
 </html>

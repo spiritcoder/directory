@@ -19,13 +19,13 @@
         </nav>
         
         <div class="hero-text">
-          <h1 class="hero-title">🌱 Vegan Restaurants in <%= stateName %></h1>
-          <p class="hero-subtitle">Discover <%= stats.totalRestaurants %> amazing plant-based restaurants across <%= stats.totalCities %> cities</p>
+          <h1 class="hero-title">🎨 Tattoo Shops in <%= stateName %></h1>
+          <p class="hero-subtitle">Discover <%= stats.totalRestaurants %> amazing tattoo shops across <%= stats.totalCities %> cities</p>
           
           <div class="hero-stats">
             <div class="stat-card">
               <span class="stat-number"><%= stats.totalRestaurants %></span>
-              <span class="stat-label">Restaurants</span>
+              <span class="stat-label">Shops</span>
             </div>
             <div class="stat-card">
               <span class="stat-number"><%= stats.avgRating %></span>
@@ -48,13 +48,13 @@
       <section class="top-rated-section">
         <div class="section-header">
           <h2>🏆 Top Rated in <%= stateName %></h2>
-          <p>The highest-rated vegan restaurants in the state</p>
+          <p>The highest-rated tattoo shops in the state</p>
         </div>
         <div class="top-rated-grid">
           <% topRated.forEach((restaurant, index) => { %>
             <div class="top-rated-card">
               <div class="rank-badge">#<%= index + 1 %></div>
-              <h3><a href="/restaurant/<%= restaurant.slug %>"><%= restaurant.businessName %></a></h3>
+              <h3><a href="/tattoo-shop/<%= restaurant.slug %>"><%= restaurant.businessName %></a></h3>
               <div class="rating-display">
                 <span class="stars">⭐⭐⭐⭐⭐</span>
                 <span class="rating-text"><%= restaurant.rating %>/5.0 • <%= restaurant.reviewCount %> reviews</span>
@@ -69,8 +69,8 @@
       <section class="filter-section-inline">
         <div class="filter-container">
           <div class="filter-intro">
-            <span class="filter-label">🍽️ Browse by category:</span>
-            <span class="results-count">(<%= totalCount %> restaurants)</span>
+            <span class="filter-label">🎨 Browse by style:</span>
+            <span class="results-count">(<%= totalCount %> shops)</span>
           </div>
           <div class="filter-tags-inline">
             <a href="/state/<%= stateSlug %>" class="filter-tag <%= !selectedCategory ? 'active' : '' %>">All</a>
@@ -90,7 +90,7 @@
                 <% if (restaurant.images && restaurant.images.length > 0) { %>
                   <img src="<%= restaurant.images[0] %>" alt="<%= restaurant.businessName %>" loading="lazy">
                 <% } else { %>
-                  <div class="placeholder-image">🌱</div>
+                  <div class="placeholder-image">🎨</div>
                 <% } %>
                 <div class="rating-overlay">
                   <span>⭐ <%= restaurant.rating %></span>
@@ -98,7 +98,7 @@
               </div>
               
               <div class="card-content">
-                <h3><a href="/restaurant/<%= restaurant.slug %>"><%= restaurant.businessName %></a></h3>
+                <h3><a href="/tattoo-shop/<%= restaurant.slug %>"><%= restaurant.businessName %></a></h3>
                 <p class="location">📍 <%= restaurant.address.city %></p>
                 
                 <div class="card-meta">
@@ -150,9 +150,9 @@
     <% } else { %>
       <section class="no-restaurants">
         <div class="empty-state">
-          <h2>🔍 No Restaurants Found</h2>
-          <p>We haven't found any vegan restaurants in <%= stateName %> yet. Help us grow by suggesting restaurants in your area!</p>
-          <a href="/submit" class="btn btn-primary">Suggest a Restaurant</a>
+          <h2>🔍 No Tattoo Shops Found</h2>
+          <p>We haven't found any tattoo shops in <%= stateName %> yet. Help us grow by suggesting shops in your area!</p>
+          <a href="/submit" class="btn btn-primary">Suggest a Shop</a>
         </div>
       </section>
     <% } %>

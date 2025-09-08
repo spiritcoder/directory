@@ -11,162 +11,56 @@
     </div>
     <div class="hero-content">
       <div class="container">
-        <h1 class="hero-title">🔍 Find Your Perfect Vegan Restaurant</h1>
-        <p class="hero-subtitle">Discover amazing plant-based dining experiences across all 50 US states</p>
+        <h1 class="hero-title">🔍 Find Your Perfect Tattoo Shop</h1>
+        <p class="hero-subtitle">Discover amazing tattoo artists and shops across all 50 US states</p>
         
-        <form class="search-form" method="GET" action="/search">
-          <div class="search-inputs">
-            <input type="text" name="q" placeholder="Restaurant name, city, or cuisine..." value="<%= searchQuery %>" class="search-input">
-            <select name="state" class="search-select">
-              <option value="">All US States</option>
-              <% allStates.forEach(state => { %>
-                <option value="<%= state %>" <%= selectedState === state ? 'selected' : '' %>><%= state %></option>
-              <% }) %>
-            </select>
-            <select name="category" class="search-select">
-              <option value="">All Categories</option>
-              <% allCategories.forEach(category => { %>
-                <option value="<%= category %>" <%= selectedCategory === category ? 'selected' : '' %>><%= category %></option>
-              <% }) %>
-            </select>
-            <button type="submit" class="search-btn">🔍 Search</button>
-          </div>
-        </form>
+        <%- include('partials/search-form', { 
+          searchQuery, 
+          selectedState, 
+          selectedCategory, 
+          allStates, 
+          allCategories 
+        }) %>
       </div>
     </div>
   </section>
 
   <main class="container">
+    <!-- Search Results Section -->
     <section class="search-results">
-      <div class="results-header">
-        <h2>
-          <% if (isDefaultView) { %>
-            All Restaurants
-          <% } else { %>
-            Search Results
-            <% 
-              let searchTerms = [];
-              if (searchQuery) searchTerms.push(`"${searchQuery}"`);
-              if (selectedState) searchTerms.push(selectedState);
-              if (selectedCategory) searchTerms.push(selectedCategory);
-            %>
-            <% if (searchTerms.length > 0) { %>
-              for <%= searchTerms.join(', ') %>
-            <% } %>
-          <% } %>
-        </h2>
-        <p class="results-count">
-          <% if (isDefaultView) { %>
-            Showing top <%= resultCount %> restaurants sorted by rating
-          <% } else { %>
-            <%= resultCount %> restaurants found
-          <% } %>
-        </p>
-      </div>
+      <%- include('partials/results-header', { 
+        isDefaultView, 
+        searchQuery, 
+        selectedState, 
+        selectedCategory, 
+        resultCount 
+      }) %>
         
-        <% if (restaurants.length > 0) { %>
-          <div class="restaurants-grid">
-            <% restaurants.forEach(restaurant => { %>
-              <article class="restaurant-card-modern">
-                <div class="card-image">
-                  <% if (restaurant.images && restaurant.images.length > 0) { %>
-                    <img src="<%= restaurant.images[0] %>" alt="<%= restaurant.businessName %>" loading="lazy">
-                  <% } else { %>
-                    <div class="placeholder-image">🌱</div>
-                  <% } %>
-                  <div class="card-overlay">
-                    <a href="/restaurant/<%= restaurant.slug %>" class="view-btn">View Details</a>
-                  </div>
-                </div>
-                
-                <div class="card-content">
-                  <h3><a href="/restaurant/<%= restaurant.slug %>"><%= restaurant.businessName %></a></h3>
-                  <p class="card-location">📍 <%= restaurant.address.city %>, <%= restaurant.address.state %></p>
-                  
-                  <div class="card-meta">
-                    <div class="rating-info">
-                      <span class="rating">⭐ <%= restaurant.rating %></span>
-                      <span class="reviews">(<%= restaurant.reviewCount %>)</span>
-                    </div>
-                    <% if (restaurant.priceRange) { %>
-                      <span class="price-range">💰 <%= restaurant.priceRange %></span>
-                    <% } %>
-                  </div>
-                  
-                  <% if (restaurant.category) { %>
-                    <span class="category-tag"><%= restaurant.category %></span>
-                  <% } %>
-                </div>
-              </article>
-            <% }) %>
-          </div>
+      <% if (restaurants.length > 0) { %>
+        <%- include('partials/restaurant-grid', { restaurants }) %>
           
-          <!-- Pagination -->
-          <% if (totalPages > 1) { %>
-          <% 
-            function buildPageUrl(pageNum) {
-              let params = [];
-              if (searchQuery) params.push(`q=${encodeURIComponent(searchQuery)}`);
-              if (selectedState) params.push(`state=${encodeURIComponent(selectedState)}`);
-              if (selectedCategory) params.push(`category=${encodeURIComponent(selectedCategory)}`);
-              params.push(`page=${pageNum}`);
-              return '/search?' + params.join('&');
-            }
-          %>
-          <nav class="pagination">
-            <% if (hasPrevPage) { %>
-              <a href="<%= buildPageUrl(prevPage) %>" class="page-btn prev-btn">← Previous</a>
-            <% } %>
-            
-            <div class="page-numbers">
-              <% for (let i = Math.max(1, currentPage - 2); i <= Math.min(totalPages, currentPage + 2); i++) { %>
-                <% if (i === currentPage) { %>
-                  <span class="page-btn current"><%= i %></span>
-                <% } else { %>
-                  <a href="<%= buildPageUrl(i) %>" class="page-btn"><%= i %></a>
-                <% } %>
-              <% } %>
-            </div>
-            
-            <% if (hasNextPage) { %>
-              <a href="<%= buildPageUrl(nextPage) %>" class="page-btn next-btn">Next →</a>
-            <% } %>
-          </nav>
-          <% } %>
-        <% } else { %>
-          <div class="no-results">
-            <div class="empty-state">
-              <h3>🔍 No restaurants found</h3>
-              <p>Try adjusting your search criteria or explore our featured restaurants.</p>
-              <a href="/" class="btn btn-primary">Browse All Restaurants</a>
-            </div>
-          </div>
-        <% } %>
+        <%- include('partials/pagination', { 
+          totalPages, 
+          currentPage, 
+          hasPrevPage, 
+          hasNextPage, 
+          prevPage, 
+          nextPage, 
+          searchQuery, 
+          selectedState, 
+          selectedCategory 
+        }) %>
+      <% } else { %>
+        <%- include('partials/no-results') %>
+      <% } %>
     </section>
     
+    <!-- Search Tips Section -->
+    <%- include('partials/search-tips') %>
+
+    <!-- Popular Searches Section -->
     <% if (!searchQuery && !selectedState && !selectedCategory && restaurants.length === 0) { %>
-      <section class="search-suggestions">
-        <h2>🌟 Popular Searches</h2>
-        <div class="suggestion-categories">
-          <div class="suggestion-group">
-            <h3>By Category</h3>
-            <div class="suggestion-tags">
-              <% allCategories.slice(0, 6).forEach(category => { %>
-                <a href="/search?category=<%= encodeURIComponent(category) %>" class="tag"><%= category %></a>
-              <% }) %>
-            </div>
-          </div>
-          
-          <div class="suggestion-group">
-            <h3>By State</h3>
-            <div class="suggestion-tags">
-              <% allStates.slice(0, 8).forEach(state => { %>
-                <a href="/search?state=<%= encodeURIComponent(state) %>" class="tag"><%= state %></a>
-              <% }) %>
-            </div>
-          </div>
-        </div>
-      </section>
+      <%- include('partials/popular-searches', { allCategories, allStates }) %>
     <% } %>
   </main>
 

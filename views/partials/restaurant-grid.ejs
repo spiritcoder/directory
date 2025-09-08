@@ -1,0 +1,35 @@
+<div class="restaurants-grid">
+  <% restaurants.forEach(restaurant => { %>
+    <article class="restaurant-card-modern">
+      <div class="card-image">
+        <% if (restaurant.images && restaurant.images.length > 0) { %>
+          <img src="<%= restaurant.images[0] %>" alt="<%= restaurant.businessName %>" loading="lazy">
+        <% } else { %>
+          <div class="placeholder-image">🎨</div>
+        <% } %>
+        <div class="card-overlay">
+          <a href="/tattoo-shop/<%= restaurant.slug %>" class="view-btn">View Details</a>
+        </div>
+      </div>
+      
+      <div class="card-content">
+        <h3><a href="/tattoo-shop/<%= restaurant.slug %>"><%= restaurant.businessName %></a></h3>
+        <p class="card-location">📍 <%= restaurant.address.city %>, <%= restaurant.address.state %></p>
+        
+        <div class="card-meta">
+          <div class="rating-info">
+            <span class="rating">⭐ <%= restaurant.rating %></span>
+            <span class="reviews">(<%= restaurant.reviewCount %>)</span>
+          </div>
+          <% if (restaurant.priceRange) { %>
+            <span class="price-range">💰 <%= restaurant.priceRange %></span>
+          <% } %>
+        </div>
+        
+        <% if (restaurant.category) { %>
+          <span class="category-tag"><%= restaurant.category %></span>
+        <% } %>
+      </div>
+    </article>
+  <% }) %>
+</div>

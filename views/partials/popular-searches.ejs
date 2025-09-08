@@ -1,0 +1,22 @@
+<section class="search-suggestions">
+  <h2>🌟 Popular Searches</h2>
+  <div class="suggestion-categories">
+    <div class="suggestion-group">
+      <h3>By Category</h3>
+      <div class="suggestion-tags">
+        <% allCategories.slice(0, 6).forEach(category => { %>
+          <a href="/search?category=<%= encodeURIComponent(category) %>" class="tag"><%= category %></a>
+        <% }) %>
+      </div>
+    </div>
+    
+    <div class="suggestion-group">
+      <h3>By State</h3>
+      <div class="suggestion-tags">
+        <% allStates.slice(0, 8).forEach(state => { %>
+          <a href="/search?state=<%= encodeURIComponent(state) %>" class="tag"><%= state %></a>
+        <% }) %>
+      </div>
+    </div>
+  </div>
+</section>

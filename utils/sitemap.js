@@ -1,10 +1,10 @@
 const fs = require('fs');
 const path = require('path');
-const Restaurant = require('../models/Restaurant');
+const TattooShop = require('../models/TattooShop');
 
 async function generateSitemap() {
   try {
-    const baseUrl = 'https://usveganrestaurantfinds.com'; // Always use canonical URL
+    const baseUrl = 'https://ustattoo-shops.com'; // Always use canonical URL
     const currentDate = new Date().toISOString().split('T')[0];
     
     let sitemap = `<?xml version="1.0" encoding="UTF-8"?>
@@ -37,7 +37,7 @@ async function generateSitemap() {
 `;
 
     // Get all states
-    const states = await Restaurant.distinct('address.state');
+    const states = await TattooShop.distinct('address.state');
     states.forEach(state => {
       const stateSlug = state.toLowerCase().replace(/\s+/g, '-');
       sitemap += `  <url>
@@ -49,12 +49,12 @@ async function generateSitemap() {
 `;
     });
 
-    // Get all restaurants
-    const restaurants = await Restaurant.find({}, 'slug updatedAt');
-    restaurants.forEach(restaurant => {
-      const lastmod = restaurant.updatedAt ? restaurant.updatedAt.toISOString().split('T')[0] : currentDate;
+    // Get all tattoo shops
+    const tattooShops = await TattooShop.find({}, 'slug updatedAt');
+    tattooShops.forEach(tattooShop => {
+      const lastmod = tattooShop.updatedAt ? tattooShop.updatedAt.toISOString().split('T')[0] : currentDate;
       sitemap += `  <url>
-    <loc>${baseUrl}/restaurant/${restaurant.slug}</loc>
+    <loc>${baseUrl}/tattoo-shop/${tattooShop.slug}</loc>
     <lastmod>${lastmod}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -68,7 +68,7 @@ async function generateSitemap() {
     const sitemapPath = path.join(__dirname, '../public/sitemap.xml');
     fs.writeFileSync(sitemapPath, sitemap);
     
-    console.log(`✅ Sitemap generated with ${states.length} states and ${restaurants.length} restaurants`);
+    console.log(`✅ Sitemap generated with ${states.length} states and ${tattooShops.length} tattoo shops`);
   } catch (error) {
     console.error('❌ Error generating sitemap:', error);
   }

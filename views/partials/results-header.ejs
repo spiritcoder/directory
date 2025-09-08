@@ -1,0 +1,25 @@
+<div class="results-header">
+  <h2>
+    <% if (isDefaultView) { %>
+      All Tattoo Shops
+    <% } else { %>
+      Search Results
+      <% 
+        let searchTerms = [];
+        if (searchQuery) searchTerms.push(`"${searchQuery}"`);
+        if (selectedState) searchTerms.push(selectedState);
+        if (selectedCategory) searchTerms.push(selectedCategory);
+      %>
+      <% if (searchTerms.length > 0) { %>
+        for <%= searchTerms.join(', ') %>
+      <% } %>
+    <% } %>
+  </h2>
+  <p class="results-count">
+    <% if (isDefaultView) { %>
+      Showing top <%= resultCount %> tattoo shops sorted by rating
+    <% } else { %>
+      <%= resultCount %> tattoo shops found
+    <% } %>
+  </p>
+</div>

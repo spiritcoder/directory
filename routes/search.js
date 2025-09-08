@@ -1,5 +1,5 @@
 const express = require('express');
-const Restaurant = require('../models/Restaurant');
+const TattooShop = require('../models/TattooShop');
 const router = express.Router();
 
 // Search page
@@ -15,8 +15,8 @@ router.get('/', async (req, res) => {
 
     // Get all states and categories for dropdowns
     const [allStates, allCategories] = await Promise.all([
-      Restaurant.distinct('address.state').then(states => states.sort()),
-      Restaurant.distinct('category').then(categories => categories.filter(Boolean).sort())
+      TattooShop.distinct('address.state').then(states => states.sort()),
+      TattooShop.distinct('category').then(categories => categories.filter(Boolean).sort())
     ]);
 
     // Build query
@@ -32,8 +32,8 @@ router.get('/', async (req, res) => {
     if (category) query.category = category;
 
     // Always show results - either search results or default top restaurants
-    totalCount = await Restaurant.countDocuments(query);
-    restaurants = await Restaurant.find(query)
+    totalCount = await TattooShop.countDocuments(query);
+    restaurants = await TattooShop.find(query)
       .select('businessName slug address rating reviewCount images category description priceRange')
       .sort({ rating: -1, reviewCount: -1 })
       .skip(skip)
@@ -61,7 +61,7 @@ router.get('/', async (req, res) => {
       prevPage: currentPage - 1,
       isDefaultView,
       seo: {
-        title: `Search Results${q ? ` for "${q}"` : ''} - US Vegan Restaurant Directory`,
+        title: `Search Results${q ? ` for "${q}"` : ''} - US Tattoo Shop Directory`,
         description: `Find vegan restaurants in the US${q ? ` matching "${q}"` : ''}. Browse plant-based dining options with reviews and ratings.`,
         canonical: `${req.protocol}://${req.get('host')}/search`,
         ogImage: `${req.protocol}://${req.get('host')}/images/logo.png`

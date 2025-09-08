@@ -1,5 +1,5 @@
 const express = require('express');
-const Restaurant = require('../models/Restaurant');
+const TattooShop = require('../models/TattooShop');
 const router = express.Router();
 
 // State listing page
@@ -15,22 +15,22 @@ router.get('/:state', async (req, res) => {
     if (category) query.category = category;
 
     const [restaurants, totalCount, categories, topRated, stats] = await Promise.all([
-      Restaurant.find(query)
+      TattooShop.find(query)
         .select('businessName slug address rating reviewCount images category description priceRange')
         .sort({ rating: -1, reviewCount: -1 })
         .skip(skip)
         .limit(limit),
-      Restaurant.countDocuments(query),
-      Restaurant.distinct('category', { 'address.state': stateName }).then(cats => cats.filter(Boolean).sort()),
-      Restaurant.find({ 'address.state': stateName, rating: { $gte: 4.5 } })
+      TattooShop.countDocuments(query),
+      TattooShop.distinct('category', { 'address.state': stateName }).then(cats => cats.filter(Boolean).sort()),
+      TattooShop.find({ 'address.state': stateName, rating: { $gte: 4.5 } })
         .select('businessName slug rating reviewCount')
         .sort({ rating: -1, reviewCount: -1 })
         .limit(3),
-      Restaurant.aggregate([
+      TattooShop.aggregate([
         { $match: { 'address.state': stateName } },
         { $group: {
           _id: null,
-          totalRestaurants: { $sum: 1 },
+          totalShops: { $sum: 1 },
           totalReviews: { $sum: '$reviewCount' },
           avgRating: { $avg: '$rating' },
           cities: { $addToSet: '$address.city' }
@@ -41,7 +41,7 @@ router.get('/:state', async (req, res) => {
     if (totalCount === 0) {
       return res.status(404).render('404', {
         seo: {
-          title: `No Restaurants Found in ${stateName} - US Vegan Restaurant Directory`,
+          title: `No Tattoo Shops Found in ${stateName} - US Tattoo Shop Directory`,
           description: `No vegan restaurants found in ${stateName}. Check back later for updates.`,
           canonical: `${req.protocol}://${req.get('host')}/state/${stateSlug}`
         }
@@ -67,13 +67,13 @@ router.get('/:state', async (req, res) => {
       nextPage: currentPage + 1,
       prevPage: currentPage - 1,
       stats: {
-        totalRestaurants: stateStats.totalRestaurants || 0,
+        totalRestaurants: stateStats.totalShops || 0,
         totalReviews: stateStats.totalReviews || 0,
         avgRating: Math.round((stateStats.avgRating || 0) * 10) / 10,
         totalCities: (stateStats.cities || []).length
       },
       seo: {
-        title: `Vegan Restaurants in ${stateName} - Plant-Based Dining Guide`,
+        title: `Tattoo Shops in ${stateName} - Professional Tattoo Artists Guide`,
         description: `Find the best vegan restaurants in ${stateName}. Browse ${totalCount} plant-based dining options with reviews and ratings.`,
         canonical: `${req.protocol}://${req.get('host')}/state/${stateSlug}`,
         ogImage: `${req.protocol}://${req.get('host')}${restaurants[0]?.images[0]}` || `${req.protocol}://${req.get('host')}/images/logo.png`

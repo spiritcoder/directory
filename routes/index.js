@@ -1,5 +1,5 @@
 const express = require('express');
-const Restaurant = require('../models/Restaurant');
+const TattooShop = require('../models/TattooShop');
 const router = express.Router();
 
 // US States for categories
@@ -17,7 +17,7 @@ const US_STATES = [
 router.get('/', async (req, res) => {
   try {
     // Get restaurant counts by state
-    const stateCounts = await Restaurant.aggregate([
+    const stateCounts = await TattooShop.aggregate([
       { $group: { _id: '$address.state', count: { $sum: 1 } } },
       { $sort: { count: -1 } }
     ]);
@@ -29,7 +29,7 @@ router.get('/', async (req, res) => {
     }));
 
     // Get featured restaurants (top rated with images)
-    const featuredRestaurants = await Restaurant.find({ 
+    const featuredShops = await TattooShop.find({ 
       images: { $exists: true, $ne: [] },
       rating: { $gte: 4.0 }
     })
@@ -39,7 +39,7 @@ router.get('/', async (req, res) => {
       .lean();
 
     // Get category counts
-    const categoryCounts = await Restaurant.aggregate([
+    const categoryCounts = await TattooShop.aggregate([
       { $group: { _id: '$category', count: { $sum: 1 } } },
       { $sort: { count: -1 } }
     ]);
@@ -51,13 +51,13 @@ router.get('/', async (req, res) => {
     }));
 
     // Get total stats
-    const totalRestaurants = await Restaurant.countDocuments();
-    const totalReviews = await Restaurant.aggregate([
+    const totalShops = await TattooShop.countDocuments();
+    const totalReviews = await TattooShop.aggregate([
       { $group: { _id: null, total: { $sum: '$reviewCount' } } }
     ]);
 
     // Get top-rated restaurants for highlights
-    const topRated = await Restaurant.find({ rating: { $gte: 4.5 } })
+    const topRated = await TattooShop.find({ rating: { $gte: 4.5 } })
       .sort({ rating: -1, reviewCount: -1 })
       .limit(3)
       .select('businessName slug address rating reviewCount')
@@ -65,17 +65,17 @@ router.get('/', async (req, res) => {
 
     res.render('index', {
       topStates,
-      featuredRestaurants,
+      featuredRestaurants: featuredShops,
       topCategories,
       topRated,
       stats: {
-        totalRestaurants,
+        totalRestaurants: totalShops,
         totalReviews: totalReviews[0]?.total || 0,
         totalStates: stateCounts.length,
         totalCategories: categoryCounts.length
       },
       seo: {
-        title: 'US Vegan Restaurant Directory - Find Plant-Based Dining Across America',
+        title: 'US Tattoo Shop Directory - Find Professional Tattoo Artists Across America',
         description: 'Discover the best vegan restaurants across the United States. Browse by state and city, read reviews, and find your next plant-based dining experience.',
         canonical: `${req.protocol}://${req.get('host')}/`,
         ogImage: `${req.protocol}://${req.get('host')}/images/logo.png`

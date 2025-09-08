@@ -1,0 +1,18 @@
+<form class="search-form" method="GET" action="/search">
+  <div class="search-inputs">
+    <input type="text" name="q" placeholder="Shop name, city, or tattoo style..." value="<%= searchQuery %>" class="search-input">
+    <select name="state" class="search-select">
+      <option value="">All US States</option>
+      <% allStates.forEach(state => { %>
+        <option value="<%= state %>" <%= selectedState === state ? 'selected' : '' %>><%= state %></option>
+      <% }) %>
+    </select>
+    <select name="category" class="search-select">
+      <option value="">All Categories</option>
+      <% allCategories.forEach(category => { %>
+        <option value="<%= category %>" <%= selectedCategory === category ? 'selected' : '' %>><%= category %></option>
+      <% }) %>
+    </select>
+    <button type="submit" class="search-btn">🔍 Search</button>
+  </div>
+</form>

@@ -12,8 +12,8 @@
     <div class="container">
       <div class="hero-wrapper">
         <header class="hero-header">
-          <h1 class="hero-h1" style="color: white;">🌱 Find Amazing Vegan Restaurants Across America</h1>
-          <p class="hero-description">Discover <%= stats.totalRestaurants %>+ plant-based restaurants across all 50 US states. From casual dining to fine cuisine, find your perfect vegan meal with verified reviews and ratings.</p>
+          <h1 class="hero-h1" style="color: white;">🎨 Find Amazing Tattoo Shops Across America</h1>
+          <p class="hero-description">Discover <%= stats.totalRestaurants %>+ professional tattoo shops across all 50 US states. From traditional to modern styles, find your perfect artist with verified reviews and ratings.</p>
         </header>
         
         <div class="hero-search-wrapper">
@@ -22,14 +22,14 @@
               <input 
                 type="text" 
                 name="q" 
-                placeholder="Search by restaurant name, city, or cuisine type..." 
+                placeholder="Search by shop name, city, or tattoo style..." 
                 class="search-input-main"
-                aria-label="Search restaurants"
+                aria-label="Search tattoo shops"
                 autocomplete="off"
               >
-              <button type="submit" class="search-btn-main" aria-label="Search restaurants">
+              <button type="submit" class="search-btn-main" aria-label="Search tattoo shops">
                 <span class="search-icon">🔍</span>
-                <span class="search-text">Find Restaurants</span>
+                <span class="search-text">Find Shops</span>
               </button>
             </div>
           </form>
@@ -38,7 +38,7 @@
         <div class="hero-metrics">
           <div class="metric-card">
             <strong class="metric-number"><%= stats.totalRestaurants %></strong>
-            <span class="metric-label">Verified Restaurants</span>
+            <span class="metric-label">Verified Shops</span>
           </div>
           <div class="metric-card">
             <strong class="metric-number">50</strong>
@@ -53,13 +53,43 @@
     </div>
   </section>
 
+  <!-- How It Works Section -->
+  <section class="how-it-works-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>🎯 How It Works</h2>
+        <p>Find your perfect tattoo shop in 3 simple steps</p>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <div class="step-icon">🔍</div>
+          <h3>Search & Discover</h3>
+          <p>Browse thousands of verified tattoo shops by location, style, or artist specialty</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <div class="step-icon">⭐</div>
+          <h3>Read Reviews</h3>
+          <p>Check authentic customer reviews and ratings to make informed decisions</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <div class="step-icon">🎨</div>
+          <h3>Book Your Session</h3>
+          <p>Contact your chosen shop directly and schedule your tattoo appointment</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Featured Restaurants -->
   <% if (featuredRestaurants && featuredRestaurants.length > 0) { %>
   <section class="featured-section-alt">
     <div class="container">
       <div class="section-header">
-        <h2>🎆 Top-Rated Restaurants</h2>
-        <p>Discover the highest-rated vegan restaurants loved by our community</p>
+        <h2>⭐ Top-Rated Tattoo Shops</h2>
+        <p>Discover the highest-rated tattoo shops loved by our community</p>
       </div>
       <div class="featured-grid">
         <% featuredRestaurants.forEach(restaurant => { %>
@@ -68,14 +98,14 @@
               <% if (restaurant.images && restaurant.images.length > 0) { %>
                 <img src="<%= restaurant.images[0] %>" alt="<%= restaurant.businessName %>" loading="lazy">
               <% } else { %>
-                <div class="placeholder-image">🌱</div>
+                <div class="placeholder-image">🎨</div>
               <% } %>
               <div class="rating-badge">
                 <span>⭐ <%= restaurant.rating %></span>
               </div>
             </div>
             <div class="card-content">
-              <h3><a href="/restaurant/<%= restaurant.slug %>"><%= restaurant.businessName %></a></h3>
+              <h3><a href="/tattoo-shop/<%= restaurant.slug %>"><%= restaurant.businessName %></a></h3>
               <p class="location">📍 <%= restaurant.address.city %>, <%= restaurant.address.state %></p>
               <div class="card-meta">
                 <span class="reviews"><%= restaurant.reviewCount %> reviews</span>
@@ -98,19 +128,19 @@
   <section class="categories-showcase-gradient">
     <div class="container">
       <div class="section-header">
-        <h2>🍽️ Explore by Category</h2>
-        <p>Find your perfect dining experience by cuisine type</p>
+        <h2>🎨 Explore by Style</h2>
+        <p>Find your perfect artist by tattoo style</p>
       </div>
       <div class="categories-grid">
         <% topCategories.forEach((category, index) => { %>
           <% 
-            const icons = ['🍿', '🍔', '🥗', '🍳', '🍷', '🍜'];
-            const colors = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#FFEAA7', '#DDA0DD'];
+            const icons = ['⚡', '🔥', '🌹', '⚔️', '💀', '🌊'];
+            const colors = ['#000000', '#333333', '#000000', '#333333', '#000000', '#333333'];
           %>
           <a href="/search?category=<%= encodeURIComponent(category.name) %>" class="category-card-glass" style="--category-color: <%= colors[index % colors.length] %>">
             <div class="category-icon"><%= icons[index % icons.length] %></div>
             <h3><%= category.name %></h3>
-            <p><%= category.count %> restaurants</p>
+            <p><%= category.count %> shops</p>
             <div class="category-arrow">→</div>
           </a>
         <% }) %>
@@ -123,14 +153,14 @@
     <div class="container">
       <div class="section-header">
         <h2>🇺🇸 Popular US States</h2>
-        <p>Explore vegan dining in America's top destinations</p>
+        <p>Explore tattoo culture in America's top destinations</p>
       </div>
       <div class="states-grid">
         <% topStates.forEach(state => { %>
           <a href="/state/<%= state.slug %>" class="state-card-neon">
             <div class="state-info">
               <h3><%= state.name %></h3>
-              <p><%= state.count %> restaurants</p>
+              <p><%= state.count %> shops</p>
             </div>
             <div class="state-arrow">→</div>
           </a>
@@ -145,7 +175,7 @@
     <div class="container">
       <div class="section-header">
         <h2>🏆 Excellence Awards</h2>
-        <p>Restaurants that consistently deliver outstanding experiences</p>
+        <p>Tattoo shops that consistently deliver outstanding experiences</p>
       </div>
       <div class="excellence-grid">
         <% topRated.forEach((restaurant, index) => { %>
@@ -155,7 +185,7 @@
               <span class="award-icon"><%= awards[index].split(' ')[0] %></span>
               <span class="award-text"><%= awards[index].split(' ').slice(1).join(' ') %></span>
             </div>
-            <h3><a href="/restaurant/<%= restaurant.slug %>"><%= restaurant.businessName %></a></h3>
+            <h3><a href="/tattoo-shop/<%= restaurant.slug %>"><%= restaurant.businessName %></a></h3>
             <p class="location"><%= restaurant.address.city %>, <%= restaurant.address.state %></p>
             <div class="rating-display">
               <span class="rating-stars">⭐⭐⭐⭐⭐</span>
@@ -168,22 +198,90 @@
   </section>
   <% } %>
 
+  <!-- Tattoo Styles Guide -->
+  <section class="styles-guide-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>🎨 Popular Tattoo Styles</h2>
+        <p>Explore different tattoo styles and find artists who specialize in your preferred aesthetic</p>
+      </div>
+      <div class="styles-grid">
+        <div class="style-card">
+          <div class="style-icon">⚡</div>
+          <h3>Traditional</h3>
+          <p>Bold lines, bright colors, and classic American imagery. Timeless designs that never go out of style.</p>
+          <a href="/search?category=Traditional" class="style-link">Find Artists →</a>
+        </div>
+        <div class="style-card">
+          <div class="style-icon">🌹</div>
+          <h3>Realism</h3>
+          <p>Photorealistic portraits and detailed artwork that looks like photographs on skin.</p>
+          <a href="/search?category=Realism" class="style-link">Find Artists →</a>
+        </div>
+        <div class="style-card">
+          <div class="style-icon">⚔️</div>
+          <h3>Blackwork</h3>
+          <p>Bold black ink designs, geometric patterns, and striking silhouettes.</p>
+          <a href="/search?category=Blackwork" class="style-link">Find Artists →</a>
+        </div>
+        <div class="style-card">
+          <div class="style-icon">🌊</div>
+          <h3>Watercolor</h3>
+          <p>Soft, flowing colors that mimic watercolor paintings with artistic brush strokes.</p>
+          <a href="/search?category=Watercolor" class="style-link">Find Artists →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Testimonials -->
   <section class="testimonials-section-modern">
     <div class="container">
       <h2>💬 What People Are Saying</h2>
       <div class="testimonials-grid">
         <div class="testimonial-modern">
-          <p>"This directory helped me find amazing vegan spots during my cross-country trip. Highly recommended!"</p>
-          <div class="testimonial-author">- Sarah K., Food Blogger</div>
+          <p>"This directory helped me find amazing tattoo shops during my cross-country trip. The reviews were spot-on and saved me from making a bad choice!"</p>
+          <div class="testimonial-author">- Sarah K., Tattoo Enthusiast</div>
         </div>
         <div class="testimonial-modern">
-          <p>"As a new vegan, this site has been invaluable for discovering local plant-based restaurants."</p>
+          <p>"As someone getting their first tattoo, this site gave me confidence in choosing the right artist. The detailed shop profiles were incredibly helpful."</p>
           <div class="testimonial-author">- Mike R., Austin</div>
         </div>
         <div class="testimonial-modern">
-          <p>"The reviews are honest and helpful. I've never been disappointed with a recommendation!"</p>
+          <p>"I've used this directory to find shops in 5 different states. Every recommendation has been excellent - never been disappointed!"</p>
           <div class="testimonial-author">- Emma L., New York</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Safety & Quality Section -->
+  <section class="safety-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>🛡️ Safety & Quality Standards</h2>
+        <p>All listed shops meet our strict safety and quality requirements</p>
+      </div>
+      <div class="safety-grid">
+        <div class="safety-item">
+          <div class="safety-icon">🏥</div>
+          <h3>Health Certified</h3>
+          <p>Licensed and health department approved facilities</p>
+        </div>
+        <div class="safety-item">
+          <div class="safety-icon">🧼</div>
+          <h3>Sterile Equipment</h3>
+          <p>Proper sterilization and single-use needle protocols</p>
+        </div>
+        <div class="safety-item">
+          <div class="safety-icon">👨‍🎨</div>
+          <h3>Professional Artists</h3>
+          <p>Experienced, licensed tattoo artists with proven portfolios</p>
+        </div>
+        <div class="safety-item">
+          <div class="safety-icon">⭐</div>
+          <h3>Verified Reviews</h3>
+          <p>Authentic customer feedback and ratings you can trust</p>
         </div>
       </div>
     </div>
@@ -194,7 +292,7 @@
     <div class="container">
       <div class="section-header">
         <h2>🗺️ Browse by US Region</h2>
-        <p>Explore vegan restaurants across America's diverse regions</p>
+        <p>Explore tattoo shops across America's diverse regions</p>
       </div>
       <div class="countries-grid">
         <div class="country-card">

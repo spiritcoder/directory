@@ -1,0 +1,31 @@
+<% if (totalPages > 1) { %>
+<% 
+  function buildPageUrl(pageNum) {
+    let params = [];
+    if (searchQuery) params.push(`q=${encodeURIComponent(searchQuery)}`);
+    if (selectedState) params.push(`state=${encodeURIComponent(selectedState)}`);
+    if (selectedCategory) params.push(`category=${encodeURIComponent(selectedCategory)}`);
+    params.push(`page=${pageNum}`);
+    return '/search?' + params.join('&');
+  }
+%>
+<nav class="pagination">
+  <% if (hasPrevPage) { %>
+    <a href="<%= buildPageUrl(prevPage) %>" class="page-btn prev-btn">← Previous</a>
+  <% } %>
+  
+  <div class="page-numbers">
+    <% for (let i = Math.max(1, currentPage - 2); i <= Math.min(totalPages, currentPage + 2); i++) { %>
+      <% if (i === currentPage) { %>
+        <span class="page-btn current"><%= i %></span>
+      <% } else { %>
+        <a href="<%= buildPageUrl(i) %>" class="page-btn"><%= i %></a>
+      <% } %>
+    <% } %>
+  </div>
+  
+  <% if (hasNextPage) { %>
+    <a href="<%= buildPageUrl(nextPage) %>" class="page-btn next-btn">Next →</a>
+  <% } %>
+</nav>
+<% } %>

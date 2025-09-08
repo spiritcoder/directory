@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const Restaurant = require('../models/Restaurant');
+const TattooShop = require('../models/TattooShop');
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
@@ -7,41 +7,41 @@ require('dotenv').config();
 
 // Removed data folder detection - now US-only focused
 
-async function generateRichContent(restaurant) {
+async function generateRichContent(tattooShop) {
   try {
-    const basePrompt = `Generate comprehensive content for this US vegan restaurant:
+    const basePrompt = `Generate comprehensive content for this US tattoo shop:
 
-Name: ${restaurant.businessName}
-Category: ${restaurant.category}
-Location: ${restaurant.address?.city}, ${restaurant.address?.state}
-Price Range: ${restaurant.priceRange || 'Not specified'}
-Rating: ${restaurant.rating}/5 (${restaurant.reviewCount} reviews)
-Existing details: ${restaurant.description || 'No additional details'}`;
+Name: ${tattooShop.businessName}
+Category: ${tattooShop.category}
+Location: ${tattooShop.address?.city}, ${tattooShop.address?.state}
+Price Range: ${tattooShop.priceRange || 'Not specified'}
+Rating: ${tattooShop.rating}/5 (${tattooShop.reviewCount} reviews)
+Existing details: ${tattooShop.description || 'No additional details'}`;
     
     const sections = [
       {
         field: 'about',
-        prompt: `${basePrompt}\n\nWrite a comprehensive 3-paragraph description (250-300 words total). Format your response EXACTLY like this:\n\n<p>Opening paragraph: atmosphere, ambiance, and first impressions</p>\n\n<p>Middle paragraph: food quality, menu variety, and signature items</p>\n\n<p>Closing paragraph: service, value, and overall experience</p>\n\nWrite in engaging, natural language. Use proper <p> tags for each paragraph with line breaks between them. Keep to exactly 250-300 words.`
+        prompt: `${basePrompt}\n\nWrite a comprehensive 3-paragraph description (250-300 words total). Format your response EXACTLY like this:\n\n<p>Opening paragraph: atmosphere, ambiance, and first impressions</p>\n\n<p>Middle paragraph: artist skills, tattoo styles, and signature work</p>\n\n<p>Closing paragraph: service, value, and overall experience</p>\n\nWrite in engaging, natural language. Use proper <p> tags for each paragraph with line breaks between them. Keep to exactly 250-300 words.`
       },
       {
-        field: 'menuHighlights',
-        prompt: `${basePrompt}\n\nList 5-7 popular menu items (120-150 words total). Format your response EXACTLY like this:\n\n<ul>\n<li>Item name - brief description</li>\n<li>Item name - brief description</li>\n<li>Item name - brief description</li>\n</ul>\n\nInclude variety (appetizers, mains, desserts, drinks). Be specific about vegan alternatives and creative dishes. Keep each item description to 20-25 words.`
+        field: 'artistSpecialties',
+        prompt: `${basePrompt}\n\nList 5-7 artist specialties and tattoo styles (120-150 words total). Format your response EXACTLY like this:\n\n<ul>\n<li>Style name - brief description</li>\n<li>Style name - brief description</li>\n<li>Style name - brief description</li>\n</ul>\n\nInclude variety (traditional, realism, watercolor, blackwork, etc). Be specific about techniques and artistic approaches. Keep each item description to 20-25 words.`
       },
       {
         field: 'atmosphereDescription',
-        prompt: `${basePrompt}\n\nDescribe the restaurant's atmosphere in 2-3 paragraphs (150-200 words total). Format your response EXACTLY like this:\n\n<p>First paragraph about decor style, lighting, and overall vibe</p>\n\n<p>Second paragraph about seating arrangements and ambiance details</p>\n\nMake it vivid and appealing. Use proper <p> tags with line breaks between paragraphs. Keep to exactly 150-200 words.`
+        prompt: `${basePrompt}\n\nDescribe the tattoo shop's atmosphere in 2-3 paragraphs (150-200 words total). Format your response EXACTLY like this:\n\n<p>First paragraph about decor style, lighting, and overall vibe</p>\n\n<p>Second paragraph about cleanliness, equipment, and ambiance details</p>\n\nMake it vivid and appealing. Use proper <p> tags with line breaks between paragraphs. Keep to exactly 150-200 words.`
       },
       {
-        field: 'dietaryAccommodations',
-        prompt: `${basePrompt}\n\nList exactly 4 dietary accommodations beyond vegan. Each item must be exactly 12-15 words. Format your response EXACTLY like this:\n\n<ul>\n<li>Gluten-Free Options - [exactly 12-15 words describing gluten-free menu items and preparation methods]</li>\n<li>Raw Food Choices - [exactly 12-15 words about raw food options available]</li>\n<li>Nut-Free Alternatives - [exactly 12-15 words about nut-free dishes and allergen protocols]</li>\n<li>Keto-Friendly Items - [exactly 12-15 words about low-carb, high-fat vegan options]</li>\n</ul>\n\nTotal response must be exactly 60-75 words. Be precise with word counts.`
+        field: 'piercingServices',
+        prompt: `${basePrompt}\n\nList exactly 4 piercing services offered. Each item must be exactly 12-15 words. Format your response EXACTLY like this:\n\n<ul>\n<li>Ear Piercings - [exactly 12-15 words describing ear piercing options and jewelry selection]</li>\n<li>Facial Piercings - [exactly 12-15 words about nose, lip, eyebrow piercing services]</li>\n<li>Body Piercings - [exactly 12-15 words about navel, tongue, and other body piercings]</li>\n<li>Custom Jewelry - [exactly 12-15 words about jewelry options and custom pieces available]</li>\n</ul>\n\nTotal response must be exactly 60-75 words. Be precise with word counts.`
       },
       {
         field: 'bestTimesToVisit',
-        prompt: `${basePrompt}\n\nSuggest 3-4 optimal times to visit (80-100 words total). Format your response EXACTLY like this:\n\n<ul>\n<li>Time period - brief reason why it's ideal</li>\n<li>Time period - brief reason why it's ideal</li>\n<li>Time period - brief reason why it's ideal</li>\n</ul>\n\nFocus on timing like "Weekday lunch", "Friday dinner", "Weekend brunch", "Happy hour". Keep each item to 20-25 words.`
+        prompt: `${basePrompt}\n\nSuggest 3-4 optimal times to visit (80-100 words total). Format your response EXACTLY like this:\n\n<ul>\n<li>Time period - brief reason why it's ideal</li>\n<li>Time period - brief reason why it's ideal</li>\n<li>Time period - brief reason why it's ideal</li>\n</ul>\n\nFocus on timing like "Weekday afternoons", "Saturday mornings", "Evening appointments", "Walk-in hours". Keep each item to 20-25 words.`
       },
       {
         field: 'uniqueSellingPoints',
-        prompt: `${basePrompt}\n\nIdentify 3-4 unique aspects that set this restaurant apart (100-120 words total). Format your response EXACTLY like this:\n\n<ul>\n<li>Unique aspect - detailed description</li>\n<li>Unique aspect - detailed description</li>\n<li>Unique aspect - detailed description</li>\n</ul>\n\nInclude chef background, sourcing, preparation methods, special offerings, awards, etc. Keep each description to 25-30 words.`
+        prompt: `${basePrompt}\n\nIdentify 3-4 unique aspects that set this tattoo shop apart (100-120 words total). Format your response EXACTLY like this:\n\n<ul>\n<li>Unique aspect - detailed description</li>\n<li>Unique aspect - detailed description</li>\n<li>Unique aspect - detailed description</li>\n</ul>\n\nInclude artist backgrounds, specializations, equipment, awards, custom work, etc. Keep each description to 25-30 words.`
       },
       {
         field: 'localContext',
@@ -57,9 +57,9 @@ Existing details: ${restaurant.description || 'No additional details'}`;
       if (section.field === 'about') maxTokens = 550; // 250-300 words
       if (section.field === 'atmosphereDescription') maxTokens = 300; // 150-200 words
       if (section.field === 'localContext') maxTokens = 300; // 150-200 words
-      if (section.field === 'menuHighlights') maxTokens = 350; // 120-150 words + HTML formatting
+      if (section.field === 'artistSpecialties') maxTokens = 350; // 120-150 words + HTML formatting
       if (section.field === 'uniqueSellingPoints') maxTokens = 350; // 100-120 words + HTML formatting
-      if (section.field === 'dietaryAccommodations') maxTokens = 250; // 80-100 words + HTML formatting
+      if (section.field === 'piercingServices') maxTokens = 250; // 80-100 words + HTML formatting
       if (section.field === 'bestTimesToVisit') maxTokens = 250; // 80-100 words + HTML formatting
       
       const response = await axios.post('https://api.anthropic.com/v1/messages', {
@@ -83,7 +83,7 @@ Existing details: ${restaurant.description || 'No additional details'}`;
       
       // Check for potential truncation and log warning
       if (content.length < 50 || content.endsWith('...') || !content.endsWith('.') && !content.endsWith('</ul>') && !content.endsWith('</p>')) {
-        console.log(`⚠️  Potential truncation detected for ${restaurant.businessName} - ${section.field}: ${content.length} chars`);
+        console.log(`⚠️  Potential truncation detected for ${tattooShop.businessName} - ${section.field}: ${content.length} chars`);
       }
       
       // Format content based on field type with proper HTML structure
@@ -96,7 +96,7 @@ Existing details: ${restaurant.description || 'No additional details'}`;
         }
         // Clean up any malformed HTML and ensure proper spacing
         content = content.replace(/<p>\s*<\/p>/g, '').replace(/\n{3,}/g, '\n\n');
-      } else if (['dietaryAccommodations', 'bestTimesToVisit', 'uniqueSellingPoints', 'menuHighlights'].includes(section.field)) {
+      } else if (['piercingServices', 'bestTimesToVisit', 'uniqueSellingPoints', 'artistSpecialties'].includes(section.field)) {
         // Handle list content - ensure it's properly formatted as HTML list
         if (!content.includes('<ul>') && !content.includes('<li>')) {
           // Convert plain text to HTML list if AI didn't format it properly
@@ -137,28 +137,28 @@ async function generateAIDescriptions() {
       process.exit(1);
     }
 
-    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/us-vegan-restaurants');
+    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/us-tattoo-shops');
     
-    console.log('🇺🇸 Processing US vegan restaurants...');
+    console.log('🇺🇸 Processing US tattoo shops...');
     
-    // Find restaurants that need AI-generated rich content
-    const restaurantsToUpdate = await Restaurant.find({
+    // Find tattoo shops that need AI-generated rich content
+    const shopsToUpdate = await TattooShop.find({
       $or: [
         { aiContentGenerated: false },
         { aiContentGenerated: { $exists: false } },
         { about: { $exists: false } },
         { about: null },
         { about: '' },
-        { menuHighlights: { $exists: false } },
+        { artistSpecialties: { $exists: false } },
         { atmosphereDescription: { $exists: false } }
       ],
       aiContentAttempts: { $lt: 3 } // Don't retry more than 3 times
     }).select('businessName address category rating reviewCount priceRange description aiContentAttempts');
 
-    console.log(`\n🔍 Found ${restaurantsToUpdate.length} restaurants that need rich AI content\n`);
+    console.log(`\n🔍 Found ${shopsToUpdate.length} tattoo shops that need rich AI content\n`);
     
-    if (restaurantsToUpdate.length === 0) {
-      console.log('✅ All restaurants already have rich AI content!');
+    if (shopsToUpdate.length === 0) {
+      console.log('✅ All tattoo shops already have rich AI content!');
       process.exit(0);
     }
 
@@ -167,21 +167,21 @@ async function generateAIDescriptions() {
     let rateLimited = 0;
     let errors = 0;
 
-    for (const restaurant of restaurantsToUpdate) {
+    for (const tattooShop of shopsToUpdate) {
       try {
-        console.log(`Processing ${processed + 1}/${restaurantsToUpdate.length}: ${restaurant.businessName}`);
+        console.log(`Processing ${processed + 1}/${shopsToUpdate.length}: ${tattooShop.businessName}`);
         
-        const richContent = await generateRichContent(restaurant);
+        const richContent = await generateRichContent(tattooShop);
         
-        // Update restaurant with all rich content
-        await Restaurant.findByIdAndUpdate(restaurant._id, {
+        // Update tattoo shop with all rich content
+        await TattooShop.findByIdAndUpdate(tattooShop._id, {
           ...richContent,
           aiContentGenerated: true,
           aiDescriptionGenerated: true, // Backward compatibility
           $inc: { aiContentAttempts: 1, aiDescriptionAttempts: 1 }
         });
         
-        console.log(`✅ Generated rich content for ${restaurant.businessName}`);
+        console.log(`✅ Generated rich content for ${tattooShop.businessName}`);
         successful++;
         
         // Add delay to avoid rate limiting
@@ -189,11 +189,11 @@ async function generateAIDescriptions() {
         
       } catch (error) {
         if (error.message === 'RATE_LIMITED') {
-          console.log(`⏸️  Rate limited for ${restaurant.businessName} - will retry later`);
+          console.log(`⏸️  Rate limited for ${tattooShop.businessName} - will retry later`);
           rateLimited++;
           
           // Update attempt count
-          await Restaurant.findByIdAndUpdate(restaurant._id, {
+          await TattooShop.findByIdAndUpdate(tattooShop._id, {
             $inc: { aiContentAttempts: 1, aiDescriptionAttempts: 1 }
           });
           
@@ -202,11 +202,11 @@ async function generateAIDescriptions() {
           await new Promise(resolve => setTimeout(resolve, 30000));
           
         } else {
-          console.log(`❌ Error for ${restaurant.businessName}: ${error.message}`);
+          console.log(`❌ Error for ${tattooShop.businessName}: ${error.message}`);
           errors++;
           
           // Update attempt count
-          await Restaurant.findByIdAndUpdate(restaurant._id, {
+          await TattooShop.findByIdAndUpdate(tattooShop._id, {
             $inc: { aiContentAttempts: 1, aiDescriptionAttempts: 1 }
           });
         }
@@ -223,7 +223,7 @@ async function generateAIDescriptions() {
     console.log(`Errors: ${errors}`);
     
     if (rateLimited > 0) {
-      console.log(`\n💡 ${rateLimited} restaurants were rate limited. Run this script again to retry them.`);
+      console.log(`\n💡 ${rateLimited} tattoo shops were rate limited. Run this script again to retry them.`);
     }
     
     process.exit(0);

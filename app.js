@@ -88,7 +88,7 @@ app.set('view engine', 'ejs');
 app.set('views', './views');
 
 // MongoDB connection
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/us-vegan-restaurants')
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/us-tattoo-shops')
   .then(async () => {
     console.log('Connected to MongoDB');
     // Generate sitemap on startup
@@ -100,7 +100,7 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/us-vegan-
 // Routes
 app.use('/', require('./routes/index'));
 app.use('/state', require('./routes/state'));
-app.use('/restaurant', require('./routes/restaurant'));
+app.use('/tattoo-shop', require('./routes/restaurant'));
 app.use('/search', require('./routes/search'));
 app.use('/', require('./routes/pages'));
 
@@ -108,7 +108,7 @@ app.use('/', require('./routes/pages'));
 app.use((req, res) => {
   res.status(404).render('404', {
     seo: {
-      title: 'Page Not Found - US Vegan Restaurant Directory',
+      title: 'Page Not Found - US Tattoo Shop Directory',
       description: 'The page you are looking for does not exist.',
       canonical: `${req.protocol}://${req.get('host')}${req.path}`
     }

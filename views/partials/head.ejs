@@ -42,15 +42,15 @@
   <link
     rel="mask-icon"
     href="/images/favicon/safari-pinned-tab.svg"
-    color="#2d5a27"
+    color="#000000"
   />
   <link rel="shortcut icon" href="/images/favicon/favicon.ico" />
-  <meta name="msapplication-TileColor" content="#2d5a27" />
+  <meta name="msapplication-TileColor" content="#000000" />
   <meta
     name="msapplication-config"
     content="/images/favicon/browserconfig.xml"
   />
-  <meta name="theme-color" content="#2d5a27" />
+  <meta name="theme-color" content="#000000" />
 
   <!-- Stylesheets -->
   <% if (process.env.NODE_ENV === 'production') { %>
@@ -65,36 +65,36 @@
   <link rel="stylesheet" href="/css/style.css" />
   <% } %>
 
-  <% if (typeof restaurant !== 'undefined') { %>
+  <% if (typeof tattooShop !== 'undefined') { %>
   <!-- Structured Data -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Restaurant",
-      "name": <%- JSON.stringify(restaurant.businessName) %>,
-      "image": <%- restaurant.images && restaurant.images.length > 0 ? JSON.stringify(restaurant.images.map(img => {
+      "@type": "LocalBusiness",
+      "name": <%- JSON.stringify(tattooShop.businessName) %>,
+      "image": <%- tattooShop.images && tattooShop.images.length > 0 ? JSON.stringify(tattooShop.images.map(img => {
         const imageUrl = typeof img === 'object' ? img.jpeg : img;
         return seo.canonical.split('/').slice(0,3).join('/') + imageUrl;
       })) : '[]' %>,
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": <%- JSON.stringify(restaurant.address.street || '') %>,
-        "addressLocality": <%- JSON.stringify(restaurant.address.city || '') %>,
-        "addressRegion": <%- JSON.stringify(restaurant.address.state || '') %>,
-        "postalCode": <%- JSON.stringify(restaurant.address.zipCode || '') %>,
+        "streetAddress": <%- JSON.stringify(tattooShop.address.street || '') %>,
+        "addressLocality": <%- JSON.stringify(tattooShop.address.city || '') %>,
+        "addressRegion": <%- JSON.stringify(tattooShop.address.state || '') %>,
+        "postalCode": <%- JSON.stringify(tattooShop.address.zipCode || '') %>,
         "addressCountry": "US"
       },
-      <% if (restaurant.rating && restaurant.reviewCount > 0) { %>
+      <% if (tattooShop.rating && tattooShop.reviewCount > 0) { %>
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": <%- JSON.stringify(restaurant.rating.toString()) %>,
-        "reviewCount": <%- JSON.stringify(restaurant.reviewCount.toString()) %>
+        "ratingValue": <%- JSON.stringify(tattooShop.rating.toString()) %>,
+        "reviewCount": <%- JSON.stringify(tattooShop.reviewCount.toString()) %>
       },  <% } %>
-      "servesCuisine": "Vegan",
-      "priceRange": <%- JSON.stringify(restaurant.priceRange || '$') %>,
-      <% if (restaurant.phone) { %>"telephone": <%- JSON.stringify(restaurant.phone) %>,<% } %>
-      <% if (restaurant.website) { %>"url": <%- JSON.stringify(restaurant.website) %>,<% } %>
-      "openingHours": <%- restaurant.hours ? JSON.stringify(restaurant.hours) : '[]' %>
+      "@type": "TattooParlor",
+      "priceRange": <%- JSON.stringify(tattooShop.priceRange || '$') %>,
+      <% if (tattooShop.phone) { %>"telephone": <%- JSON.stringify(tattooShop.phone) %>,<% } %>
+      <% if (tattooShop.website) { %>"url": <%- JSON.stringify(tattooShop.website) %>,<% } %>
+      "openingHours": <%- tattooShop.hours ? JSON.stringify(tattooShop.hours) : '[]' %>
     }
   </script>
   <% } %>

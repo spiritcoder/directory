@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<%- include('partials/head') %>
+<%- include('partials/head', { 
+  breadcrumbs: [
+    { name: 'Home', url: seo.canonical.split('/').slice(0,3).join('/') },
+    { name: restaurant.address.state, url: seo.canonical.split('/').slice(0,3).join('/') + '/state/' + restaurant.address.state.toLowerCase().replace(/\s+/g, '-') },
+    { name: restaurant.businessName, url: seo.canonical }
+  ]
+}) %>
 <body>
   <%- include('partials/header') %>
   
@@ -43,7 +49,7 @@
           <!-- Main Info Panel -->
           <div class="main-info-panel">
             <div class="panel-header">
-              <h2 class="panel-title">Restaurant Information</h2>
+              <h2 class="panel-title">Tattoo Shop Information</h2>
               <div class="panel-rating-badge">
                 <span class="rating-stars">⭐⭐⭐⭐⭐</span>
                 <span class="rating-text"><%= restaurant.rating %>/5.0 • <%= restaurant.reviewCount %> reviews</span>
@@ -85,7 +91,7 @@
               <% } %>
               
               <div class="info-item">
-                <div class="info-label">🍽️ Category</div>
+                <div class="info-label">🎨 Specialty</div>
                 <div class="info-value">
                   <span class="category-badge"><%= restaurant.category %></span>
                 </div>
@@ -113,7 +119,7 @@
       <% if (restaurant.images && restaurant.images.length > 0) { %>
       <section class="gallery-section">
         <div class="section-card">
-          <h3 class="section-title">📸 Photo Gallery</h3>
+          <h2 class="section-title">📸 Photo Gallery</h2>
           <div class="gallery-grid" data-images='<%- JSON.stringify(restaurant.images) %>'>
             <% restaurant.images.forEach((image, index) => { %>
               <div class="gallery-item">
@@ -132,7 +138,7 @@
       <% if (restaurant.about || restaurant.description) { %>
       <section class="about-section">
         <div class="section-card">
-          <h3 class="section-title">ℹ️ About This Restaurant</h3>
+          <h2 class="section-title">ℹ️ About This Tattoo Shop</h2>
           
           <% if (restaurant.about) { %>
             <div class="about-text"><%- restaurant.about %></div>
@@ -185,7 +191,7 @@
       <% if (restaurant.menuHighlights) { %>
       <section class="menu-section">
         <div class="section-card">
-          <h3 class="section-title">🍽️ Menu Highlights</h3>
+          <h2 class="section-title">🎨 Tattoo Styles & Services</h2>
           <div class="about-text"><%- restaurant.menuHighlights %></div>
         </div>
       </section>
@@ -195,7 +201,7 @@
       <% if (restaurant.atmosphereDescription) { %>
       <section class="atmosphere-section">
         <div class="section-card">
-          <h3 class="section-title">🏮 Atmosphere & Ambiance</h3>
+          <h2 class="section-title">🏮 Studio Atmosphere</h2>
           <div class="about-text"><%- restaurant.atmosphereDescription %></div>
         </div>
       </section>
@@ -205,7 +211,7 @@
       <% if (restaurant.dietaryAccommodations) { %>
       <section class="dietary-section">
         <div class="section-card">
-          <h3 class="section-title">🌿 Dietary Accommodations</h3>
+          <h2 class="section-title">🛡️ Safety & Hygiene Standards</h2>
           <div class="about-text"><%- restaurant.dietaryAccommodations %></div>
         </div>
       </section>
@@ -215,7 +221,7 @@
       <% if (restaurant.bestTimesToVisit) { %>
       <section class="timing-section">
         <div class="section-card">
-          <h3 class="section-title">⏰ Best Times to Visit</h3>
+          <h2 class="section-title">⏰ Best Times to Visit</h2>
           <div class="about-text"><%- restaurant.bestTimesToVisit %></div>
         </div>
       </section>
@@ -225,7 +231,7 @@
       <% if (restaurant.uniqueSellingPoints) { %>
       <section class="unique-section">
         <div class="section-card">
-          <h3 class="section-title">⭐ What Makes Us Special</h3>
+          <h2 class="section-title">⭐ What Makes Us Special</h2>
           <div class="about-text"><%- restaurant.uniqueSellingPoints %></div>
         </div>
       </section>
@@ -235,7 +241,7 @@
       <% if (restaurant.localContext) { %>
       <section class="local-section">
         <div class="section-card">
-          <h3 class="section-title">📍 Local Area & Neighborhood</h3>
+          <h2 class="section-title">📍 Local Area & Neighborhood</h2>
           <div class="about-text"><%- restaurant.localContext %></div>
         </div>
       </section>
@@ -253,7 +259,7 @@
       <% if (topReviews && topReviews.length > 0) { %>
       <section class="reviews-section">
         <div class="section-card">
-          <h3 class="section-title">💬 Customer Reviews</h3>
+          <h2 class="section-title">💬 Customer Reviews</h2>
           <div class="reviews-container">
             <% topReviews.forEach((review, index) => { %>
               <div class="review-item">
@@ -285,7 +291,7 @@
       <!-- Sidebar -->
       <aside class="restaurant-sidebar">
         <div class="sidebar-section">
-          <h3 class="sidebar-title">🏪 Nearby Restaurants</h3>
+          <h3 class="sidebar-title">🏪 Nearby Tattoo Shops</h3>
           <% if (nearbyRestaurants && nearbyRestaurants.length > 0) { %>
             <div class="nearby-list">
               <% nearbyRestaurants.forEach(nearby => { %>

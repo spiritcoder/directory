@@ -3,7 +3,7 @@
     <article class="restaurant-card-modern">
       <div class="card-image">
         <% if (restaurant.images && restaurant.images.length > 0) { %>
-          <img src="<%= restaurant.images[0] %>" alt="<%= restaurant.businessName %>" loading="lazy">
+          <img src="<%= restaurant.images[0] %>" alt="<%= restaurant.businessName %> - Tattoo Shop in <%= restaurant.address.city %>, <%= restaurant.address.state %>" loading="lazy" width="400" height="200">
         <% } else { %>
           <div class="placeholder-image">🎨</div>
         <% } %>

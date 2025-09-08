@@ -52,6 +52,9 @@
   />
   <meta name="theme-color" content="#000000" />
 
+  <!-- Performance -->
+  <link rel="dns-prefetch" href="https://www.google-analytics.com">
+  
   <!-- Stylesheets -->
   <% if (process.env.NODE_ENV === 'production') { %>
   <link rel="stylesheet" href="/css/style.min.css" />
@@ -64,13 +67,19 @@
   <% } else { %>
   <link rel="stylesheet" href="/css/style.css" />
   <% } %>
+  
+  <!-- Mobile Menu -->
+  <script src="/js/mobile-menu.js" defer></script>
+  
+  <!-- Back to Top -->
+  <script src="/js/back-to-top.js" defer></script>
 
-  <% if (typeof tattooShop !== 'undefined') { %>
   <!-- Structured Data -->
+  <% if (typeof tattooShop !== 'undefined') { %>
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
+      "@type": ["LocalBusiness", "TattooParlor"],
       "name": <%- JSON.stringify(tattooShop.businessName) %>,
       "image": <%- tattooShop.images && tattooShop.images.length > 0 ? JSON.stringify(tattooShop.images.map(img => {
         const imageUrl = typeof img === 'object' ? img.jpeg : img;
@@ -88,14 +97,24 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": <%- JSON.stringify(tattooShop.rating.toString()) %>,
-        "reviewCount": <%- JSON.stringify(tattooShop.reviewCount.toString()) %>
-      },  <% } %>
-      "@type": "TattooParlor",
+        "reviewCount": <%- JSON.stringify(tattooShop.reviewCount.toString()) %>,
+        "bestRating": "5",
+        "worstRating": "1"
+      },<% } %>
       "priceRange": <%- JSON.stringify(tattooShop.priceRange || '$') %>,
       <% if (tattooShop.phone) { %>"telephone": <%- JSON.stringify(tattooShop.phone) %>,<% } %>
       <% if (tattooShop.website) { %>"url": <%- JSON.stringify(tattooShop.website) %>,<% } %>
-      "openingHours": <%- tattooShop.hours ? JSON.stringify(tattooShop.hours) : '[]' %>
+      "openingHours": <%- tattooShop.hours ? JSON.stringify(tattooShop.hours) : '[]' %>,
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": <%- JSON.stringify(tattooShop.latitude ? tattooShop.latitude.toString() : '0') %>,
+        "longitude": <%- JSON.stringify(tattooShop.longitude ? tattooShop.longitude.toString() : '0') %>
+      }
     }
   </script>
+  <% } else { %>
+  <%- include('organization-schema') %>
   <% } %>
+  
+  <%- include('breadcrumb-schema') %>
 </head>
